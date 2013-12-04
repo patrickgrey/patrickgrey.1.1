@@ -191,3 +191,13 @@ a:visited { color: #a0a; }*/
   /*width: 100%;  only required for <img /> */
   z-index: -1000;
 }
+
+/* http://soqr.fr/testsvg/svg-link-with-object.php span required to make links work. */
+.logo-link span{
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  opacity: 0;
+}
