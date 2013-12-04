@@ -59,12 +59,22 @@
 
             <header role="banner">
 
-                <h1 class="logo"><a href="/">Patrick Grey</a></h1>
+                <!-- http://webaim.org/blog/10-easy-accessibility-tips/ -->
+                <!-- http://webaim.org/projects/screenreadersurvey/ -->
+                <!-- http://searchengineland.com/logo-optimization-a-local-seo-stealth-tactic-168899 -->
 
+                <h1 class="logo">
+                    <a href="/">
+                        <img src="img/logo/patrick-grey-logo.svg" onerror="this.onerror=null; this.src='img/logo/patrick-grey-logo.png'" alt="Patrick Grey Logo. Select this to go to home page.">
+                    </a>
+                </h1>
+
+                <!-- http://webaim.org/techniques/skipnav/#maincontent -->
                 <a href="#" class="skip-navigation">Skip navigation</a>
 
                 <nav>
 
+                    <!-- http://webaim.org/techniques/hypertext/ -->
                     <ul role="navigation">
                         <li><a href="/">Hello</a></li>
                         <li><a href="elearning.html">E&#8209;learning</a></li><!-- escape character used instead of dash to avoid e and learning ending up on different lines. -->
@@ -81,6 +91,7 @@
                 <div class="about-patrick">
 
                     <h2>What I do</h2>
+                    <p>If you need help with any web project from simple sites to web applications and advanced e-learning content, get in touch.</p>
                     <p>I love all aspects of front-end development and dabble with the server side stuff. I've been helping clients across Europe since 2001.</p>
                     <p>I'm also a bad dancing dad, Scottish &amp; ginger. I consider myself lucky to have such a great job!</p>
                     <p>How can I help you?</p>
@@ -90,10 +101,28 @@
 
                     <h2>Made in Scotland: Recent Work</h2>
 
-                    <ul>
-                        <li><a href="#">Example 1</a></li>
-                        <li><a href="#">Example 2</a></li>
-                        <li><a href="#">Example 3</a></li>
+                    <ul class="examples">
+                        <li>
+                            <a href="nmo-atfcm-case-study.html" title="Select to see a short case study of the NMO ATFCM Intro e-learning Project.">
+                                <h3>NMO ATFCM E-learning</h3>
+                                <img src="img/examples/thumbnails/example-thumb-nmo-atfcm-intro.gif" alt="Thumbnail screenshot of the NMO ATFCM Intro e-learning module.">
+                                <p>Mobile friendly built with Adobe Edge Animate.</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="flight-plan-guide-case-study.html" title="Select to see a short case study of the Flight Plan Guide Project.">
+                                <h3>Flight Plan Guide</h3>
+                                <img src="img/examples/thumbnails/example-thumb-flight-plan-guide.jpg" alt="Thumbnail screenshot of Flight Plan Guide Application.">
+                                <p>A responsive web application that works offline.</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="flight-plan-guide-case-study.html" title="Select to see a short case study of the Headings Tutor game.">
+                                <h3>Headings Tutor Game</h3>
+                                <img src="img/examples/thumbnails/example-thumb-headings-tutor.gif" alt="Thumbnail screenshot of Headings Tutor HTML5 game.">
+                                <p>An HTML5 canvas game built using createJS.</p>
+                            </a>
+                        </li>
                     </ul>
 
                 </aside>
@@ -105,7 +134,7 @@
                 <h2>Thinking and playing</h2>
                 <nav>
                     <ul>
-                        <li><a href="lab.html">Lab</a></li>
+                        <li><a href="lab.html" title="A sketchbook area where I put up small examples and experiments.">Lab</a></li>
                         <li><a href="blog.html">Blog</a></li>
                     </ul>
                 </nav>
