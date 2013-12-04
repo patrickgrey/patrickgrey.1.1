@@ -36,7 +36,7 @@ a:visited { color: #a0a; }*/
 /* Home
 /*
 /*****************************************************************************/
-.posts {
+/* .posts {
   list-style-type: none;
   margin-bottom: 2em;
 }
@@ -49,7 +49,7 @@ a:visited { color: #a0a; }*/
   color: #aaa;
   font-family: Monaco, "Courier New", monospace;
   font-size: 80%;
-}
+} */
 
 /*****************************************************************************/
 /*
@@ -57,7 +57,7 @@ a:visited { color: #a0a; }*/
 /*
 /*****************************************************************************/
 
-.site {
+/* .site {
   font-size: 115%;
   text-align: justify;
   width: 42em;
@@ -121,7 +121,7 @@ a:visited { color: #a0a; }*/
 
 .footer .rss img {
   border: 0;
-}
+} */
 
 /*****************************************************************************/
 /*
@@ -130,7 +130,7 @@ a:visited { color: #a0a; }*/
 /*****************************************************************************/
 
 /* standard */
-.post pre {
+/* .post pre {
   border: 1px solid #ddd;
   background-color: #eef;
   padding: 0 .4em;
@@ -148,10 +148,10 @@ a:visited { color: #a0a; }*/
 
 .post pre code {
   border: none;
-}
+} */
 
 /* terminal */
-.post pre.terminal {
+/* .post pre.terminal {
   border: 1px solid #000;
   background-color: #333;
   color: #FFF;
@@ -159,4 +159,35 @@ a:visited { color: #a0a; }*/
 
 .post pre.terminal code {
   background-color: #333;
+} */
+
+
+@import '_font-family.scss';
+
+/* svg, object { display:block; } */
+
+.logo {
+  text-align: center;
+  margin: 0.5em;
+}
+
+.logo-link {
+  display: inline-block;
+  position: relative;
+  width: 90%;
+  margin: 0 auto;
+  max-width: 637px;
+  padding-bottom: 16.9544%; /* depends on svg ratio, for my zebra height/width = 1.2 so padding-bottom = 50% * 1.2 = 60%     120/637 = 0.188383  90%* 0.188383 =  16.9544 */
+  z-index: 1;
+  vertical-align: middle; /* do what you want */
+}
+
+.logo-object{
+  display: block;
+  margin: 0 auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  /*width: 100%;  only required for <img /> */
+  z-index: -1000;
 }

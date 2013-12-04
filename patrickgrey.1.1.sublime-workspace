@@ -195,50 +195,24 @@
 			"file": "app/index.html",
 			"settings":
 			{
-				"buffer_size": 7267,
+				"buffer_size": 9569,
 				"line_ending": "Windows"
-			}
-		},
-		{
-			"contents": "13-330980-A",
-			"settings":
-			{
-				"buffer_size": 11,
-				"line_ending": "Windows",
-				"name": "13-330980-A"
-			}
-		},
-		{
-			"file": "/D/Offline/testing/2013/jekyll/patrickgrey.2.0/Gruntfile.js",
-			"settings":
-			{
-				"buffer_size": 9568,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"contents": "13-330980-A",
-			"settings":
-			{
-				"buffer_size": 11,
-				"line_ending": "Windows",
-				"name": "13-330980-A"
 			}
 		},
 		{
 			"file": "app/_scss/main.scss",
 			"settings":
 			{
-				"buffer_size": 2522,
+				"buffer_size": 2552,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": ".gitignore",
+			"file": "app/_scss/_font-family.scss",
 			"settings":
 			{
-				"buffer_size": 528,
-				"line_ending": "Unix"
+				"buffer_size": 595,
+				"line_ending": "Windows"
 			}
 		}
 	],
@@ -306,9 +280,13 @@
 	},
 	"file_history":
 	[
+		"/D/Offline/patrickgrey/patrickgrey.1.1/app/_scss/readme.md",
+		"/D/Offline/testing/2013/jekyll/patrickgrey.2.0/app/index.html",
+		"/D/Google Drive/admin/stationary/logo/paintDrops/patrick-grey-logo-side-drops.svg",
+		"/D/Offline/patrickgrey/patrickgrey.1.1/.gitignore",
+		"/D/Offline/patrickgrey/patrickgrey.1.1/app/_scss/main.scss",
 		"/D/Offline/testing/2013/jekyll/patrickgrey.2.0/Gruntfile.js",
 		"/D/Offline/patrickgrey/patrickgrey.1.1/Gruntfile.js",
-		"/D/Offline/patrickgrey/patrickgrey.1.1/app/_scss/main.scss",
 		"/D/Offline/patrickgrey/patrickgrey.1.1/package.json",
 		"/D/Offline/patrickgrey/patrickgrey.1.1/patrickgrey.1.1.sublime-project",
 		"/D/Google Drive/eurocontrol/ians/2013/nmo-atfcm-intro-e/module/app/topics/t8/t8p9REA.dev.js",
@@ -429,11 +407,7 @@
 		"/D/Google Drive/eurocontrol/ians/2013/nmo-atfcm-intro-e/website/app/naiT1P1ModuleObjectives.html",
 		"/D/Google Drive/eurocontrol/ians/2013/nmo-atfcm-intro-e/website/app/source/edgeAnimate/naiT1P1ModuleObjectives.html",
 		"/D/Google Drive/eurocontrol/ians/2013/nmo-atfcm-intro-e/website/app/source/edgeAnimate/naiT1P1ModuleObjectivesText.html",
-		"/D/Google Drive/eurocontrol/ians/2013/nmo-atfcm-intro-e/website/app/source/edgeAnimate/publish/web/naiT1P1ModuleObjectives.html",
-		"/D/Google Drive/eurocontrol/ians/2013/nmo-atfcm-intro-e/website/app/source/edgeAnimate/naiT1P1_edge.js",
-		"/D/Google Drive/eurocontrol/ians/2013/nmo-atfcm-intro-e/website/app/source/edgeAnimate/naiT1P1.html",
-		"/D/Google Drive/eurocontrol/ians/2013/nmo-atfcm-intro-e/website/app/m3p2ModuleObjectives.html",
-		"/D/Google Drive/eurocontrol/ians/2013/nmo-atfcm-intro-e/website/app/naiT1P1.html"
+		"/D/Google Drive/eurocontrol/ians/2013/nmo-atfcm-intro-e/website/app/source/edgeAnimate/publish/web/naiT1P1ModuleObjectives.html"
 	],
 	"find":
 	{
@@ -453,6 +427,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"font-family",
 			"iconNMOC",
 			",",
 			"messageSRM3",
@@ -579,8 +554,7 @@
 			"\n",
 			"</u>",
 			"<u>",
-			"\n  ",
-			"\n"
+			"\n  "
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -598,7 +572,7 @@
 	"groups":
 	[
 		{
-			"selected": 3,
+			"selected": 2,
 			"sheets":
 			[
 				{
@@ -606,15 +580,15 @@
 					"file": "app/index.html",
 					"settings":
 					{
-						"buffer_size": 7267,
+						"buffer_size": 9569,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3757,
-								3757
+								1124,
+								1124
 							]
 						],
 						"settings":
@@ -627,112 +601,25 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1275.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"settings":
-					{
-						"buffer_size": 11,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								11
-							]
-						],
-						"settings":
-						{
-							"auto_name": "13-330980-A",
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "/D/Offline/testing/2013/jekyll/patrickgrey.2.0/Gruntfile.js",
-					"settings":
-					{
-						"buffer_size": 9568,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								3756,
-								3756
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 4437.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"settings":
-					{
-						"buffer_size": 11,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								11
-							]
-						],
-						"settings":
-						{
-							"auto_name": "13-330980-A",
-							"incomplete_sync": null,
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 4,
 					"file": "app/_scss/main.scss",
 					"settings":
 					{
-						"buffer_size": 2522,
+						"buffer_size": 2552,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								616,
-								618
+								2552,
+								2552
 							]
 						],
 						"settings":
@@ -745,33 +632,31 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 612.0,
+						"translation.y": 561.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 5,
-					"file": ".gitignore",
+					"buffer": 2,
+					"file": "app/_scss/_font-family.scss",
 					"settings":
 					{
-						"buffer_size": 528,
+						"buffer_size": 595,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								82,
-								82
+								146,
+								146
 							]
 						],
 						"settings":
 						{
 							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/Text/Plain text.tmLanguage"
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
