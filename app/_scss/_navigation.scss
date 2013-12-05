@@ -1,0 +1,19 @@
+.skip-navigation {
+    padding: 2em 1em 1em 1em;
+    position: absolute;
+    top: -5em;
+    right: 1em;
+    color: white;
+    background: #666;
+    -webkit-transition: top 1s ease-out;
+    transition: top 1s ease-out;
+    z-index: 100;
+}
+
+.skip-navigation:focus {
+    position: absolute;
+    top: 0px;
+    outline: 0;
+    -webkit-transition: top .3s ease-in;
+    transition: top .3s ease-in;
+}

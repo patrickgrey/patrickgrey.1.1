@@ -199,7 +199,7 @@
 			"file": "app/index.html",
 			"settings":
 			{
-				"buffer_size": 10376,
+				"buffer_size": 10487,
 				"line_ending": "Windows"
 			}
 		},
@@ -207,15 +207,31 @@
 			"file": "app/_scss/main.scss",
 			"settings":
 			{
-				"buffer_size": 3367,
+				"buffer_size": 2651,
 				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/_scss/_logo.scss",
+			"settings":
+			{
+				"buffer_size": 1168,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/_scss/_variables.scss",
+			"settings":
+			{
+				"buffer_size": 299,
+				"line_ending": "Windows"
 			}
 		},
 		{
 			"file": "app/img/logo/patrick-grey-logo-inkscape.svg",
 			"settings":
 			{
-				"buffer_size": 7914,
+				"buffer_size": 7595,
 				"line_ending": "Unix"
 			}
 		}
@@ -223,7 +239,7 @@
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 337.0,
+		"height": 37.0,
 		"selected_items":
 		[
 			[
@@ -267,7 +283,7 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 402.0
+		"width": 386.0
 	},
 	"console":
 	{
@@ -431,6 +447,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"$logo-link-media-query",
+			"logo-link-width",
 			"font-family",
 			"iconNMOC",
 			",",
@@ -556,9 +574,7 @@
 			"</u>",
 			"<u>",
 			"\n",
-			"</u>",
-			"<u>",
-			"\n  "
+			"</u>"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -584,15 +600,15 @@
 					"file": "app/index.html",
 					"settings":
 					{
-						"buffer_size": 10376,
+						"buffer_size": 10487,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								4209,
-								4209
+								2845,
+								2845
 							]
 						],
 						"settings":
@@ -605,7 +621,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 918.0,
+						"translation.y": 612.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -615,15 +631,15 @@
 					"file": "app/_scss/main.scss",
 					"settings":
 					{
-						"buffer_size": 3367,
+						"buffer_size": 2651,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3262,
-								3181
+								2650,
+								2650
 							]
 						],
 						"settings":
@@ -636,25 +652,85 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 2601.0,
+						"translation.y": 2652.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 2,
-					"file": "app/img/logo/patrick-grey-logo-inkscape.svg",
+					"file": "app/_scss/_logo.scss",
 					"settings":
 					{
-						"buffer_size": 7914,
+						"buffer_size": 1168,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1130,
-								1130
+								1168,
+								1168
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 102.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "app/_scss/_variables.scss",
+					"settings":
+					{
+						"buffer_size": 299,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								298,
+								298
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "app/img/logo/patrick-grey-logo-inkscape.svg",
+					"settings":
+					{
+						"buffer_size": 7595,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								152,
+								152
 							]
 						],
 						"settings":
