@@ -1,0 +1,6 @@
+$logo-object-width: 637px;
+$logo-object-height: 120px;
+$logo-link-percent-ratio: 0.9;
+$logo-link-percent: 100%*$logo-link-percent-ratio;
+$logo-link-padding-bottom: $logo-link-percent * ($logo-object-height / $logo-object-width);
+$logo-link-media-query: $logo-object-width / $logo-link-percent-ratio;

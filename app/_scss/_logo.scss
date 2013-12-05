@@ -1,0 +1,51 @@
+/* ********* */
+/* STRUCTURE */
+/* ********* */
+
+
+/* h1 */.logo {
+  text-align: center;
+  margin: 0.5em 0;
+}
+
+/* a */.logo-link {
+  display: inline-block;
+  position: relative;
+  width: $logo-link-percent;
+  margin: 0 auto;
+  max-width: $logo-object-width;
+  padding-bottom: $logo-link-padding-bottom; /* depends on svg ratio, for my zebra height/width = 1.2 so padding-bottom = 50% * 1.2 = 60%     120/637 = 0.188383  90%* 0.188383 =  16.9544 */
+  z-index: 1;
+  vertical-align: middle; /* do what you want */
+}
+
+/* object */.logo-object{
+  display: block;
+  margin: 0 auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  /*width: 100%;  only required for <img /> */
+  z-index: -1000;
+}
+
+/* http://soqr.fr/testsvg/svg-link-with-object.php span required to make links work. */
+/* a */.logo-link span{
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  opacity: 0;
+}
+
+@media all and (min-width: $logo-link-media-query) {
+   .logo-link {
+      padding-bottom: $logo-object-height; /* once at widest logo resolution, prevent padding bottom from increasing as this pushes all other content down */
+    }
+}
+
+/* ********* */
+/* ACTIONS   */
+/* ********* */
+

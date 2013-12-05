@@ -162,42 +162,10 @@ a:visited { color: #a0a; }*/
 } */
 
 
-@import '_font-family.scss';
+@import '_variables';
+@import '_font-family';
+@import '_logo';
 
 /* svg, object { display:block; } */
 
-.logo {
-  text-align: center;
-  margin: 0.5em;
-}
 
-.logo-link {
-  display: inline-block;
-  position: relative;
-  width: 90%;
-  margin: 0 auto;
-  max-width: 637px;
-  padding-bottom: 16.9544%; /* depends on svg ratio, for my zebra height/width = 1.2 so padding-bottom = 50% * 1.2 = 60%     120/637 = 0.188383  90%* 0.188383 =  16.9544 */
-  z-index: 1;
-  vertical-align: middle; /* do what you want */
-}
-
-.logo-object{
-  display: block;
-  margin: 0 auto;
-  position: absolute;
-  top: 0;
-  left: 0;
-  /*width: 100%;  only required for <img /> */
-  z-index: -1000;
-}
-
-/* http://soqr.fr/testsvg/svg-link-with-object.php span required to make links work. */
-.logo-link span{
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  opacity: 0;
-}
