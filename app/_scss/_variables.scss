@@ -4,3 +4,8 @@ $logo-link-percent-ratio: 0.9;
 $logo-link-percent: 100%*$logo-link-percent-ratio;
 $logo-link-padding-bottom: $logo-link-percent * ($logo-object-height / $logo-object-width);
 $logo-link-media-query: $logo-object-width / $logo-link-percent-ratio;
+
+$logo-colours-drop-1: #f05656;
+$logo-colours-drop-2: #f18020;
+$logo-colours-drop-3: #8d8884;
+$logo-colours-drop-4: #6587c6;

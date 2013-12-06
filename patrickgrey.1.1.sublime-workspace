@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"co",
+				"color"
+			],
+			[
 				"wid",
 				"width"
 			],
@@ -199,7 +203,7 @@
 			"file": "app/index.html",
 			"settings":
 			{
-				"buffer_size": 10487,
+				"buffer_size": 10792,
 				"line_ending": "Windows"
 			}
 		},
@@ -207,7 +211,7 @@
 			"file": "app/_scss/main.scss",
 			"settings":
 			{
-				"buffer_size": 2651,
+				"buffer_size": 2771,
 				"line_ending": "Unix"
 			}
 		},
@@ -223,15 +227,23 @@
 			"file": "app/_scss/_variables.scss",
 			"settings":
 			{
-				"buffer_size": 299,
+				"buffer_size": 424,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "app/img/logo/patrick-grey-logo-inkscape.svg",
+			"file": "app/_scss/_navigation.scss",
 			"settings":
 			{
-				"buffer_size": 7595,
+				"buffer_size": 1326,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "Gruntfile.js",
+			"settings":
+			{
+				"buffer_size": 9568,
 				"line_ending": "Unix"
 			}
 		}
@@ -239,9 +251,13 @@
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 37.0,
+		"height": 375.0,
 		"selected_items":
 		[
+			[
+				"synt",
+				"Set Syntax: Sass"
+			],
 			[
 				"Package Control: ",
 				"Package Control: Enable Package"
@@ -300,6 +316,8 @@
 	},
 	"file_history":
 	[
+		"/D/Offline/patrickgrey/patrickgrey.1.1/app/_scss/_navigation",
+		"/D/Offline/patrickgrey/patrickgrey.1.1/app/img/logo/patrick-grey-logo-inkscape.svg",
 		"/D/Offline/patrickgrey/patrickgrey.1.1/app/_scss/_font-family.scss",
 		"/D/Offline/patrickgrey/patrickgrey.1.1/app/js/main.js",
 		"/D/Offline/patrickgrey/patrickgrey.1.1/app/img/logo/patrick-grey-logo.svg",
@@ -425,9 +443,7 @@
 		"/D/Google Drive/eurocontrol/ians/2013/nmo-atfcm-intro-e/website/app/source/edgeAnimate/naiT2P2ATFCM.html",
 		"/D/Google Drive/eurocontrol/ians/2013/nmo-atfcm-intro-e/website/app/m2p1TopicObjectives.html",
 		"/D/Google Drive/eurocontrol/ians/2013/nmo-atfcm-intro-e/website/app/source/edgeAnimate/naiT2P2ATFCM_edge.js",
-		"/D/Google Drive/eurocontrol/ians/2013/nmo-atfcm-intro-e/website/app/source/edgeAnimate/naiT2P1TopicObjectives_edge.js",
-		"/D/Google Drive/eurocontrol/ians/2013/nmo-atfcm-intro-e/website/app/source/edgeAnimate/naiT2P1TopicObjectives.html",
-		"/D/Google Drive/eurocontrol/ians/2013/nmo-atfcm-intro-e/website/app/source/edgeAnimate/naiT2P2ATFCMText.html"
+		"/D/Google Drive/eurocontrol/ians/2013/nmo-atfcm-intro-e/website/app/source/edgeAnimate/naiT2P1TopicObjectives_edge.js"
 	],
 	"find":
 	{
@@ -447,6 +463,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"05",
+			"compass",
 			"$logo-link-media-query",
 			"logo-link-width",
 			"font-family",
@@ -572,9 +590,7 @@
 			"\n",
 			"inform",
 			"</u>",
-			"<u>",
-			"\n",
-			"</u>"
+			"<u>"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -600,15 +616,15 @@
 					"file": "app/index.html",
 					"settings":
 					{
-						"buffer_size": 10487,
+						"buffer_size": 10792,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2845,
-								2845
+								4736,
+								4736
 							]
 						],
 						"settings":
@@ -621,7 +637,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 612.0,
+						"translation.y": 1224.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -631,15 +647,15 @@
 					"file": "app/_scss/main.scss",
 					"settings":
 					{
-						"buffer_size": 2651,
+						"buffer_size": 2771,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2650,
-								2650
+								2470,
+								2470
 							]
 						],
 						"settings":
@@ -652,7 +668,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 2652.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -693,15 +709,15 @@
 					"file": "app/_scss/_variables.scss",
 					"settings":
 					{
-						"buffer_size": 299,
+						"buffer_size": 424,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								298,
-								298
+								321,
+								301
 							]
 						],
 						"settings":
@@ -719,18 +735,18 @@
 				},
 				{
 					"buffer": 4,
-					"file": "app/img/logo/patrick-grey-logo-inkscape.svg",
+					"file": "app/_scss/_navigation.scss",
 					"settings":
 					{
-						"buffer_size": 7595,
+						"buffer_size": 1326,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								152,
-								152
+								854,
+								854
 							]
 						],
 						"settings":
@@ -738,8 +754,39 @@
 							"incomplete_sync": null,
 							"remote_loading": false,
 							"synced": false,
-							"syntax": "Packages/XML/XML.tmLanguage",
-							"tab_size": 3,
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 204.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "Gruntfile.js",
+					"settings":
+					{
+						"buffer_size": 9568,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								483,
+								490
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,

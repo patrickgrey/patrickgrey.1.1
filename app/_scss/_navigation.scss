@@ -1,3 +1,5 @@
+@import "compass/css3/text-shadow";
+
 .skip-navigation {
     padding: 2em 1em 1em 1em;
     position: absolute;
@@ -5,8 +7,8 @@
     right: 1em;
     color: white;
     background: #666;
-    -webkit-transition: top 1s ease-out;
-    transition: top 1s ease-out;
+    -webkit-transition: top 0.5s ease-in;
+    transition: top 0.5s ease-in;
     z-index: 100;
 }
 
@@ -16,4 +18,57 @@
     outline: 0;
     -webkit-transition: top .3s ease-in;
     transition: top .3s ease-in;
+}
+
+
+
+/* .diagonal-line-container{
+    background: #ff0;
+    height: 2em;
+    width:100%;
+    overflow: hidden;
+}
+
+.diagonal-line {
+    // margin-top: -0.6em;
+    border-top: 2px solid #666;
+    background: $logo-colours-drop-1;
+    height: 1em;
+    -webkit-transform: matrix(1, -0.03, 0, 1, 0, 0);
+      -o-transform: matrix(1, -0.03, 0, 1, 0, 0);
+         transform: matrix(1, -0.03, 0, 1, 0, 0);
+} */
+
+/* ul */.navigation {
+
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* ul */.navigation li a{
+    margin-top: -0.3em;
+    display: block;
+    font-size: 1.5em;
+    width: 100%;
+    padding: 0.5em 0 1em 0;
+    color: #eee;
+    @include text-shadow(#333 1px 1px 0);
+}
+
+/* ul .navigation li*/.hello {
+    background-color: $logo-colours-drop-1;
+}
+
+/* ul .navigation li*/.elearning {
+    background-color: $logo-colours-drop-2;
+}
+
+/* ul .navigation li*/.webapps {
+    background-color: $logo-colours-drop-3;
+}
+
+/* ul .navigation li*/.websites {
+    background-color: $logo-colours-drop-4;
 }

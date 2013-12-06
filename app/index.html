@@ -85,21 +85,25 @@
                     </a>
                 </h1>
 
-                <nav>
+                <!-- https://developer.mozilla.org/en-US/docs/Web/CSS/transform -->
+                <!-- make box read and container red and top line is the border!
+                <div class="diagonal-line-container"><div class="diagonal-line"></div></div>-->
+
+                <nav class="nav">
 
                     <!-- http://webaim.org/techniques/hypertext/ -->
-                    <ul role="navigation">
-                        <li><a href="/">Hello</a></li>
-                        <li><a href="elearning.html">E&#8209;learning</a></li><!-- escape character used instead of dash to avoid e and learning ending up on different lines. -->
-                        <li><a href="webapps.html">Web Apps</a></li>
-                        <li><a href="websites.html">Websites</a></li>
+                    <ul role="navigation" class="navigation">
+                        <li class="hello"><a href="/">Hello</a></li>
+                        <li class="elearning"><a href="elearning.html">E&#8209;learning</a></li><!-- escape character used instead of dash to avoid e and learning ending up on different lines. -->
+                        <li class="webapps"><a href="webapps.html">Web Apps</a></li>
+                        <li class="websites"><a class="websites-link" href="websites.html">Websites</a></li>
                     </ul>
 
                 </nav>
 
             </header>
 
-            <div role="main">
+            <div role="main" class="main">
 
                 <div class="about-patrick">
 
