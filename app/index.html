@@ -63,7 +63,7 @@
 
 
                 <!-- http://webaim.org/techniques/skipnav/#maincontent -->
-                <a href="#" class="skip-navigation">Skip navigation</a>
+                <a href="#" name="page-top" class="skip-navigation">Skip navigation</a>
 
                 <!-- http://webaim.org/blog/10-easy-accessibility-tips/ -->
                 <!-- http://webaim.org/projects/screenreadersurvey/ -->
@@ -92,7 +92,7 @@
                 <nav class="nav">
 
                     <!-- http://webaim.org/techniques/hypertext/ -->
-                    <ul role="navigation" class="navigation">
+                    <ul role="navigation" class="navigation navigation-top">
                         <li class="hello"><a href="/">Hello</a></li>
                         <li class="elearning"><a href="elearning.html">E&#8209;learning</a></li><!-- escape character used instead of dash to avoid e and learning ending up on different lines. -->
                         <li class="webapps"><a href="webapps.html">Web Apps</a></li>
@@ -101,17 +101,18 @@
 
                 </nav>
 
+                <a href="#navigation-bottom" class="jump-to-navigation-bottom" title="Select to go to navigation at page bottom."></a>
+
             </header>
 
             <div role="main" class="main">
 
                 <div class="about-patrick">
 
-                    <h2>What I do</h2>
+                    <h2>How can I help?</h2>
                     <p>If you need help with any web project from simple sites to web applications and advanced e-learning content, get in touch.</p>
                     <p>I love all aspects of front-end development and dabble with the server side stuff. I've been helping clients across Europe since 2001.</p>
                     <p>I'm also a bad dancing dad, Scottish &amp; ginger. I consider myself lucky to have such a great job!</p>
-                    <p>How can I help you?</p>
                 </div>
 
                 <aside class="work-examples" role="complementary">
@@ -171,9 +172,31 @@
                     </ul>
                 </div>
 
-                copyright
-                licence MIT
+
                 <!-- Put an image of myself at the bottom to push contact details up? -->
+
+                <nav class="nav">
+                    <a name="navigation-bottom"></a>
+                    <!-- http://webaim.org/techniques/hypertext/ -->
+                    <ul role="navigation" class="navigation navigation-bottom">
+                        <li class="hello"><a href="/">Hello</a></li>
+                        <li class="elearning"><a href="elearning.html">E&#8209;learning</a></li><!-- escape character used instead of dash to avoid e and learning ending up on different lines. -->
+                        <li class="webapps"><a href="webapps.html">Web Apps</a></li>
+                        <li class="websites"><a class="websites-link" href="websites.html">Websites</a></li>
+                    </ul>
+
+                </nav>
+
+                <div class="footer-bottom">
+
+                    <p class="footer-bottom-copyright"><small>&copy; Patrick Grey 2013</small></p>
+                    <a href="#page-top" class="jump-to-page-top"><span>top</span></a>
+
+
+                </div>
+
+
+
             </footer>
 
         </div> <!-- .container end -->

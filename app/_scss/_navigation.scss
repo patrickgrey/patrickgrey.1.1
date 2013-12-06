@@ -4,7 +4,7 @@
     padding: 2em 1em 1em 1em;
     position: absolute;
     top: -5em;
-    right: 1em;
+    right: 0.2em;
     color: white;
     background: #666;
     -webkit-transition: top 0.5s ease-in;
@@ -19,25 +19,6 @@
     -webkit-transition: top .3s ease-in;
     transition: top .3s ease-in;
 }
-
-
-
-/* .diagonal-line-container{
-    background: #ff0;
-    height: 2em;
-    width:100%;
-    overflow: hidden;
-}
-
-.diagonal-line {
-    // margin-top: -0.6em;
-    border-top: 2px solid #666;
-    background: $logo-colours-drop-1;
-    height: 1em;
-    -webkit-transform: matrix(1, -0.03, 0, 1, 0, 0);
-      -o-transform: matrix(1, -0.03, 0, 1, 0, 0);
-         transform: matrix(1, -0.03, 0, 1, 0, 0);
-} */
 
 /* ul */.navigation {
 
@@ -71,4 +52,86 @@
 
 /* ul .navigation li*/.websites {
     background-color: $logo-colours-drop-4;
+}
+
+/* ul */.navigation-top {
+    display: none;
+}
+
+.jump-to-navigation-bottom{
+    display: block;
+    position: absolute;
+    top:0.75em;
+    right:0.6em;
+    width: 2em;
+    height: 1.25em;
+    background: $body-background-colour;
+    // background: #f00;
+}
+
+.jump-to-navigation-bottom:before {
+    content: " ";
+    display: block;
+    position: absolute;
+    width: 2em;
+    height: 0.25em;
+    border-top: 0.25em solid #999;
+    border-bottom: 0.25em solid #999;
+}
+
+
+.jump-to-navigation-bottom:after {
+    content: " ";
+    display: block;
+    position: absolute;
+    top:1em;
+    width: 2em;
+    height: 0.25em;
+    border-top: 0.25em solid #999;
+}
+
+.footer-bottom {
+    position: relative;
+    background: #333;
+    color: #fff;
+    height: 3.5em;
+}
+
+.footer-bottom-copyright {
+    position: absolute;
+    padding: 0;
+    margin: 0;
+    color: #ddd;
+    bottom: 0.5em;
+    left: 0.5em;
+}
+
+.jump-to-page-top {
+    display: block;
+    position: absolute;
+    top: 0.5em;
+    right: 0.5em;
+    width: 3em;
+    height: 2.5em;
+    background: #444;
+    color: #eee;
+}
+
+.jump-to-page-top span{
+    position: absolute;
+    top: 0.75em;
+    right: 0.4em;
+}
+
+.jump-to-page-top:before {
+    content: " ";
+    display: block;
+    position: absolute;
+    top: 0.45em;
+    left: 0.35em;
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid #eee;
 }

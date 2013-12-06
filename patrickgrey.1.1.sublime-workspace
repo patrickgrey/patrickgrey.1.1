@@ -203,7 +203,7 @@
 			"file": "app/index.html",
 			"settings":
 			{
-				"buffer_size": 10792,
+				"buffer_size": 10881,
 				"line_ending": "Windows"
 			}
 		},
@@ -219,7 +219,7 @@
 			"file": "app/_scss/_logo.scss",
 			"settings":
 			{
-				"buffer_size": 1168,
+				"buffer_size": 1706,
 				"line_ending": "Windows"
 			}
 		},
@@ -235,7 +235,7 @@
 			"file": "app/_scss/_navigation.scss",
 			"settings":
 			{
-				"buffer_size": 1326,
+				"buffer_size": 1456,
 				"line_ending": "Windows"
 			}
 		},
@@ -463,6 +463,10 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"header",
+			"nav",
+			".logo-link",
+			".logo",
 			"05",
 			"compass",
 			"$logo-link-media-query",
@@ -586,10 +590,6 @@
 			"\n  ",
 			"</u>",
 			"</u",
-			"<u>",
-			"\n",
-			"inform",
-			"</u>",
 			"<u>"
 		],
 		"highlight": true,
@@ -608,7 +608,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 2,
 			"sheets":
 			[
 				{
@@ -616,15 +616,15 @@
 					"file": "app/index.html",
 					"settings":
 					{
-						"buffer_size": 10792,
+						"buffer_size": 10881,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								4736,
-								4736
+								5574,
+								5574
 							]
 						],
 						"settings":
@@ -637,7 +637,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1224.0,
+						"translation.y": 1071.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -678,15 +678,15 @@
 					"file": "app/_scss/_logo.scss",
 					"settings":
 					{
-						"buffer_size": 1168,
+						"buffer_size": 1706,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1168,
-								1168
+								242,
+								242
 							]
 						],
 						"settings":
@@ -699,7 +699,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 102.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -738,15 +738,15 @@
 					"file": "app/_scss/_navigation.scss",
 					"settings":
 					{
-						"buffer_size": 1326,
+						"buffer_size": 1456,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								854,
-								854
+								1211,
+								1190
 							]
 						],
 						"settings":
@@ -759,7 +759,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 204.0,
+						"translation.y": 867.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
