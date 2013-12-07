@@ -6,35 +6,21 @@
 .main-section:after, .main-section-no-top:after {
     content: " ";
     display: block;
-    // height: 1em;
     border-top: 7px solid $role-main-section-divider-colour;
     -webkit-transform: rotate(-2deg);
     -moz-transform: rotate(-2deg);
     -o-transform: rotate(-2deg);
     transform: rotate(-2deg);
-    // position: absolute;
     z-index: 1;
-    // bottom: -20px;
-    margin-top: 2em;
-    // width: 102%;
-    // background: #fff;
+    margin-top: 3em;
 }
 
 .main-section:before {
     content: " ";
     display: block;
-    // height: 0.5em;
-    // padding-bottom: 0em;
     width: 12px;
     height: 2em;
-    // background-color: $role-main-section-drip-colour;
-    // position: absolute;
     margin-left:25%;
     background: #D4DEEF url('../img/logo/drop-blue.png') no-repeat 50% 100%;
-
-    // z-index: 1;
-    // bottom: -20px;
-    // margin-top: 2em;
-    // width: 102%;
-    // background: #fff;
+    margin-bottom: 3em;
 }

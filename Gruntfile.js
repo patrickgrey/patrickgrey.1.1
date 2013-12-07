@@ -201,13 +201,14 @@ module.exports = function (grunt) {
           collapseBooleanAttributes: true,
           removeAttributeQuotes: true,
           removeRedundantAttributes: true
-        },
-        files: [{
-          expand: true,
-          cwd: '<%= yeoman.dist %>',
-          src: '**/*.html',
-          dest: '<%= yeoman.dist %>'
-        }]
+        }
+        // ,
+        // files: [{
+        //   expand: true,
+        //   cwd: '<%= yeoman.dist %>',
+        //   src: '**/*.html',
+        //   dest: '<%= yeoman.dist %>'
+        // }]
       }
     },
     // Usemin adds files to concat
@@ -287,7 +288,7 @@ module.exports = function (grunt) {
           src: [
             '<%= yeoman.dist %>/js/**/*.js',
             '<%= yeoman.dist %>/css/**/*.css',
-            '<%= yeoman.dist %>/img/**/*.{gif,jpg,jpeg,png,svg,webp}',
+            //'<%= yeoman.dist %>/img/**/*.{gif,jpg,jpeg,png,svg,webp}',
             '<%= yeoman.dist %>/fonts/**/*.{eot*,otf,svg,ttf,woff}'
           ]
         }
