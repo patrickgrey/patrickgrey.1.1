@@ -1,4 +1,31 @@
+@import "compass/css3/text-shadow";
+
 @import '../_bower_components/normalize.scss/_normalize';
+
+
+a:link, a:visited {
+  text-decoration:none;
+}
+
+a:hover, a:focus, a:active, a:focus   {
+  text-decoration: underline;
+  outline: none;
+}
+
+
+@import '_variables';
+@import '_font-family';
+@import '_body';
+@import '_logo';
+@import '_navigation';
+@import '_role-main';
+@import '_examples';
+@import '_contact-links';
+
+
+
+
+/* svg, object { display:block; } */
 
 /*****************************************************************************/
 /*
@@ -161,26 +188,5 @@ a:visited { color: #a0a; }*/
   background-color: #333;
 } */
 
-a {
-  text-decoration:none;
-}
-
-a:hover, a:focus {
-  text-decoration: underline;
-  outline: 0;
-}
-
-
-@import '_variables';
-@import '_font-family';
-@import '_body';
-@import '_logo';
-@import '_navigation';
-@import '_role-main';
-@import '_examples';
-
-
-
-/* svg, object { display:block; } */
 
 

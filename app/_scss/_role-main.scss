@@ -24,3 +24,17 @@
     background: #D4DEEF url('../img/logo/drop-blue.png') no-repeat 50% 100%;
     margin-bottom: 3em;
 }
+
+.main a:link, .main a:visited {
+  color: $role-main-link-colour;
+  // font-weight: bold;
+}
+
+.main a:hover, .main a:focus, .main a:active   {
+  /* text-decoration: none;
+  background: $role-main-link-colour;
+  color: #fff;*/
+    /* Leaving at underline only as example blocks stretch across page - could maybe use padding to sort this? Would like block hover */
+  text-decoration: underline;
+  text-decoration: underline solid $role-main-link-colour;
+}

@@ -11,6 +11,15 @@
     clear: both;
 }
 
+/* ul */.examples a:link p, /* ul */.examples a:visited p{
+    color: $role-main-link-colour;
+}
+
+/* ul */.examples a:hover p,/* ul */.examples a:focus p,/* ul */.examples a:active p{
+  text-decoration: underline;
+  text-decoration: underline solid $role-main-link-colour;
+}
+
 .examples-thumbnail:after {
     content:" ";
     display: block;

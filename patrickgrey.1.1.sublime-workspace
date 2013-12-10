@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"no",
+				"no-repeat"
+			],
+			[
 				"font",
 				"font-size"
 			],
@@ -207,7 +211,15 @@
 			"file": "app/index.html",
 			"settings":
 			{
-				"buffer_size": 12504,
+				"buffer_size": 13204,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/_scss/_contact-links.scss",
+			"settings":
+			{
+				"buffer_size": 308,
 				"line_ending": "Windows"
 			}
 		},
@@ -215,7 +227,7 @@
 			"file": "app/_scss/_examples.scss",
 			"settings":
 			{
-				"buffer_size": 174,
+				"buffer_size": 721,
 				"line_ending": "Windows"
 			}
 		},
@@ -223,7 +235,7 @@
 			"file": "app/_scss/main.scss",
 			"settings":
 			{
-				"buffer_size": 2833,
+				"buffer_size": 2899,
 				"line_ending": "Unix"
 			}
 		},
@@ -244,50 +256,10 @@
 			}
 		},
 		{
-			"file": "app/_scss/_navigation.scss",
-			"settings":
-			{
-				"buffer_size": 2485,
-				"line_ending": "Windows"
-			}
-		},
-		{
 			"file": "app/_scss/_role-main.scss",
 			"settings":
 			{
 				"buffer_size": 588,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "app/sftp-config.json",
-			"settings":
-			{
-				"buffer_size": 1266,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "app/_scss/_font-family.scss",
-			"settings":
-			{
-				"buffer_size": 836,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "Gruntfile.js",
-			"settings":
-			{
-				"buffer_size": 9600,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "dist/index.html",
-			"settings":
-			{
-				"buffer_size": 12401,
 				"line_ending": "Windows"
 			}
 		}
@@ -360,15 +332,19 @@
 	},
 	"file_history":
 	[
-		"/D/Offline/patrickgrey/patrickgrey.1.1/app/package.json",
+		"/D/Offline/patrickgrey/patrickgrey.1.1/dist/index.html",
+		"/D/Offline/patrickgrey/patrickgrey.1.1/app/img/logo/patrick-grey-logo.svg",
+		"/D/Offline/patrickgrey/patrickgrey.1.1/dist/img/logo/patrick-grey-logo.svg",
+		"/D/Offline/patrickgrey/patrickgrey.1.1/app/sftp-config.json",
+		"/D/Offline/patrickgrey/patrickgrey.1.1/app/_scss/_font-family.scss",
 		"/D/Offline/patrickgrey/patrickgrey.1.1/Gruntfile.js",
+		"/D/Offline/patrickgrey/patrickgrey.1.1/app/img/logo/patrick-grey-logo-ai.svg",
+		"/D/Offline/patrickgrey/patrickgrey.1.1/app/package.json",
 		"/D/Offline/patrickgrey/patrickgrey.1.1/.gitignore",
 		"/D/Offline/patrickgrey/patrickgrey.1.1/app/_scss/_body.scss",
 		"/D/Offline/patrickgrey/patrickgrey.1.1/app/_scss/_navigation",
 		"/D/Offline/patrickgrey/patrickgrey.1.1/app/img/logo/patrick-grey-logo-inkscape.svg",
-		"/D/Offline/patrickgrey/patrickgrey.1.1/app/_scss/_font-family.scss",
 		"/D/Offline/patrickgrey/patrickgrey.1.1/app/js/main.js",
-		"/D/Offline/patrickgrey/patrickgrey.1.1/app/img/logo/patrick-grey-logo.svg",
 		"/D/Offline/patrickgrey/patrickgrey.1.1/app/img/logo/patrick-grey-logo-optimised.svg",
 		"/D/Offline/patrickgrey/patrickgrey.1.1/app/_scss/readme.md",
 		"/D/Offline/testing/2013/jekyll/patrickgrey.2.0/app/index.html",
@@ -483,11 +459,7 @@
 		"/D/Offline/archive/work/eurocontrol/ians/2013/edgeEvaluation/ians2013presentation/examples/presentationExamples/ians2013EA03ButtonRuntimeComplete_edgeActions.js",
 		"/D/Offline/archive/work/eurocontrol/ians/2013/edgeEvaluation/ians2013presentation/examples/presentationExamples/js/ians2013Buttons1.js",
 		"/D/Google Drive/eurocontrol/ians/2013/nmo-atfcm-intro-e/website/app/topics/t2/t2p2ATFCM_edge.js",
-		"/D/Google Drive/eurocontrol/ians/2013/nmo-atfcm-intro-e/website/app/source/edgeAnimate/naiT1P1ModuleObjectives_edge.js",
-		"/D/Google Drive/eurocontrol/ians/2013/nmo-atfcm-intro-e/website/app/m1p1ModuleObjectives.html",
-		"/D/Google Drive/eurocontrol/ians/2013/nmo-atfcm-intro-e/website/app/m2p2ATFCM.html",
-		"/D/Google Drive/eurocontrol/ians/2013/nmo-atfcm-intro-e/website/app/source/edgeAnimate/naiT2P2ATFCM.html",
-		"/D/Google Drive/eurocontrol/ians/2013/nmo-atfcm-intro-e/website/app/m2p1TopicObjectives.html"
+		"/D/Google Drive/eurocontrol/ians/2013/nmo-atfcm-intro-e/website/app/source/edgeAnimate/naiT1P1ModuleObjectives_edge.js"
 	],
 	"find":
 	{
@@ -507,6 +479,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"contact-",
+			"xxx",
 			"1.1",
 			"15",
 			"ccc",
@@ -632,8 +606,6 @@
 			"atfcm",
 			"  ",
 			"\n",
-			"<u>",
-			"</u>",
 			"<u>"
 		],
 		"highlight": true,
@@ -652,7 +624,7 @@
 	"groups":
 	[
 		{
-			"selected": 10,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -660,15 +632,15 @@
 					"file": "app/index.html",
 					"settings":
 					{
-						"buffer_size": 12504,
+						"buffer_size": 13204,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								6690,
-								6698
+								10513,
+								9563
 							]
 						],
 						"settings":
@@ -680,26 +652,26 @@
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
-						"translation.x": 146.0,
-						"translation.y": 1938.0,
+						"translation.x": 0.0,
+						"translation.y": 2703.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "app/_scss/_examples.scss",
+					"file": "app/_scss/_contact-links.scss",
 					"settings":
 					{
-						"buffer_size": 174,
+						"buffer_size": 308,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								110,
-								110
+								308,
+								308
 							]
 						],
 						"settings":
@@ -707,7 +679,9 @@
 							"incomplete_sync": null,
 							"remote_loading": false,
 							"synced": false,
-							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -717,18 +691,49 @@
 				},
 				{
 					"buffer": 2,
-					"file": "app/_scss/main.scss",
+					"file": "app/_scss/_examples.scss",
 					"settings":
 					{
-						"buffer_size": 2833,
+						"buffer_size": 721,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2788,
-								2788
+								61,
+								61
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "app/_scss/main.scss",
+					"settings":
+					{
+						"buffer_size": 2899,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								364,
+								364
 							]
 						],
 						"settings":
@@ -741,13 +746,13 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 2499.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 3,
+					"buffer": 4,
 					"file": "app/_scss/_logo.scss",
 					"settings":
 					{
@@ -778,7 +783,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 4,
+					"buffer": 5,
 					"file": "app/_scss/_variables.scss",
 					"settings":
 					{
@@ -802,37 +807,6 @@
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "app/_scss/_navigation.scss",
-					"settings":
-					{
-						"buffer_size": 2485,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2364,
-								2364
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 1750.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -862,130 +836,8 @@
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
-						"translation.x": 28.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 7,
-					"file": "app/sftp-config.json",
-					"settings":
-					{
-						"buffer_size": 1266,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								582,
-								582
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/JavaScript/JSON.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 8,
-					"file": "app/_scss/_font-family.scss",
-					"settings":
-					{
-						"buffer_size": 836,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								312,
-								312
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 9,
-					"file": "Gruntfile.js",
-					"settings":
-					{
-						"buffer_size": 9600,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								5056,
-								5230
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 3111.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 10,
-					"file": "dist/index.html",
-					"settings":
-					{
-						"buffer_size": 12401,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								5573,
-								5557
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 1291.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"

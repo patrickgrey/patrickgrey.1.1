@@ -69,6 +69,11 @@ background: #fff;
   opacity: 0;
 }
 
+/* a */.logo-link:focus   {
+  outline: 3px solid #ccc;
+  background: #eee;
+}
+
 @media all and (min-width: $logo-link-media-query) {
    .logo-link {
       padding-bottom: $logo-object-height; /* once at widest logo resolution, prevent padding bottom from increasing as this pushes all other content down */

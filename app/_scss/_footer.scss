@@ -1,0 +1,45 @@
+.footer-bottom {
+    position: relative;
+    background: #333;
+    color: #fff;
+    height: 6.5em;
+}
+
+.footer-bottom-copyright {
+    position: absolute;
+    padding: 0;
+    margin: 0;
+    color: #ddd;
+    bottom: 0.5em;
+    left: 0.5em;
+}
+
+.jump-to-page-top {
+    display: block;
+    position: absolute;
+    top: 0.5em;
+    right: 0.5em;
+    width: 3em;
+    height: 2.5em;
+    background: #444;
+    color: #eee;
+}
+
+.jump-to-page-top span{
+    position: absolute;
+    top: 0.9em;
+    right: 0.4em;
+}
+
+.jump-to-page-top:before {
+    content: " ";
+    display: block;
+    position: absolute;
+    top: 0.35em;
+    left: 0.45em;
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid #eee;
+}
