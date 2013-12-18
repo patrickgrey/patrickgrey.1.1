@@ -20,6 +20,10 @@
   text-decoration: underline solid $role-main-link-colour;
 }
 
+/* ul */.examples h3 {
+    color: #84b03f;
+}
+
 .examples-thumbnail:after {
     content:" ";
     display: block;
@@ -29,8 +33,23 @@
     background-image: url(../img/examples/thumbnails/example-thumb-sprite-sheet.jpg);
     background-size:200%;
     background-repeat: no-repeat;
-    border: #999 solid 5px;
+    border: #84b03f solid 5px;
     margin: 0 2em 2em 0;
+}
+
+.example-website .examples-thumbnail:after, .example-website h3{
+    border-color: $logo-colours-green;
+    color: $logo-colours-green;
+}
+
+.example-elearning .examples-thumbnail:after, .example-elearning h3{
+    border-color: $logo-colours-drop-2;
+    color: $logo-colours-drop-2;
+}
+
+.example-webapp .examples-thumbnail:after, .example-webapp h3{
+    border-color: $logo-colours-drop-3;
+    color: $logo-colours-drop-3;
 }
 
 .example-nmo:after{
@@ -43,6 +62,10 @@
 
 .example-ht:after{
     background-position: 0px -100px;
+}
+
+.example-pg:after{
+    background-position: -100px -100px;
 }
 
 //example-thumb-sprite-sheet.fw.png

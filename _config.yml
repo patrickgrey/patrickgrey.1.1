@@ -10,7 +10,7 @@ author:
   email: websemantic@yahoo.co.uk
 
 # Grunt handles images and assets.
-exclude: ['img', 'css', 'js', 'fonts',
+exclude: ['img', 'css', 'js', 'fonts', '_posts',
           '**.png', '**.jpg', '**.jpeg', '**.gif', '**.webp', '**.svg', '**.ico']
 
 include: ['.htaccess']

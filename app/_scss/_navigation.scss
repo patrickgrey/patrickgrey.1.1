@@ -76,11 +76,19 @@
     height: 1.25em;
     background: $body-background-colour;
     // background: #f00;
+    border-color: #8d8884;
+    border-width: 0;
+    border-style: solid;
+    border-left-width:0;
+    border-right-width:0;
 }
 
+//http://stackoverflow.com/questions/16280257/how-to-change-to-color-of-pseudo-elements-in-css-through-jquery
+
 .jump-to-navigation-bottom:focus{
-    outline: 3px solid #ccc;
-    background: #eee;
+    /* outline: 3px solid #ccc;
+    background: #eee; */
+    border-color: #f60;
 }
 
 .jump-to-navigation-bottom:before {
@@ -89,8 +97,15 @@
     position: absolute;
     width: 2em;
     height: 0.25em;
-    border-top: 0.25em solid #999;
-    border-bottom: 0.25em solid #999;
+    border-top-color: inherit;
+    border-top-width: 0.25em;
+    border-top-style: inherit;
+    border-bottom-color: inherit;
+    border-bottom-width: 0.25em;
+    border-bottom-style: inherit;
+    border-left-width:0;
+    border-right-width:0;
+    // border-bottom: 0.25em solid;
 }
 
 
@@ -101,7 +116,13 @@
     top:1em;
     width: 2em;
     height: 0.25em;
-    border-top: 0.25em solid #999;
+    // border-top: 0.25em solid;
+    border-top-color: inherit;
+    border-top-width: 0.25em;
+    border-top-style: inherit;
+    border-bottom-width:0;
+    border-left-width:0;
+    border-right-width:0;
 }
 
 .footer-bottom {

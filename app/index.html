@@ -2,7 +2,7 @@
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html lange="en" class="no-js"> <!--<![endif]-->
+<!--[if gt IE 8]><!--> <html lange="en" class="no-js"  id="page-top"> <!--<![endif]-->
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -16,23 +16,20 @@
         <link href='http://fonts.googleapis.com/css?family=Fjalla+One' rel='stylesheet' type='text/css'>
 
 
-        <!-- build:css({app,.tmp}) /css/main.css -->
+        <!-- build:css({app,.tmp}) css/main.css -->
         <!-- Custom CSS -->
         <link rel="stylesheet" href="css/main.css">
         <!-- endbuild -->
 
-        <!-- Launch Icon links [Start]
-        <link rel="shortcut icon" href="/images/icons/favicon.ico" />
-        <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/images/icons/apple-touch-icon-144x144-precomposed.png" />
-        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/images/icons/apple-touch-icon-114x114-precomposed.png" />
-        <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/images/icons/apple-touch-icon-72x72-precomposed.png" />
-        <link rel="apple-touch-icon-precomposed" href="/images/icons/apple-touch-icon-57x57-precomposed.png" />
-        <link rel="apple-touch-icon" href="/images/icons/apple-touch-icon.png" />-->
-        <!-- Launch Icon links [End] -->
 
-        <!--[if (gt IE 8) | (IEMobile)]><!
-            <link  rel="stylesheet" href="/styles/main.min.css" />-->
-        <!--<![endif]-->
+        <!-- Launch Icon links [Start] -->
+        <link rel="shortcut icon" href="img/favicon/favicon.ico" />
+        <link rel="apple-touch-icon-precomposed" sizes="144x144" href="img/favicon/apple-touch-icon-144x144-precomposed.png" />
+        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="img/favicon/apple-touch-icon-114x114-precomposed.png" />
+        <link rel="apple-touch-icon-precomposed" sizes="72x72" href="img/favicon/apple-touch-icon-72x72-precomposed.png" />
+        <link rel="apple-touch-icon-precomposed" href="img/favicon/apple-touch-icon-57x57-precomposed.png" />
+        <link rel="apple-touch-icon" href="img/favicon/apple-touch-icon.png" />
+        <!-- Launch Icon links [End] -->
 
         <!-- Fix for Windows Phone 8 -->
         <script>
@@ -104,7 +101,7 @@
 
                 </nav>
 
-                <a href="#navigation-bottom" class="jump-to-navigation-bottom" name="page-top"  title="Select to go to navigation at page bottom."></a>
+                <a href="#navigation-bottom" class="jump-to-navigation-bottom" title="Select to go to navigation at page bottom."></a>
 
             </header>
 
@@ -114,10 +111,9 @@
                     <div class="main-section-inner">
 
                     <h2>How can I help?</h2>
-                    <p>Hello! I've been designing and developing effective websites, e&#8209;learning and web applications since 2001.</p>
+                    <p>Hello! I've been designing and developing effective <a href="#website">websites</a>, engaging <a href="#elearning">e&#8209;learning</a> and really useful <a href="#webapp">web applications</a> since 2001.</p>
                     <p>If need a Scottish ginger who loves his job and will discuss your project in plain English, <a href="#contact" title="Go to contact links.">please get in touch</a>.</p>
-                    <!-- <p>I love all aspects of front-end development and dabble with the server side stuff. I've been helping clients across Europe since 2001.</p>
-                    <p>I'm also a bad dancing dad, Scottish &amp; ginger. I consider myself lucky to have such a great job!</p> -->
+                    <!-- <p>I love all aspects of front-end development and dabble with the server side stuff. </p> -->
 
                     </div>
                 </div>
@@ -127,23 +123,29 @@
                     <div class="main-section-inner">
 
                         <h2>Made in Scotland: Recent Work</h2>
-
+                        <!-- http://skinnyties.com/ -->
                         <ul class="examples">
-                            <li>
+                            <li id="website" class="example-website">
+                                <a href="nmo-atfcm-case-study.html" title="Select to see a short case study of the new website.">
+                                    <h3 class="examples-thumbnail example-pg">patrickgrey.co.uk 2.0.1...</h3>
+                                    <p>High-performance mobile friendly personal website.</p>
+                                </a>
+                            </li>
+                            <li id="elearning" class="example-elearning">
                                 <a href="nmo-atfcm-case-study.html" title="Select to see a short case study of the NMO ATFCM Intro e-learning Project.">
                                     <h3 class="examples-thumbnail example-nmo">NMO ATFCM E-learning</h3>
                                     <!-- <img class="examples-thumbnail" src="img/examples/thumbnails/example-thumb-nmo-atfcm-intro.gif" alt="Thumbnail screenshot of the NMO ATFCM Intro e-learning module."> -->
                                     <p>Mobile friendly built with Adobe Edge Animate.</p>
                                 </a>
                             </li>
-                            <li>
+                            <li id="webapp" class="example-webapp">
                                 <a href="flight-plan-guide-case-study.html" title="Select to see a short case study of the Flight Plan Guide Project.">
                                     <h3 class="examples-thumbnail example-fple">Flight Plan Guide</h3>
                                     <!-- <img class="examples-thumbnail" src="img/examples/thumbnails/example-thumb-flight-plan-guide.jpg" alt="Thumbnail screenshot of Flight Plan Guide Application.">
                                      --><p>A responsive web application that works offline.</p>
                                 </a>
                             </li>
-                            <li>
+                            <li class="example-elearning">
                                 <a href="flight-plan-guide-case-study.html" title="Select to see a short case study of the Headings Tutor game.">
                                     <h3 class="examples-thumbnail example-ht">Headings Tutor Game</h3>
                                     <!-- <img class="examples-thumbnail" src="img/examples/thumbnails/example-thumb-headings-tutor.gif" alt="Thumbnail screenshot of Headings Tutor HTML5 game.">
@@ -158,38 +160,37 @@
 
             </div>
 
-            <aside class="lab-and-blog main-section" role="complementary"> <!-- Aside outside of article to show related to site, not article: http://html5doctor.com/aside-revisited/ -->
+            <aside class="lab main-section" role="complementary"> <!-- Aside outside of article to show related to site, not article: http://html5doctor.com/aside-revisited/ -->
 
                 <div class="main-section-inner">
 
-                    <h2>Thinking and playing</h2>
+                    <h2>Lab</h2>
                     <nav>
-                        <ul>
-                            <li><a href="lab.html" title="A sketchbook area where I put up small examples and experiments.">Lab</a></li>
-                            <li><a href="blog.html">Blog</a></li>
-                        </ul>
+                        <p>Thinking and playing: this is a playground of simple experiments and techniques to help me explore and document development best practice. <a href="lab.html" title="Go to an area where I put up small examples and experiments.">Come on in!</a></p>
                     </nav>
 
                 </div>
 
             </aside>
 
-            <footer class="contact-and-nav main-section">
+            <footer class="contact-and-nav">
                 <a name="contact"></a>
-                <div class="main-section-inner">
-                    <div class="contact-container">
-                        <h2>Contact details</h2>
-                        <ul class="contact-links">
-                            <li class="contact-email"><a href="mailto:hi@patrickgrey.co.uk">hi@patrickgrey.co.uk</a></li>
-                            <li class="contact-twitter"><a href="https://twitter.com/PatrickGreyCoUk">@patrickgreyCoUk</a></li>
-                            <li class="contact-google"><a href="//plus.google.com/112380635054645470073">Google+</a></li>
-                            <li class="contact-github"><a href="https://github.com/patrickgrey">github.com/patrickgrey</a></li>
-                            <li class="contact-linkedin"><a href="http://www.linkedin.com/in/patrickgrey">linkedin.com/in/patrickgrey</a></li>
-                            <li class="contact-youtube"><a href="https://www.youtube.com/websemantic">Youtube</a></li>
-                            <li>I build web stuff from home in the fine town of Dumbarton (near Glasgow), Scotland.</li>
-                        </ul>
+                <nav class="main-section">
+                    <div class="main-section-inner">
+                        <div class="contact-container">
+                            <h2>Contact details</h2>
+                            <ul class="contact-links">
+                                <li class="contact-email"><a href="mailto:hi@patrickgrey.co.uk">hi@patrickgrey.co.uk</a></li>
+                                <li class="contact-twitter"><a href="https://twitter.com/PatrickGreyCoUk">@patrickgreyCoUk</a></li>
+                                <li class="contact-google"><a href="//plus.google.com/112380635054645470073">Google+</a></li>
+                                <li class="contact-github"><a href="https://github.com/patrickgrey">github.com/patrickgrey</a></li>
+                                <li class="contact-linkedin"><a href="http://www.linkedin.com/in/patrickgrey">linkedin.com/in/patrickgrey</a></li>
+                                <li class="contact-youtube"><a href="https://www.youtube.com/websemantic">Youtube</a></li>
+                                <li>I build web stuff from home in the fine town of Dumbarton (near Glasgow), Scotland.</li>
+                            </ul>
+                        </div>
                     </div>
-                </div>
+                </nav>
 
 
                 <!-- Put an image of myself at the bottom to push contact details up? -->

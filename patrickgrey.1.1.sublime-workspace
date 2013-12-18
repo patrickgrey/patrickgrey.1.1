@@ -211,7 +211,23 @@
 			"file": "app/index.html",
 			"settings":
 			{
-				"buffer_size": 13204,
+				"buffer_size": 13812,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/_scss/_examples.scss",
+			"settings":
+			{
+				"buffer_size": 996,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/_scss/_role-main.scss",
+			"settings":
+			{
+				"buffer_size": 1041,
 				"line_ending": "Windows"
 			}
 		},
@@ -224,10 +240,10 @@
 			}
 		},
 		{
-			"file": "app/_scss/_examples.scss",
+			"file": "app/_scss/_logo.scss",
 			"settings":
 			{
-				"buffer_size": 721,
+				"buffer_size": 1808,
 				"line_ending": "Windows"
 			}
 		},
@@ -235,32 +251,40 @@
 			"file": "app/_scss/main.scss",
 			"settings":
 			{
-				"buffer_size": 2899,
+				"buffer_size": 2939,
 				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/_scss/_logo.scss",
-			"settings":
-			{
-				"buffer_size": 1730,
-				"line_ending": "Windows"
 			}
 		},
 		{
 			"file": "app/_scss/_variables.scss",
 			"settings":
 			{
-				"buffer_size": 537,
+				"buffer_size": 648,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "app/_scss/_role-main.scss",
+			"file": "app/_scss/_navigation.scss",
 			"settings":
 			{
-				"buffer_size": 588,
+				"buffer_size": 3484,
 				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "Gruntfile.js",
+			"settings":
+			{
+				"buffer_size": 9600,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "package.json",
+			"settings":
+			{
+				"buffer_size": 1184,
+				"line_ending": "Unix"
 			}
 		}
 	],
@@ -479,6 +503,13 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"test",
+			"top",
+			"inherit",
+			"#999",
+			"bottom",
+			"top",
+			"-section",
 			"contact-",
 			"xxx",
 			"1.1",
@@ -599,14 +630,7 @@
 			"release",
 			"releas",
 			"\n  ",
-			"h2",
-			"\n",
-			">",
-			"\n  ",
-			"atfcm",
-			"  ",
-			"\n",
-			"<u>"
+			"h2"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -624,7 +648,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 9,
 			"sheets":
 			[
 				{
@@ -632,15 +656,15 @@
 					"file": "app/index.html",
 					"settings":
 					{
-						"buffer_size": 13204,
+						"buffer_size": 13812,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								10513,
-								9563
+								9512,
+								9512
 							]
 						],
 						"settings":
@@ -653,13 +677,75 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 2703.0,
+						"translation.y": 2550.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 1,
+					"file": "app/_scss/_examples.scss",
+					"settings":
+					{
+						"buffer_size": 996,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								468,
+								468
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "app/_scss/_role-main.scss",
+					"settings":
+					{
+						"buffer_size": 1041,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								947,
+								947
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
 					"file": "app/_scss/_contact-links.scss",
 					"settings":
 					{
@@ -690,81 +776,19 @@
 					"type": "text"
 				},
 				{
-					"buffer": 2,
-					"file": "app/_scss/_examples.scss",
-					"settings":
-					{
-						"buffer_size": 721,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								61,
-								61
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "app/_scss/main.scss",
-					"settings":
-					{
-						"buffer_size": 2899,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								364,
-								364
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
 					"buffer": 4,
 					"file": "app/_scss/_logo.scss",
 					"settings":
 					{
-						"buffer_size": 1730,
+						"buffer_size": 1808,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								190,
-								190
+								1468,
+								1468
 							]
 						],
 						"settings":
@@ -777,25 +801,56 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 612.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 5,
-					"file": "app/_scss/_variables.scss",
+					"file": "app/_scss/main.scss",
 					"settings":
 					{
-						"buffer_size": 537,
+						"buffer_size": 2939,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								117,
-								117
+								232,
+								232
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "app/_scss/_variables.scss",
+					"settings":
+					{
+						"buffer_size": 648,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								486,
+								486
 							]
 						],
 						"settings":
@@ -812,19 +867,19 @@
 					"type": "text"
 				},
 				{
-					"buffer": 6,
-					"file": "app/_scss/_role-main.scss",
+					"buffer": 7,
+					"file": "app/_scss/_navigation.scss",
 					"settings":
 					{
-						"buffer_size": 588,
+						"buffer_size": 3484,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								580,
-								580
+								1491,
+								1491
 							]
 						],
 						"settings":
@@ -834,6 +889,96 @@
 							"synced": false,
 							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
 							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1088.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "Gruntfile.js",
+					"settings":
+					{
+						"buffer_size": 9600,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1933,
+								1937
+							],
+							[
+								2034,
+								2038
+							],
+							[
+								7538,
+								7542
+							],
+							[
+								8897,
+								8901
+							],
+							[
+								8944,
+								8948
+							],
+							[
+								8995,
+								8999
+							],
+							[
+								9018,
+								9022
+							],
+							[
+								9572,
+								9576
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 5508.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "package.json",
+					"settings":
+					{
+						"buffer_size": 1184,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								578,
+								554
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
@@ -905,6 +1050,6 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 334.0,
+	"side_bar_width": 273.0,
 	"status_bar_visible": true
 }
