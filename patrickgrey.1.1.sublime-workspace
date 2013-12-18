@@ -211,7 +211,15 @@
 			"file": "app/index.html",
 			"settings":
 			{
-				"buffer_size": 13812,
+				"buffer_size": 14217,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/_scss/_lab.scss",
+			"settings":
+			{
+				"buffer_size": 1400,
 				"line_ending": "Windows"
 			}
 		},
@@ -219,15 +227,15 @@
 			"file": "app/_scss/_examples.scss",
 			"settings":
 			{
-				"buffer_size": 996,
+				"buffer_size": 1530,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "app/_scss/_role-main.scss",
+			"file": "app/_scss/_variables.scss",
 			"settings":
 			{
-				"buffer_size": 1041,
+				"buffer_size": 678,
 				"line_ending": "Windows"
 			}
 		},
@@ -251,16 +259,8 @@
 			"file": "app/_scss/main.scss",
 			"settings":
 			{
-				"buffer_size": 2939,
+				"buffer_size": 2955,
 				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/_scss/_variables.scss",
-			"settings":
-			{
-				"buffer_size": 648,
-				"line_ending": "Windows"
 			}
 		},
 		{
@@ -269,22 +269,6 @@
 			{
 				"buffer_size": 3484,
 				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "Gruntfile.js",
-			"settings":
-			{
-				"buffer_size": 9600,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "package.json",
-			"settings":
-			{
-				"buffer_size": 1184,
-				"line_ending": "Unix"
 			}
 		}
 	],
@@ -356,12 +340,15 @@
 	},
 	"file_history":
 	[
+		"/D/Offline/patrickgrey/patrickgrey.1.1/Gruntfile.js",
+		"/D/Offline/patrickgrey/patrickgrey.1.1/_config.yml",
 		"/D/Offline/patrickgrey/patrickgrey.1.1/dist/index.html",
 		"/D/Offline/patrickgrey/patrickgrey.1.1/app/img/logo/patrick-grey-logo.svg",
+		"/D/Offline/patrickgrey/patrickgrey.1.1/app/img/logo/drop-blue.svg",
+		"/D/Offline/patrickgrey/patrickgrey.1.1/package.json",
 		"/D/Offline/patrickgrey/patrickgrey.1.1/dist/img/logo/patrick-grey-logo.svg",
 		"/D/Offline/patrickgrey/patrickgrey.1.1/app/sftp-config.json",
 		"/D/Offline/patrickgrey/patrickgrey.1.1/app/_scss/_font-family.scss",
-		"/D/Offline/patrickgrey/patrickgrey.1.1/Gruntfile.js",
 		"/D/Offline/patrickgrey/patrickgrey.1.1/app/img/logo/patrick-grey-logo-ai.svg",
 		"/D/Offline/patrickgrey/patrickgrey.1.1/app/package.json",
 		"/D/Offline/patrickgrey/patrickgrey.1.1/.gitignore",
@@ -375,7 +362,6 @@
 		"/D/Google Drive/admin/stationary/logo/paintDrops/patrick-grey-logo-side-drops.svg",
 		"/D/Offline/patrickgrey/patrickgrey.1.1/app/_scss/main.scss",
 		"/D/Offline/testing/2013/jekyll/patrickgrey.2.0/Gruntfile.js",
-		"/D/Offline/patrickgrey/patrickgrey.1.1/package.json",
 		"/D/Offline/patrickgrey/patrickgrey.1.1/patrickgrey.1.1.sublime-project",
 		"/D/Google Drive/eurocontrol/ians/2013/nmo-atfcm-intro-e/module/app/topics/t8/t8p9REA.dev.js",
 		"/D/Google Drive/eurocontrol/ians/2013/nmo-atfcm-intro-e/module/app/topics/t8/t8p8NoReg.dev.js",
@@ -481,9 +467,7 @@
 		"/C/Users/Patrick/Desktop/damnYouMarge.py",
 		"/D/Google Drive/eurocontrol/ians/2013/nmo-atfcm-intro-e/website/app/styles/_compositions.scss",
 		"/D/Offline/archive/work/eurocontrol/ians/2013/edgeEvaluation/ians2013presentation/examples/presentationExamples/ians2013EA03ButtonRuntimeComplete_edgeActions.js",
-		"/D/Offline/archive/work/eurocontrol/ians/2013/edgeEvaluation/ians2013presentation/examples/presentationExamples/js/ians2013Buttons1.js",
-		"/D/Google Drive/eurocontrol/ians/2013/nmo-atfcm-intro-e/website/app/topics/t2/t2p2ATFCM_edge.js",
-		"/D/Google Drive/eurocontrol/ians/2013/nmo-atfcm-intro-e/website/app/source/edgeAnimate/naiT1P1ModuleObjectives_edge.js"
+		"/D/Offline/archive/work/eurocontrol/ians/2013/edgeEvaluation/ians2013presentation/examples/presentationExamples/js/ians2013Buttons1.js"
 	],
 	"find":
 	{
@@ -503,6 +487,15 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"$logo-colours-drop-1",
+			"1",
+			"main",
+			"images",
+			"icons",
+			"navigation-bottom",
+			"inkscape",
+			"uglify",
+			"cssmin",
 			"test",
 			"top",
 			"inherit",
@@ -621,16 +614,7 @@
 			"el.",
 			"el",
 			"linesArray[i].element",
-			"btReplay",
-			"\n",
-			"  ",
-			"\n",
-			"'",
-			"\n",
-			"release",
-			"releas",
-			"\n  ",
-			"h2"
+			"btReplay"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -648,7 +632,7 @@
 	"groups":
 	[
 		{
-			"selected": 9,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -656,15 +640,15 @@
 					"file": "app/index.html",
 					"settings":
 					{
-						"buffer_size": 13812,
+						"buffer_size": 14217,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								9512,
-								9512
+								9699,
+								9699
 							]
 						],
 						"settings":
@@ -677,56 +661,25 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 2550.0,
+						"translation.y": 2652.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "app/_scss/_examples.scss",
+					"file": "app/_scss/_lab.scss",
 					"settings":
 					{
-						"buffer_size": 996,
+						"buffer_size": 1400,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								468,
-								468
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "app/_scss/_role-main.scss",
-					"settings":
-					{
-						"buffer_size": 1041,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								947,
-								947
+								1263,
+								1240
 							]
 						],
 						"settings":
@@ -745,7 +698,67 @@
 					"type": "text"
 				},
 				{
+					"buffer": 2,
+					"file": "app/_scss/_examples.scss",
+					"settings":
+					{
+						"buffer_size": 1530,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								745,
+								724
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 255.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
 					"buffer": 3,
+					"file": "app/_scss/_variables.scss",
+					"settings":
+					{
+						"buffer_size": 678,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								357,
+								363
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
 					"file": "app/_scss/_contact-links.scss",
 					"settings":
 					{
@@ -776,7 +789,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 4,
+					"buffer": 5,
 					"file": "app/_scss/_logo.scss",
 					"settings":
 					{
@@ -807,19 +820,19 @@
 					"type": "text"
 				},
 				{
-					"buffer": 5,
+					"buffer": 6,
 					"file": "app/_scss/main.scss",
 					"settings":
 					{
-						"buffer_size": 2939,
+						"buffer_size": 2955,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								232,
-								232
+								420,
+								420
 							]
 						],
 						"settings":
@@ -830,35 +843,6 @@
 							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "app/_scss/_variables.scss",
-					"settings":
-					{
-						"buffer_size": 648,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								486,
-								486
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -878,8 +862,8 @@
 						"selection":
 						[
 							[
-								1491,
-								1491
+								1895,
+								1895
 							]
 						],
 						"settings":
@@ -893,96 +877,6 @@
 						},
 						"translation.x": 0.0,
 						"translation.y": 1088.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 8,
-					"file": "Gruntfile.js",
-					"settings":
-					{
-						"buffer_size": 9600,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1933,
-								1937
-							],
-							[
-								2034,
-								2038
-							],
-							[
-								7538,
-								7542
-							],
-							[
-								8897,
-								8901
-							],
-							[
-								8944,
-								8948
-							],
-							[
-								8995,
-								8999
-							],
-							[
-								9018,
-								9022
-							],
-							[
-								9572,
-								9576
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 5508.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 9,
-					"file": "package.json",
-					"settings":
-					{
-						"buffer_size": 1184,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								578,
-								554
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/JavaScript/JSON.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
