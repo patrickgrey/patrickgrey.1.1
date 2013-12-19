@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"bac",
+				"background-color"
+			],
+			[
 				"no",
 				"no-repeat"
 			],
@@ -211,8 +215,16 @@
 			"file": "app/index.html",
 			"settings":
 			{
-				"buffer_size": 14217,
+				"buffer_size": 14365,
 				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/_posts/2013-12-19-svg-logo.md",
+			"settings":
+			{
+				"buffer_size": 1876,
+				"line_ending": "Unix"
 			}
 		},
 		{
@@ -240,27 +252,11 @@
 			}
 		},
 		{
-			"file": "app/_scss/_contact-links.scss",
+			"file": "app/_scss/_ie8-logo.scss",
 			"settings":
 			{
-				"buffer_size": 308,
+				"buffer_size": 274,
 				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "app/_scss/_logo.scss",
-			"settings":
-			{
-				"buffer_size": 1808,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "app/_scss/main.scss",
-			"settings":
-			{
-				"buffer_size": 2955,
-				"line_ending": "Unix"
 			}
 		},
 		{
@@ -268,6 +264,14 @@
 			"settings":
 			{
 				"buffer_size": 3484,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/_scss/_logo.scss",
+			"settings":
+			{
+				"buffer_size": 1871,
 				"line_ending": "Windows"
 			}
 		}
@@ -340,6 +344,9 @@
 	},
 	"file_history":
 	[
+		"/D/Offline/patrickgrey/patrickgrey.1.1/app/_scss/ie8.scss",
+		"/D/Offline/patrickgrey/patrickgrey.1.1/app/_scss/_contact-links.scss",
+		"/D/Offline/patrickgrey/patrickgrey.1.1/.jekyll/task/svg/2013/12/19/svg-logo.html",
 		"/D/Offline/patrickgrey/patrickgrey.1.1/Gruntfile.js",
 		"/D/Offline/patrickgrey/patrickgrey.1.1/_config.yml",
 		"/D/Offline/patrickgrey/patrickgrey.1.1/dist/index.html",
@@ -464,10 +471,7 @@
 		"/D/Google Drive/eurocontrol/ians/2013/nmo-atfcm-intro-e/website/app/topics/t1/t1p1ModuleObjectives.html",
 		"/D/Google Drive/eurocontrol/ians/2013/nmo-atfcm-intro-e/website/app/topics/t2/t2p2ATFCM_edgeActions.js",
 		"/D/Google Drive/eurocontrol/ians/2013/nmo-atfcm-intro-e/website/app/styles/_navigation.scss",
-		"/C/Users/Patrick/Desktop/damnYouMarge.py",
-		"/D/Google Drive/eurocontrol/ians/2013/nmo-atfcm-intro-e/website/app/styles/_compositions.scss",
-		"/D/Offline/archive/work/eurocontrol/ians/2013/edgeEvaluation/ians2013presentation/examples/presentationExamples/ians2013EA03ButtonRuntimeComplete_edgeActions.js",
-		"/D/Offline/archive/work/eurocontrol/ians/2013/edgeEvaluation/ians2013presentation/examples/presentationExamples/js/ians2013Buttons1.js"
+		"/C/Users/Patrick/Desktop/damnYouMarge.py"
 	],
 	"find":
 	{
@@ -632,7 +636,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -640,15 +644,15 @@
 					"file": "app/index.html",
 					"settings":
 					{
-						"buffer_size": 14217,
+						"buffer_size": 14365,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								9699,
-								9699
+								4249,
+								4238
 							]
 						],
 						"settings":
@@ -661,13 +665,42 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 2652.0,
+						"translation.y": 714.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 1,
+					"file": "app/_posts/2013-12-19-svg-logo.md",
+					"settings":
+					{
+						"buffer_size": 1876,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1876,
+								1876
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Markdown/Markdown.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
 					"file": "app/_scss/_lab.scss",
 					"settings":
 					{
@@ -698,7 +731,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 2,
+					"buffer": 3,
 					"file": "app/_scss/_examples.scss",
 					"settings":
 					{
@@ -729,7 +762,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 3,
+					"buffer": 4,
 					"file": "app/_scss/_variables.scss",
 					"settings":
 					{
@@ -758,50 +791,19 @@
 					"type": "text"
 				},
 				{
-					"buffer": 4,
-					"file": "app/_scss/_contact-links.scss",
-					"settings":
-					{
-						"buffer_size": 308,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								308,
-								308
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
 					"buffer": 5,
-					"file": "app/_scss/_logo.scss",
+					"file": "app/_scss/_ie8-logo.scss",
 					"settings":
 					{
-						"buffer_size": 1808,
+						"buffer_size": 274,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1468,
-								1468
+								274,
+								274
 							]
 						],
 						"settings":
@@ -814,44 +816,13 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 612.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 6,
-					"file": "app/_scss/main.scss",
-					"settings":
-					{
-						"buffer_size": 2955,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								420,
-								420
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 7,
 					"file": "app/_scss/_navigation.scss",
 					"settings":
 					{
@@ -877,6 +848,37 @@
 						},
 						"translation.x": 0.0,
 						"translation.y": 1088.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "app/_scss/_logo.scss",
+					"settings":
+					{
+						"buffer_size": 1871,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								114,
+								50
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"

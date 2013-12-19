@@ -21,9 +21,11 @@
         <link rel="stylesheet" href="css/main.css">
         <!-- endbuild -->
 
+        <!-- build:css({app,.tmp}) css/ie8.css -->
         <!--[if lt IE 9]>
             <link rel="stylesheet" href="css/ie8.css">
         <![endif]-->
+        <!-- endbuild -->
 
 
         <!-- Launch Icon links [Start] -->
@@ -81,8 +83,8 @@
                         <!-- http://soqr.fr/testsvg/svg-link-with-object.php -->
                         <!-- http://stackoverflow.com/questions/2753732/how-to-access-svg-elements-with-javascript -->
                         <object type="image/svg+xml" data="img/logo/patrick-grey-logo.svg" class="logo-object">
-                            <!-- <img src="img/logo/patrick-grey-logo.png" alt="Patrick Grey logo"> -->
-                            .
+                            <img src="img/logo/patrick-grey-logo.png" alt="Patrick Grey logo">
+                            &nbsp;
                         </object>
                         <!-- http://soqr.fr/testsvg/svg-link-with-object.php span required to make links work. -->
 
@@ -220,7 +222,9 @@
                 <div class="footer-bottom">
 
                     <p class="footer-bottom-copyright"><small>&copy; Patrick Grey 2013</small></p>
-                    <a href="#page-top" class="jump-to-page-top"><span>top</span></a>
+                    <!-- <a href="#page-top" class="jump-to-page-top"><span>top</span></a> -->
+                    <!-- I tried the ID in html tag above but that wouldn't work in IE8. Simple hash seems to do the trick -->
+                    <a href="#" class="jump-to-page-top" title="Jump top top of the page."><span>top</span></a>
 
 
                 </div>

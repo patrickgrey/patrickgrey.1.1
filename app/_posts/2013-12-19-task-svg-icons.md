@@ -1,12 +1,13 @@
 ---
 layout: post
-title:  "SVG Logo with png fallback"
-categories: task svg
+title:  "SVG icons from spritesheet with png fallback"
+tags: icons svg
+categories: task
 ---
 
-# Create a SVG Logo with png fallback
+# Create SVG icons using a spritesheet and with png fallback
 
-## Task: Add a responsive svg logo to my website that will show a png fallback in browsers that don't support svg. It should also act as an accessible link to the home page. Finally, I would also like to leave open the option to animate the svg with CSS once JavaScript is introduced to the site.
+## Task: I want to use icons for the lab section and the social media links on my site. A sprite sheet should be used to reduce network calls.
 
 * I couldn't access the svg if it was a background image on the link or in an <img> tag.
 * I didn't like the mass of markup that inline SVG would add to the page and the inability to cahce it. I may have to revisit this approach though...
