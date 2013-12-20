@@ -10,10 +10,10 @@
 .lab h2:after {
     content: " ";
     display: block;
-    width: 81px*0.5;
-    height: 120px*0.5;
+    width: 60px;
+    height: 89px;
     margin:0 auto;
-    background: $body-background-colour url('../img/icons/icon_sprite.png') no-repeat 0% 0%;
-    background-size:1200%;
+    background: $body-background-colour url('../img/icons/icons_sprite.svg') no-repeat 0% 0%;
+    // background-size:1200%;
     margin-bottom: 1em;
 }
