@@ -21,8 +21,9 @@ Web design can be a very fluid process; I may see a chance to improve my design,
 
 I started using tasks for that purpose:
 
-* First I define a task e.g. svg logo (I want to use SVG for my logo).
-* I create a task post to define the problem.
+* I create a task post to define the problem e.g. svg logo (I want to use SVG for my logo).
+* A task should be a small enough chunk of work to complete quickly (a few hours) but large enough to be worthwhile documenting. If a task is too small, just mark it on git commit without a post.
+* Task posts should be prefixed with 'task-'
 * I commit that to git as the task start.
 * I continue with that task, and that task only, until it is complete or I have to abandon it. I document what I learn as I go to note handy techniques and useful links.
 * On completion I commit to git to mark the end of the task.
@@ -30,6 +31,9 @@ I started using tasks for that purpose:
 Extras:
 * If I find a technique or tool that is specifically useful, I will document that in its own additional post.
 * If some other part of the site is blocking this task or I REALLY need to move onto another thing, this documentation allows me to come back to the task with reasonable accuracy.
+
+Benefits:
+* I can note down where I get Open Source assets so I can correctly attribute them.
 
 As long as I keep the tasks in chunks that are small enough to complete but large enough to document, I think it will be worthwhile.
 

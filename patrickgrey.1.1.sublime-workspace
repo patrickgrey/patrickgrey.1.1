@@ -215,23 +215,15 @@
 			"file": "app/index.html",
 			"settings":
 			{
-				"buffer_size": 14365,
+				"buffer_size": 14686,
 				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "app/_posts/2013-12-19-svg-logo.md",
-			"settings":
-			{
-				"buffer_size": 1876,
-				"line_ending": "Unix"
 			}
 		},
 		{
 			"file": "app/_scss/_lab.scss",
 			"settings":
 			{
-				"buffer_size": 1400,
+				"buffer_size": 466,
 				"line_ending": "Windows"
 			}
 		},
@@ -273,6 +265,38 @@
 			{
 				"buffer_size": 1871,
 				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "Gruntfile.js",
+			"settings":
+			{
+				"buffer_size": 9639,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/_posts/2013-12-19-task-svg-icons.md",
+			"settings":
+			{
+				"buffer_size": 1138,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/_posts/2013-12-19-task-tasks.md",
+			"settings":
+			{
+				"buffer_size": 2107,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/source/img/icons/Free-Social-Icons-master/Free-Social-Icons-master/README.md",
+			"settings":
+			{
+				"buffer_size": 147,
+				"line_ending": "Unix"
 			}
 		}
 	],
@@ -344,12 +368,16 @@
 	},
 	"file_history":
 	[
+		"/D/Offline/patrickgrey/patrickgrey.1.1/app/_posts/2013-12-19-task-tasks.md",
+		"/D/Offline/patrickgrey/patrickgrey.1.1/app/_posts/2013-12-19-workflow-workflow.md",
+		"/D/Offline/patrickgrey/patrickgrey.1.1/_config.yml",
+		"/C/Users/Patrick/AppData/Roaming/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/D/Offline/patrickgrey/patrickgrey.1.1/app/_posts/2013-12-19-workflow-ie8-testing.md",
+		"/D/Offline/patrickgrey/patrickgrey.1.1/dist/index.html",
 		"/D/Offline/patrickgrey/patrickgrey.1.1/app/_scss/ie8.scss",
 		"/D/Offline/patrickgrey/patrickgrey.1.1/app/_scss/_contact-links.scss",
 		"/D/Offline/patrickgrey/patrickgrey.1.1/.jekyll/task/svg/2013/12/19/svg-logo.html",
 		"/D/Offline/patrickgrey/patrickgrey.1.1/Gruntfile.js",
-		"/D/Offline/patrickgrey/patrickgrey.1.1/_config.yml",
-		"/D/Offline/patrickgrey/patrickgrey.1.1/dist/index.html",
 		"/D/Offline/patrickgrey/patrickgrey.1.1/app/img/logo/patrick-grey-logo.svg",
 		"/D/Offline/patrickgrey/patrickgrey.1.1/app/img/logo/drop-blue.svg",
 		"/D/Offline/patrickgrey/patrickgrey.1.1/package.json",
@@ -388,7 +416,6 @@
 		"/D/Google Drive/eurocontrol/ians/2013/nmo-atfcm-intro-e/module/app/topics/t8/t8p6FlightReadiness.dev.js",
 		"/D/Google Drive/eurocontrol/ians/2013/nmo-atfcm-intro-e/module/app/topics/t8/t8p4CTOTTolerance.dev.js",
 		"/D/Google Drive/eurocontrol/ians/2013/nmo-atfcm-intro-e/module/app/topics/t8/t8p6FlightReadiness_edge.js",
-		"/C/Users/Patrick/AppData/Roaming/Sublime Text 2/Packages/User/Preferences.sublime-settings",
 		"/D/Google Drive/patrickGrey/patrickgrey.2.0/sftp-config.json",
 		"/D/Google Drive/eurocontrol/ians/2013/nmo-atfcm-intro-e/module/app/topics/t8/t8p5ReleasingSlots_edge.js",
 		"/C/Users/Patrick/AppData/Roaming/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
@@ -468,10 +495,7 @@
 		"/C/Users/Patrick/AppData/Local/Google/Chrome/User Data/Default/User StyleSheets/Custom.css",
 		"/C/Users/Patrick/Desktop/sublimelinter.txt",
 		"/C/Users/Patrick/AppData/Roaming/Sublime Text 2/Packages/SideBarEnhancements/messages/11.13.2012.1305.0.txt",
-		"/D/Google Drive/eurocontrol/ians/2013/nmo-atfcm-intro-e/website/app/topics/t1/t1p1ModuleObjectives.html",
-		"/D/Google Drive/eurocontrol/ians/2013/nmo-atfcm-intro-e/website/app/topics/t2/t2p2ATFCM_edgeActions.js",
-		"/D/Google Drive/eurocontrol/ians/2013/nmo-atfcm-intro-e/website/app/styles/_navigation.scss",
-		"/C/Users/Patrick/Desktop/damnYouMarge.py"
+		"/D/Google Drive/eurocontrol/ians/2013/nmo-atfcm-intro-e/website/app/topics/t1/t1p1ModuleObjectives.html"
 	],
 	"find":
 	{
@@ -636,7 +660,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 8,
 			"sheets":
 			[
 				{
@@ -644,15 +668,15 @@
 					"file": "app/index.html",
 					"settings":
 					{
-						"buffer_size": 14365,
+						"buffer_size": 14686,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								4249,
-								4238
+								12972,
+								12972
 							]
 						],
 						"settings":
@@ -665,54 +689,25 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 714.0,
+						"translation.y": 3689.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "app/_posts/2013-12-19-svg-logo.md",
-					"settings":
-					{
-						"buffer_size": 1876,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1876,
-								1876
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/Markdown/Markdown.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
 					"file": "app/_scss/_lab.scss",
 					"settings":
 					{
-						"buffer_size": 1400,
+						"buffer_size": 466,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1263,
-								1240
+								464,
+								464
 							]
 						],
 						"settings":
@@ -731,7 +726,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 3,
+					"buffer": 2,
 					"file": "app/_scss/_examples.scss",
 					"settings":
 					{
@@ -762,7 +757,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 4,
+					"buffer": 3,
 					"file": "app/_scss/_variables.scss",
 					"settings":
 					{
@@ -791,7 +786,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 5,
+					"buffer": 4,
 					"file": "app/_scss/_ie8-logo.scss",
 					"settings":
 					{
@@ -802,8 +797,8 @@
 						"selection":
 						[
 							[
-								274,
-								274
+								47,
+								0
 							]
 						],
 						"settings":
@@ -822,7 +817,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 6,
+					"buffer": 5,
 					"file": "app/_scss/_navigation.scss",
 					"settings":
 					{
@@ -853,7 +848,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 7,
+					"buffer": 6,
 					"file": "app/_scss/_logo.scss",
 					"settings":
 					{
@@ -876,6 +871,124 @@
 							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "Gruntfile.js",
+					"settings":
+					{
+						"buffer_size": 9639,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								157,
+								159
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "app/_posts/2013-12-19-task-svg-icons.md",
+					"settings":
+					{
+						"buffer_size": 1138,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1024,
+								1024
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Markdown/Markdown.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "app/_posts/2013-12-19-task-tasks.md",
+					"settings":
+					{
+						"buffer_size": 2107,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1950,
+								1950
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Markdown/Markdown.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "app/source/img/icons/Free-Social-Icons-master/Free-Social-Icons-master/README.md",
+					"settings":
+					{
+						"buffer_size": 147,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								110,
+								96
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Markdown/Markdown.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
