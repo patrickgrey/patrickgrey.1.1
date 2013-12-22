@@ -1,0 +1,57 @@
+/* .contact-links {
+    margin:0 0 4em 0;
+    padding:0;
+    list-style: none;
+    overflow: auto;
+    width: 100%
+}
+
+.contact-link {
+    line-height: 3em;
+    vertical-align: top;
+}
+
+.contact-link:link, .contact-link:visited {
+  color: $role-main-link-colour;
+} */
+
+.contact-links li:before{
+/*     content: " ";
+    display: inline-block;
+    width: 52px;
+    height: 52px;
+    padding-right: 1em; */
+    background: $body-background-colour url('../img/icons/icons_sprite.png') no-repeat;
+}
+
+/* .contact-link span {
+    position: absolute;
+    padding: 0.8em 0 0 1em;
+} */
+
+.contact-links li.contact-email:before {
+    background-position: -99px 0;
+}
+
+.contact-links li.contact-twitter:before {
+    background-position: -299px 0;
+}
+
+.contact-links li.contact-google:before {
+    background-position: -199px 0;
+}
+
+.contact-links li.contact-github:before {
+    background-position: -599px 0;
+}
+
+.contact-links li.contact-linkedin:before {
+    background-position: -399px 0;
+}
+
+.contact-links li.contact-youtube:before {
+    background-position: -499px 0;
+}
+
+
+// https://www.iconfinder.com/search/?q=iconset:circle-network

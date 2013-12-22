@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"text",
+				"text-decoration"
+			],
+			[
 				"bac",
 				"background-color"
 			],
@@ -58,10 +62,6 @@
 			[
 				"FADE",
 				"fadeIn"
-			],
-			[
-				"text",
-				"text2"
 			],
 			[
 				"get",
@@ -215,15 +215,15 @@
 			"file": "app/index.html",
 			"settings":
 			{
-				"buffer_size": 14716,
+				"buffer_size": 14794,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "app/_scss/_contact-links.scss",
+			"file": "app/_scss/_ie8-contact-links.scss",
 			"settings":
 			{
-				"buffer_size": 594,
+				"buffer_size": 1016,
 				"line_ending": "Windows"
 			}
 		},
@@ -287,8 +287,32 @@
 			"file": "app/_posts/2013-12-19-task-svg-icons.md",
 			"settings":
 			{
-				"buffer_size": 1320,
+				"buffer_size": 1705,
 				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/_scss/_font-family.scss",
+			"settings":
+			{
+				"buffer_size": 852,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/_scss/_role-main.scss",
+			"settings":
+			{
+				"buffer_size": 1041,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/_scss/ie8.scss",
+			"settings":
+			{
+				"buffer_size": 92,
+				"line_ending": "Windows"
 			}
 		}
 	],
@@ -507,6 +531,10 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"</span>",
+			"<span>",
+			"</a></li>",
+			"\">",
 			"$logo-colours-drop-1",
 			"1",
 			"main",
@@ -630,11 +658,7 @@
 			"flightLine5",
 			"flightLine3",
 			"flightLine2",
-			"flightLine5",
-			"el.",
-			"el",
-			"linesArray[i].element",
-			"btReplay"
+			"flightLine5"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -660,15 +684,15 @@
 					"file": "app/index.html",
 					"settings":
 					{
-						"buffer_size": 14716,
+						"buffer_size": 14794,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								10663,
-								10676
+								11474,
+								11481
 							]
 						],
 						"settings":
@@ -688,18 +712,18 @@
 				},
 				{
 					"buffer": 1,
-					"file": "app/_scss/_contact-links.scss",
+					"file": "app/_scss/_ie8-contact-links.scss",
 					"settings":
 					{
-						"buffer_size": 594,
+						"buffer_size": 1016,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								358,
-								358
+								572,
+								572
 							]
 						],
 						"settings":
@@ -707,7 +731,9 @@
 							"incomplete_sync": null,
 							"remote_loading": false,
 							"synced": false,
-							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -935,15 +961,15 @@
 					"file": "app/_posts/2013-12-19-task-svg-icons.md",
 					"settings":
 					{
-						"buffer_size": 1320,
+						"buffer_size": 1705,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1088,
-								1088
+								568,
+								568
 							]
 						],
 						"settings":
@@ -952,6 +978,95 @@
 							"remote_loading": false,
 							"synced": false,
 							"syntax": "Packages/Markdown/Markdown.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "app/_scss/_font-family.scss",
+					"settings":
+					{
+						"buffer_size": 852,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								63,
+								63
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "app/_scss/_role-main.scss",
+					"settings":
+					{
+						"buffer_size": 1041,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								680,
+								590
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": true,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "app/_scss/ie8.scss",
+					"settings":
+					{
+						"buffer_size": 92,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								92,
+								92
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,

@@ -21,6 +21,11 @@ For IE8 I created a fallback png worked. I also don't need to overwrite all the 
 
 For the contact links I initially created the icons before the li element and then I could position the link absolutely to line them up vertically. However, I then realised I wanted the icons to be selectable too. Now I have created the icons using :before on the link element but positioning the text to the ion is now difficult.
 
+Fixed with:
+
+line-height: 3em;
+vertical-align: top;
+
 ## Assets
 [https://github.com/neilorangepeel/Free-Social-Icons](https://github.com/neilorangepeel/Free-Social-Icons)
 

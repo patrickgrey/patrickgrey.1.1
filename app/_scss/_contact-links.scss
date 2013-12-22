@@ -1,55 +1,130 @@
+// http://css-tricks.com/centering-in-the-unknown/
+
 .contact-links {
     margin:0 0 4em 0;
     padding:0;
     list-style: none;
-    overflow: auto;
     width: 100%
 }
 
-.contact-link {
-    line-height: 3em;
-    vertical-align: top;
+.contact-links li {
+    display: block;
+    height: $contact-links-icon-height;
+    margin-bottom: 1em;
 }
 
-.contact-link:link, .contact-link:visited {
+.contact-links li:before {
+  content: '';
+  display: inline-block;
+  width: $contact-links-icon-height;
+  height: $contact-links-icon-height;
+  padding-right: 1em;
+  background: $body-background-colour url('../img/icons/icons_sprite.svg') no-repeat;
+  vertical-align: middle;
+  // margin-right: -0.25em; /* Adjusts for spacing */
+}
+
+.contact-links li a {
+  display: inline-block;
+  vertical-align: middle;
+  // width: 300px;
+}
+
+.contact-links a:link, .contact-links a:visited {
   color: $role-main-link-colour;
 }
 
-.contact-link:before {
+
+
+//http://stackoverflow.com/questions/4984622/vertically-positioning-pseudo-image-element-css
+//
+
+// Solution!!!!
+// Vertical icon image. Then just make the icon part of the link background and provide enough padding for it to appear.
+// This should provide a nice big targettoo!
+// Nope ended up with same vertical align problem!
+
+/* .contact-links a {
+    display: inline-block;
+    height: $contact-links-icon-height;
+    vertical-align: middle;
+    // line-height: $contact-links-icon-height;
+    padding-left: $contact-links-icon-height;
+    background: $body-background-colour url('../img/icons/icons_sprite_vertical.svg') no-repeat;
+}
+
+
+.contact-links {
+    margin:0 0 4em 0;
+    padding:0;
+    list-style: none;
+    // overflow: auto;
+    width: 100%
+} */
+
+/* .contact-links li {
+    height: $contact-links-icon-height;
+    margin-bottom: 1em;
+}
+
+.contact-links li:before{
     content: " ";
     display: inline-block;
-    width: 52px;
-    height: 52px;
+    width: $contact-links-icon-height;
+    height: $contact-links-icon-height;
     padding-right: 1em;
     background: $body-background-colour url('../img/icons/icons_sprite.svg') no-repeat;
 }
+
+
+.contact-links a:link, .contact-links a:visited {
+  color: $role-main-link-colour;
+} */
+
+// .contact-links a {
+    /* line-height: 3em;
+    vertical-align: top; */
+    // display: inline-block;
+    // line-height: $contact-links-icon-height;
+    // vertical-align: top;
+    // padding-top: $contact-links-icon-height/2;
+// }
+
+/* .contact-link:before {
+    content: " ";
+    display: inline-block;
+    width: $contact-links-icon-height;
+    height: $contact-links-icon-height;
+    padding-right: 1em;
+    background: $body-background-colour url('../img/icons/icons_sprite.svg') no-repeat;
+} */
 
 /* .contact-link span {
     position: absolute;
     padding: 0.8em 0 0 1em;
 } */
 
-.contact-email:before {
+.contact-links li.contact-email:before {
     background-position: -99px 0;
 }
 
-.contact-twitter:before {
+.contact-links li.contact-twitter:before {
     background-position: -299px 0;
 }
 
-.contact-google:before {
+.contact-links li.contact-google:before {
     background-position: -199px 0;
 }
 
-.contact-github:before {
+.contact-links li.contact-github:before {
     background-position: -599px 0;
 }
 
-.contact-linkedin:before {
+.contact-links li.contact-linkedin:before {
     background-position: -399px 0;
 }
 
-.contact-youtube:before {
+.contact-links li.contact-youtube:before {
     background-position: -499px 0;
 }
 
