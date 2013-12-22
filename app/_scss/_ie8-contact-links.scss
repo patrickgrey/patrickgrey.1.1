@@ -15,7 +15,7 @@
   color: $role-main-link-colour;
 } */
 
-.contact-links li:before{
+.contact-links span{
 /*     content: " ";
     display: inline-block;
     width: 52px;
@@ -24,12 +24,14 @@
     background: $body-background-colour url('../img/icons/icons_sprite.png') no-repeat;
 }
 
+
+
 /* .contact-link span {
     position: absolute;
     padding: 0.8em 0 0 1em;
 } */
 
-.contact-links li.contact-email:before {
+/* .contact-links li.contact-email:before {
     background-position: -99px 0;
 }
 
@@ -51,7 +53,7 @@
 
 .contact-links li.contact-youtube:before {
     background-position: -499px 0;
-}
+} */
 
 
 // https://www.iconfinder.com/search/?q=iconset:circle-network

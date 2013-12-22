@@ -1,4 +1,5 @@
 // http://css-tricks.com/centering-in-the-unknown/
+// Nope, still doesn't give underline when over icon.
 
 .contact-links {
     margin:0 0 4em 0;
@@ -7,14 +8,13 @@
     width: 100%
 }
 
-.contact-links li {
+.contact-links li{
     display: block;
     height: $contact-links-icon-height;
     margin-bottom: 1em;
 }
 
-.contact-links li:before {
-  content: '';
+.contact-links span {
   display: inline-block;
   width: $contact-links-icon-height;
   height: $contact-links-icon-height;
@@ -24,11 +24,11 @@
   // margin-right: -0.25em; /* Adjusts for spacing */
 }
 
-.contact-links li a {
+/* .contact-links span{
   display: inline-block;
   vertical-align: middle;
   // width: 300px;
-}
+} */
 
 .contact-links a:link, .contact-links a:visited {
   color: $role-main-link-colour;
@@ -104,27 +104,27 @@
     padding: 0.8em 0 0 1em;
 } */
 
-.contact-links li.contact-email:before {
+.contact-links span.contact-email {
     background-position: -99px 0;
 }
 
-.contact-links li.contact-twitter:before {
+.contact-links span.contact-twitter {
     background-position: -299px 0;
 }
 
-.contact-links li.contact-google:before {
+.contact-links span.contact-google {
     background-position: -199px 0;
 }
 
-.contact-links li.contact-github:before {
+.contact-links span.contact-github {
     background-position: -599px 0;
 }
 
-.contact-links li.contact-linkedin:before {
+.contact-links span.contact-linkedin {
     background-position: -399px 0;
 }
 
-.contact-links li.contact-youtube:before {
+.contact-links span.contact-youtube {
     background-position: -499px 0;
 }
 
