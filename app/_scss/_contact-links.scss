@@ -14,7 +14,8 @@
     margin-bottom: 1em;
 }
 
-.contact-links span {
+.contact-links a:before {
+    content:"";
   display: inline-block;
   width: $contact-links-icon-height;
   height: $contact-links-icon-height;
@@ -104,27 +105,27 @@
     padding: 0.8em 0 0 1em;
 } */
 
-.contact-links span.contact-email {
+.contact-links a.contact-email:before {
     background-position: -99px 0;
 }
 
-.contact-links span.contact-twitter {
+.contact-links a.contact-twitter:before {
     background-position: -299px 0;
 }
 
-.contact-links span.contact-google {
+.contact-links a.contact-google:before {
     background-position: -199px 0;
 }
 
-.contact-links span.contact-github {
+.contact-links a.contact-github:before {
     background-position: -599px 0;
 }
 
-.contact-links span.contact-linkedin {
+.contact-links a.contact-linkedin:before {
     background-position: -399px 0;
 }
 
-.contact-links span.contact-youtube {
+.contact-links a.contact-youtube:before {
     background-position: -499px 0;
 }
 
