@@ -1,109 +1,41 @@
-// http://css-tricks.com/centering-in-the-unknown/
-// Nope, still doesn't give underline when over icon.
-
 .contact-links {
     margin:0 0 4em 0;
     padding:0;
     list-style: none;
-    width: 100%
+    width: 100%;
 }
 
 .contact-links li{
     display: block;
     height: $contact-links-icon-height;
-    margin-bottom: 1em;
-}
-
-.contact-links a:before {
-    content:"";
-  display: inline-block;
-  width: $contact-links-icon-height;
-  height: $contact-links-icon-height;
-  padding-right: 1em;
-  background: $body-background-colour url('../img/icons/icons_sprite.svg') no-repeat;
-  vertical-align: middle;
-  // margin-right: -0.25em; /* Adjusts for spacing */
-}
-
-/* .contact-links span{
-  display: inline-block;
-  vertical-align: middle;
-  // width: 300px;
-} */
-
-.contact-links a:link, .contact-links a:visited {
-  color: $role-main-link-colour;
+    // margin-bottom: 1em;
+    margin-left: 1em;
 }
 
 
 
-//http://stackoverflow.com/questions/4984622/vertically-positioning-pseudo-image-element-css
-//
+@media all and (min-width: $contact-links-icon-show-media-query) {
 
-// Solution!!!!
-// Vertical icon image. Then just make the icon part of the link background and provide enough padding for it to appear.
-// This should provide a nice big targettoo!
-// Nope ended up with same vertical align problem!
+  .contact-links li{
+      margin-bottom: 1em;
+      margin-left: 0;
+  }
 
-/* .contact-links a {
+  .contact-links a:before {
+      content:"";
     display: inline-block;
+    width: $contact-links-icon-height;
     height: $contact-links-icon-height;
+    padding-right: 1em;
+    background: $body-background-colour url('../img/icons/icons_sprite.svg') no-repeat;
     vertical-align: middle;
-    // line-height: $contact-links-icon-height;
-    padding-left: $contact-links-icon-height;
-    background: $body-background-colour url('../img/icons/icons_sprite_vertical.svg') no-repeat;
+  }
+
 }
-
-
-.contact-links {
-    margin:0 0 4em 0;
-    padding:0;
-    list-style: none;
-    // overflow: auto;
-    width: 100%
-} */
-
-/* .contact-links li {
-    height: $contact-links-icon-height;
-    margin-bottom: 1em;
-}
-
-.contact-links li:before{
-    content: " ";
-    display: inline-block;
-    width: $contact-links-icon-height;
-    height: $contact-links-icon-height;
-    padding-right: 1em;
-    background: $body-background-colour url('../img/icons/icons_sprite.svg') no-repeat;
-}
-
 
 .contact-links a:link, .contact-links a:visited {
   color: $role-main-link-colour;
-} */
-
-// .contact-links a {
-    /* line-height: 3em;
-    vertical-align: top; */
-    // display: inline-block;
-    // line-height: $contact-links-icon-height;
-    // vertical-align: top;
-    // padding-top: $contact-links-icon-height/2;
-// }
-
-/* .contact-link:before {
-    content: " ";
-    display: inline-block;
-    width: $contact-links-icon-height;
-    height: $contact-links-icon-height;
-    padding-right: 1em;
-    background: $body-background-colour url('../img/icons/icons_sprite.svg') no-repeat;
-} */
-
-/* .contact-link span {
-    position: absolute;
-    padding: 0.8em 0 0 1em;
-} */
+}
 
 .contact-links a.contact-email:before {
     background-position: -99px 0;
@@ -128,6 +60,3 @@
 .contact-links a.contact-youtube:before {
     background-position: -499px 0;
 }
-
-
-// https://www.iconfinder.com/search/?q=iconset:circle-network

@@ -6,7 +6,7 @@
 .main-section:after, .main-section-no-top:after {
     content: " ";
     display: block;
-    border-top: 7px solid $role-main-section-divider-colour;
+    border-top: 15px solid $role-main-section-divider-colour;
     -webkit-transform: rotate(-2deg);
     -moz-transform: rotate(-2deg);
     -o-transform: rotate(-2deg);
@@ -15,7 +15,7 @@
     margin-top: 3em;
 }
 
-.main-section:before {
+.main-section:before, .nav:before {
     content: " ";
     display: block;
     width: 12px;

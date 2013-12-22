@@ -26,6 +26,18 @@ Fixed with:
 line-height: 3em;
 vertical-align: top;
 
+The above didn't work for IE8 though!!
+
+I also tried absolute positioning, varying line heights and a mixture of vertical-align with no luck.
+
+Then I thought about putting the icon as a background-image to the link, thinking I had become too fixated on the pseudo element solutions. However, this still left me with vertical positioning problems.
+
+Then I added a span, which I wanted to avoid to keep my HTML clean. I used [http://css-tricks.com/centering-in-the-unknown/](http://css-tricks.com/centering-in-the-unknown/ "CSS tricks article on vertical centering using ghost elements") and that worked with IE8 as well. But I realised afterwards that the icon wasn't part of the link as I was creating the ghost element with the LI element:before. I finally used a span inside the link and got it working with IE8.
+
+This seemed the same as using the before pseudo element. In fact it was, I had found the right combination!
+
+The above is very poorly written but it is just meant to be a self-reminder not to go through that process again!
+
 ## Assets
 [https://github.com/neilorangepeel/Free-Social-Icons](https://github.com/neilorangepeel/Free-Social-Icons)
 
