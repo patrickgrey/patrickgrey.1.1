@@ -11,10 +11,30 @@ p, .contact-links {
     color: #555;
 }
 
+
 h1, h2, h3 {
     font-weight: normal;
     color: #888;
 }
+
+
+
+
+@media all and (min-width: $break-points-font-medium) {
+    p, .contact-links {
+        font-size: 110%*1.5;
+        // line-height: 1.5em;
+    }
+
+    h2 {
+        font-size: 150%*1.5;
+    }
+
+    h3 {
+        font-size: 119%*1.5;
+    }
+}
+
 
 /* http://www.google.com/fonts#ChoosePlace:select/Collection:Source+Sans+Pro|Dosis|Droid+Sans+Mono|Monda|Days+One|Ubuntu+Condensed|Oxygen|Francois+One|Fjalla+One|Hammersmith+One|Archivo+Black|Julius+Sans+One|Marmelad
 

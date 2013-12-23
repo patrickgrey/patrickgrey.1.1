@@ -4,25 +4,41 @@
 
 
 .main-section:after, .main-section-no-top:after {
+
     content: " ";
     display: block;
-    border-top: 15px solid $role-main-section-divider-colour;
+    width: 10px;
+    height: 16px;
+    margin-left:50%;
+    // background: $body-background-colour url('../img/logo/drop-blue.png') no-repeat 50% 100%;
+    background: $body-background-colour url('../img/icons/icons_sprite.svg') no-repeat 0 -70px;
+    // background-position: -99px 0;
+    margin-top: 3em;
+
+}
+
+.main-section:before, .navigation-bottom:before {
+
+
+
+    content: " ";
+    display: block;
+    border-top: 1em solid $role-main-section-divider-colour;
     -webkit-transform: rotate(-2deg);
     -moz-transform: rotate(-2deg);
     -o-transform: rotate(-2deg);
     transform: rotate(-2deg);
     z-index: 1;
-    margin-top: 3em;
-}
+    margin-bottom: 4em;
 
-.main-section:before, .nav:before {
-    content: " ";
+
+    /* content: " ";
     display: block;
-    width: 12px;
-    height: 2em;
-    margin-left:25%;
-    background: #D4DEEF url('../img/logo/drop-blue.png') no-repeat 50% 100%;
-    margin-bottom: 3em;
+    width: 10px;
+    height: 16px;
+    margin-left:50%;
+    background: $body-background-colour url('../img/icons/icons_sprite.svg') 100px 70px;
+    margin-bottom: 4em; */
 }
 
 .main a:link, .main a:visited {

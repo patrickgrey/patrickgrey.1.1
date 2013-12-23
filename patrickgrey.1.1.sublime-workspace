@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"border-r",
+				"border-right"
+			],
+			[
 				"conta",
 				"contact-link"
 			],
@@ -223,23 +227,7 @@
 			"file": "app/index.html",
 			"settings":
 			{
-				"buffer_size": 14700,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "app/_scss/_contact-links.scss",
-			"settings":
-			{
-				"buffer_size": 3353,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "app/_scss/_ie8-contact-links.scss",
-			"settings":
-			{
-				"buffer_size": 1128,
+				"buffer_size": 14529,
 				"line_ending": "Windows"
 			}
 		},
@@ -247,15 +235,7 @@
 			"file": "app/_scss/_variables.scss",
 			"settings":
 			{
-				"buffer_size": 713,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "app/_scss/_lab.scss",
-			"settings":
-			{
-				"buffer_size": 461,
+				"buffer_size": 792,
 				"line_ending": "Windows"
 			}
 		},
@@ -263,31 +243,15 @@
 			"file": "app/_scss/_examples.scss",
 			"settings":
 			{
-				"buffer_size": 1530,
+				"buffer_size": 1715,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "app/_scss/_navigation.scss",
+			"file": "app/_scss/_font-family.scss",
 			"settings":
 			{
-				"buffer_size": 3484,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "app/_scss/_logo.scss",
-			"settings":
-			{
-				"buffer_size": 1871,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "app/_scss/ie8.scss",
-			"settings":
-			{
-				"buffer_size": 92,
+				"buffer_size": 1096,
 				"line_ending": "Windows"
 			}
 		},
@@ -297,6 +261,46 @@
 			{
 				"buffer_size": 2955,
 				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/_scss/_role-main.scss",
+			"settings":
+			{
+				"buffer_size": 1441,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/_scss/_ie8-lab.scss",
+			"settings":
+			{
+				"buffer_size": 112,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/_scss/_ie8-logo.scss",
+			"settings":
+			{
+				"buffer_size": 225,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/_scss/_contact-links.scss",
+			"settings":
+			{
+				"buffer_size": 1229,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/_scss/_lab.scss",
+			"settings":
+			{
+				"buffer_size": 461,
+				"line_ending": "Windows"
 			}
 		}
 	],
@@ -368,13 +372,19 @@
 	},
 	"file_history":
 	[
+		"/D/Offline/patrickgrey/patrickgrey.1.1/app/_scss/_contact-links.scss",
+		"/D/Offline/patrickgrey/patrickgrey.1.1/app/_scss/_ie8-contact-links.scss",
+		"/D/Offline/patrickgrey/patrickgrey.1.1/app/_scss/_lab.scss",
+		"/D/Offline/patrickgrey/patrickgrey.1.1/app/_scss/_examples.scss",
+		"/D/Offline/patrickgrey/patrickgrey.1.1/app/_scss/_navigation.scss",
+		"/D/Offline/patrickgrey/patrickgrey.1.1/app/_scss/_logo.scss",
+		"/D/Offline/patrickgrey/patrickgrey.1.1/app/_scss/ie8.scss",
+		"/D/Offline/patrickgrey/patrickgrey.1.1/app/_posts/2013-12-19-task-svg-icons.md",
 		"/D/Offline/patrickgrey/patrickgrey.1.1/app/_scss/_role-main.scss",
 		"/D/Offline/patrickgrey/patrickgrey.1.1/app/_scss/_font-family.scss",
-		"/D/Offline/patrickgrey/patrickgrey.1.1/app/_posts/2013-12-19-task-svg-icons.md",
 		"/D/Offline/patrickgrey/patrickgrey.1.1/Gruntfile.js",
 		"/D/Offline/patrickgrey/patrickgrey.1.1/app/_scss/_ie8-lab.scss",
 		"/D/Offline/patrickgrey/patrickgrey.1.1/package.json",
-		"/D/Offline/patrickgrey/patrickgrey.1.1/app/_scss/ie8.scss",
 		"/D/Offline/patrickgrey/patrickgrey.1.1/app/_scss/main.scss",
 		"/D/Offline/patrickgrey/patrickgrey.1.1/app/_posts/2013-12-19-task-tasks.md",
 		"/D/Offline/patrickgrey/patrickgrey.1.1/app/source/img/icons/Free-Social-Icons-master/Free-Social-Icons-master/README.md",
@@ -383,7 +393,6 @@
 		"/C/Users/Patrick/AppData/Roaming/Sublime Text 2/Packages/User/Preferences.sublime-settings",
 		"/D/Offline/patrickgrey/patrickgrey.1.1/app/_posts/2013-12-19-workflow-ie8-testing.md",
 		"/D/Offline/patrickgrey/patrickgrey.1.1/dist/index.html",
-		"/D/Offline/patrickgrey/patrickgrey.1.1/app/_scss/_contact-links.scss",
 		"/D/Offline/patrickgrey/patrickgrey.1.1/.jekyll/task/svg/2013/12/19/svg-logo.html",
 		"/D/Offline/patrickgrey/patrickgrey.1.1/app/img/logo/patrick-grey-logo.svg",
 		"/D/Offline/patrickgrey/patrickgrey.1.1/app/img/logo/drop-blue.svg",
@@ -490,12 +499,7 @@
 		"/D/Google Drive/eurocontrol/ians/2013/nmo-atfcm-intro-e/website/app/topics/t3/images/europeWithAfrica3.svg",
 		"/D/Google Drive/eurocontrol/ians/2013/nmo-atfcm-intro-e/website/app/topics/t3/t3p2NMOCAreas_edge.js",
 		"/D/Google Drive/eurocontrol/ians/2013/nmo-atfcm-intro-e/website/app/topics/t8/t8p1TopicObjectives_edge.js",
-		"/D/Google Drive/eurocontrol/ians/2013/nmo-atfcm-intro-e/website/app/topics/t7/t7p1TopicObjectives_edge.js",
-		"/D/Google Drive/eurocontrol/ians/2013/nmo-atfcm-intro-e/website/app/topics/t6/t6p1TopicObjectives_edge.js",
-		"/D/Google Drive/eurocontrol/ians/2013/nmo-atfcm-intro-e/website/app/topics/t5/t5p1TopicObjectives_edge.js",
-		"/D/Google Drive/eurocontrol/ians/2013/nmo-atfcm-intro-e/website/app/topics/t3/t3p1TopicObjectives_edge.js",
-		"/D/Google Drive/eurocontrol/ians/2013/nmo-atfcm-intro-e/website/app/topics/t2/t2p3ATFCMObjectives_edge.js",
-		"/D/Google Drive/eurocontrol/ians/2013/nmo-atfcm-intro-e/website/app/topics/t2/t2p3ATFCMObjectives.html"
+		"/D/Google Drive/eurocontrol/ians/2013/nmo-atfcm-intro-e/website/app/topics/t7/t7p1TopicObjectives_edge.js"
 	],
 	"find":
 	{
@@ -668,31 +672,15 @@
 					"file": "app/index.html",
 					"settings":
 					{
-						"buffer_size": 14700,
+						"buffer_size": 14529,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								11020,
-								11020
-							],
-							[
-								11155,
-								11155
-							],
-							[
-								11272,
-								11272
-							],
-							[
-								11414,
-								11414
-							],
-							[
-								11557,
-								11557
+								7001,
+								7001
 							]
 						],
 						"settings":
@@ -705,25 +693,25 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 3149.0,
+						"translation.y": 1925.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "app/_scss/_contact-links.scss",
+					"file": "app/_scss/_variables.scss",
 					"settings":
 					{
-						"buffer_size": 3353,
+						"buffer_size": 792,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								294,
-								294
+								107,
+								107
 							]
 						],
 						"settings":
@@ -731,9 +719,7 @@
 							"incomplete_sync": null,
 							"remote_loading": false,
 							"synced": false,
-							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -743,18 +729,18 @@
 				},
 				{
 					"buffer": 2,
-					"file": "app/_scss/_ie8-contact-links.scss",
+					"file": "app/_scss/_examples.scss",
 					"settings":
 					{
-						"buffer_size": 1128,
+						"buffer_size": 1715,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								290,
-								290
+								1703,
+								1703
 							]
 						],
 						"settings":
@@ -767,25 +753,25 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 714.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 3,
-					"file": "app/_scss/_variables.scss",
+					"file": "app/_scss/_font-family.scss",
 					"settings":
 					{
-						"buffer_size": 713,
+						"buffer_size": 1096,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								706,
-								680
+								466,
+								411
 							]
 						],
 						"settings":
@@ -803,18 +789,18 @@
 				},
 				{
 					"buffer": 4,
-					"file": "app/_scss/_lab.scss",
+					"file": "app/_scss/main.scss",
 					"settings":
 					{
-						"buffer_size": 461,
+						"buffer_size": 2955,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								461,
-								204
+								140,
+								140
 							]
 						],
 						"settings":
@@ -834,80 +820,18 @@
 				},
 				{
 					"buffer": 5,
-					"file": "app/_scss/_examples.scss",
+					"file": "app/_scss/_role-main.scss",
 					"settings":
 					{
-						"buffer_size": 1530,
+						"buffer_size": 1441,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								745,
-								724
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 255.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "app/_scss/_navigation.scss",
-					"settings":
-					{
-						"buffer_size": 3484,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1895,
-								1895
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 1088.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 7,
-					"file": "app/_scss/_logo.scss",
-					"settings":
-					{
-						"buffer_size": 1871,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								114,
-								50
+								870,
+								870
 							]
 						],
 						"settings":
@@ -926,19 +850,19 @@
 					"type": "text"
 				},
 				{
-					"buffer": 8,
-					"file": "app/_scss/ie8.scss",
+					"buffer": 6,
+					"file": "app/_scss/_ie8-lab.scss",
 					"settings":
 					{
-						"buffer_size": 92,
+						"buffer_size": 112,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								92,
-								92
+								0,
+								0
 							]
 						],
 						"settings":
@@ -955,19 +879,79 @@
 					"type": "text"
 				},
 				{
-					"buffer": 9,
-					"file": "app/_scss/main.scss",
+					"buffer": 7,
+					"file": "app/_scss/_ie8-logo.scss",
 					"settings":
 					{
-						"buffer_size": 2955,
+						"buffer_size": 225,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								153,
-								144
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "app/_scss/_contact-links.scss",
+					"settings":
+					{
+						"buffer_size": 1229,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								295,
+								295
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "app/_scss/_lab.scss",
+					"settings":
+					{
+						"buffer_size": 461,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								289,
+								289
 							]
 						],
 						"settings":
