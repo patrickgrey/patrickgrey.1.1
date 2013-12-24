@@ -1,5 +1,5 @@
 .contact-links {
-    margin:0 0 4em 0;
+    margin:0 0 3em 0;
     padding:0;
     list-style: none;
     width: 100%;
@@ -26,7 +26,7 @@
     display: inline-block;
     width: $contact-links-icon-height;
     height: $contact-links-icon-height;
-    padding-right: 1em;
+    padding-right: 0.5em;
     background: $body-background-colour url('../img/icons/icons_sprite.svg') no-repeat;
     vertical-align: middle;
   }

@@ -8,7 +8,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <meta name="viewport" content="width=device-width">
         <title>Patrick Grey: websites, e-learning and web applications.</title>
-        <meta name="description" content="Portfolio site of Patrick Grey: web developer, ginger and connoisseur of cheap beer." />
+        <meta name="description" content="Portfolio site of Patrick Grey: web developer, e-learning specialist and connoisseur of cheap beer." />
         <meta name="keywords" content="e-learning, web design, web development, edge animate, javascript, css, html, responsive, dumbarton, glasgow, scotland" />
         <meta name="author" content="Patrick Grey" />
         <meta http-equiv="X-Powered-By" content="Jekyllrb v1.3.1"/>
@@ -76,8 +76,6 @@
 
                 <h1 class="logo">
                     <a href="index.html" title="Patrick Grey logo. Select to go to home page." class="logo-link">
-                        <!-- Patrick Grey -->
-                        <!-- <img src="img/logo/patrick-grey-logo.svg" onerror="this.onerror=null; this.src='img/logo/patrick-grey-logo.png'" alt="Patrick Grey Logo. Select this to go to home page."> -->
                         <!-- http://soqr.fr/testsvg/embed-svg-liquid-layout-responsive-web-design.php -->
                         <!-- http://codepen.io/cwebba1/pen/qItAC# -->
                         <!-- http://soqr.fr/testsvg/svg-link-with-object.php -->
@@ -87,8 +85,7 @@
                             &nbsp;
                         </object>
                         <!-- http://soqr.fr/testsvg/svg-link-with-object.php span required to make links work. -->
-
-                            <span>Patrick Grey</span>
+                        <span>Patrick Grey</span>
 
                     </a>
                 </h1>
@@ -97,15 +94,17 @@
                 <!-- make box read and container red and top line is the border!
                 <div class="diagonal-line-container"><div class="diagonal-line"></div></div>-->
 
-                <nav class="nav">
+                <nav class="nav navigation-top-container">
 
                     <!-- http://webaim.org/techniques/hypertext/ -->
                     <ul role="navigation" class="navigation navigation-top">
+
+                        <li class="hello"><a href="/">Home</a></li>
                         <li class="elearning"><a href="elearning.html">E&#8209;learning</a></li><!-- escape character used instead of dash to avoid e and learning ending up on different lines. -->
                         <li class="webapps"><a href="webapps.html">Web Apps</a></li>
                         <li class="websites"><a class="websites-link" href="websites.html">Websites</a></li>
                         <li class="blog"><a href="/">Blog</a></li>
-                        <li class="hello"><a href="/">Home</a></li>
+
                     </ul>
 
                 </nav>
@@ -121,7 +120,7 @@
 
                     <h2>How can I help?</h2>
                     <p>Hello! I've been designing and developing <a href="#website">websites</a> that communicate, effective <a href="#elearning">e&#8209;learning</a> and really useful <a href="#webapp">web applications</a> since 2001.</p>
-                    <p>If need a Scottish ginger who loves his job and will discuss your project in plain English, <a href="#contact" title="Go to contact links.">please get in touch</a>.</p>
+                    <p>If you need a Scottish ginger who loves his job and will discuss your project in plain English, <a href="#contact" title="Go to contact links.">please get in touch</a>.</p>
                     <!-- <p>I love all aspects of front-end development and dabble with the server side stuff. </p> -->
 
                     </div>
@@ -136,13 +135,13 @@
                         <ul class="examples">
                             <li id="website" class="example-website">
                                 <a href="nmo-atfcm-case-study.html" title="Select to see a short case study of the new website.">
-                                    <h3 class="examples-thumbnail example-pg">patrickgrey.co.uk 2.0.1...</h3>
+                                    <h3 class="examples-thumbnail example-pg">patrickgrey.co.uk</h3>
                                     <p>High-performance mobile friendly personal website.</p>
                                 </a>
                             </li>
                             <li id="elearning" class="example-elearning">
                                 <a href="nmo-atfcm-case-study.html" title="Select to see a short case study of the NMO ATFCM Intro e-learning Project.">
-                                    <h3 class="examples-thumbnail example-nmo">NMO ATFCM E-learning</h3>
+                                    <h3 class="examples-thumbnail example-nmo">ATFCM E-learning</h3>
                                     <!-- <img class="examples-thumbnail" src="img/examples/thumbnails/example-thumb-nmo-atfcm-intro.gif" alt="Thumbnail screenshot of the NMO ATFCM Intro e-learning module."> -->
                                     <p>Mobile friendly built with Adobe Edge Animate.</p>
                                 </a>
@@ -156,7 +155,7 @@
                             </li>
                             <li class="example-elearning">
                                 <a href="flight-plan-guide-case-study.html" title="Select to see a short case study of the Headings Tutor game.">
-                                    <h3 class="examples-thumbnail example-ht">Headings Tutor Game</h3>
+                                    <h3 class="examples-thumbnail example-ht">Headings Game</h3>
                                     <!-- <img class="examples-thumbnail" src="img/examples/thumbnails/example-thumb-headings-tutor.gif" alt="Thumbnail screenshot of Headings Tutor HTML5 game.">
                                      --><p>An HTML5 canvas game built using createJS.</p>
                                 </a>
@@ -169,27 +168,39 @@
 
             </div>
 
-            <aside class="lab main-section" role="complementary"> <!-- Aside outside of article to show related to site, not article: http://html5doctor.com/aside-revisited/ -->
+            <aside class="recent-blogs main-section" role="complementary">
+                    <div class="main-section-inner">
 
-                <div class="main-section-inner">
+                            <h2>Recent Posts</h2>
+                            <ul class="blog-post-links">
+                                <li>
+                                    <h3><a href="#">Post title 1</a></h3>
+                                    <p>Blog summary Blog summary Blog summary Blog summary Blog summary Blog summary.</p>
+                                </li>
+                                <li>
+                                    <h3><a href="#">Post title 2</a></h3>
+                                    <p>Blog summary Blog summary Blog summary Blog summary Blog summary Blog summary.</p>
+                                </li>
+                                <li>
+                                    <h3><a href="#">Post title 3</a></h3>
+                                    <p>Blog summary Blog summary Blog summary Blog summary Blog summary Blog summary.</p>
+                                </li>
+                                <li>
+                                    <h3><a href="#">Post title 4</a></h3>
+                                    <p>Blog summary Blog summary Blog summary Blog summary Blog summary Blog summary.</p>
+                                </li>
+                            </ul>
 
-                    <h2>Lab</h2>
-
-                    <!-- <p class="lab-icon"><a href="lab.html"><img src="" alt="">Replace with inline image</a></p> -->
-
-                    <p>Thinking and playing: this is a playground of simple experiments and techniques to help me explore and document development best practice. <a href="lab.html" title="Go to an area where I put up small examples and experiments.">Come on in!</a></p>
-
-
-                </div>
+                    </div>
 
             </aside>
 
-            <footer class="contact-and-nav">
+            <aside class="contact main-section" role="complementary"> <!-- Aside outside of article to show related to site, not article: http://html5doctor.com/aside-revisited/ -->
 
-                <nav class="main-section">
+                <!-- <div class="main-section contact-nav"> -->
                     <div class="main-section-inner">
 
-                        <div class="contact-container">
+                        <!-- <div class="contact-container"> -->
                             <a name="contact"></a>
                             <h2>Contact details</h2>
                             <p>I build web stuff in the fine town of Dumbarton (near Glasgow), Scotland.</p>
@@ -201,14 +212,18 @@
                                 <li><a class="contact-linkedin" href="http://www.linkedin.com/in/patrickgrey">linkedin.com/in/patrickgrey</a></li>
                                 <li><a class="contact-youtube" href="https://www.youtube.com/websemantic">Youtube</a></li>
                             </ul>
-                        </div>
-                    </div>
-                </nav>
+                        <!-- </div> -->
 
+                    </div>
+                <!-- </div> -->
+
+            </aside>
+
+            <footer>
 
                 <!-- Put an image of myself at the bottom to push contact details up? -->
 
-                <nav class="nav">
+                <nav class="nav main-nav">
                     <a name="navigation-bottom"></a>
                     <!-- http://webaim.org/techniques/hypertext/ -->
                     <ul role="navigation" class="navigation navigation-bottom">

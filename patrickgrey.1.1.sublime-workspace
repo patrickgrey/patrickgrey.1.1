@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"back",
+				"background-size"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
 				"border-r",
 				"border-right"
 			],
@@ -227,7 +235,7 @@
 			"file": "app/index.html",
 			"settings":
 			{
-				"buffer_size": 14529,
+				"buffer_size": 14671,
 				"line_ending": "Windows"
 			}
 		},
@@ -235,7 +243,7 @@
 			"file": "app/_scss/_variables.scss",
 			"settings":
 			{
-				"buffer_size": 792,
+				"buffer_size": 853,
 				"line_ending": "Windows"
 			}
 		},
@@ -259,8 +267,16 @@
 			"file": "app/_scss/main.scss",
 			"settings":
 			{
-				"buffer_size": 2955,
+				"buffer_size": 3013,
 				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/_scss/_structure-media-queries.scss",
+			"settings":
+			{
+				"buffer_size": 1988,
+				"line_ending": "Windows"
 			}
 		},
 		{
@@ -272,26 +288,10 @@
 			}
 		},
 		{
-			"file": "app/_scss/_ie8-lab.scss",
+			"file": "app/_scss/_navigation.scss",
 			"settings":
 			{
-				"buffer_size": 112,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "app/_scss/_ie8-logo.scss",
-			"settings":
-			{
-				"buffer_size": 225,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "app/_scss/_contact-links.scss",
-			"settings":
-			{
-				"buffer_size": 1229,
+				"buffer_size": 3484,
 				"line_ending": "Windows"
 			}
 		},
@@ -372,25 +372,27 @@
 	},
 	"file_history":
 	[
+		"/D/Offline/patrickgrey/patrickgrey.1.1/app/_scss/_ie8-lab.scss",
+		"/D/Offline/patrickgrey/patrickgrey.1.1/app/_scss/_ie8-logo.scss",
 		"/D/Offline/patrickgrey/patrickgrey.1.1/app/_scss/_contact-links.scss",
-		"/D/Offline/patrickgrey/patrickgrey.1.1/app/_scss/_ie8-contact-links.scss",
 		"/D/Offline/patrickgrey/patrickgrey.1.1/app/_scss/_lab.scss",
-		"/D/Offline/patrickgrey/patrickgrey.1.1/app/_scss/_examples.scss",
+		"/D/Offline/patrickgrey/patrickgrey.1.1/app/_scss/_role-main.scss",
 		"/D/Offline/patrickgrey/patrickgrey.1.1/app/_scss/_navigation.scss",
+		"/D/Offline/patrickgrey/patrickgrey.1.1/app/_scss/_container.scss",
+		"/C/Users/Patrick/AppData/Roaming/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/D/Offline/patrickgrey/patrickgrey.1.1/app/_scss/_ie8-contact-links.scss",
+		"/D/Offline/patrickgrey/patrickgrey.1.1/app/_scss/_examples.scss",
 		"/D/Offline/patrickgrey/patrickgrey.1.1/app/_scss/_logo.scss",
 		"/D/Offline/patrickgrey/patrickgrey.1.1/app/_scss/ie8.scss",
 		"/D/Offline/patrickgrey/patrickgrey.1.1/app/_posts/2013-12-19-task-svg-icons.md",
-		"/D/Offline/patrickgrey/patrickgrey.1.1/app/_scss/_role-main.scss",
 		"/D/Offline/patrickgrey/patrickgrey.1.1/app/_scss/_font-family.scss",
 		"/D/Offline/patrickgrey/patrickgrey.1.1/Gruntfile.js",
-		"/D/Offline/patrickgrey/patrickgrey.1.1/app/_scss/_ie8-lab.scss",
 		"/D/Offline/patrickgrey/patrickgrey.1.1/package.json",
 		"/D/Offline/patrickgrey/patrickgrey.1.1/app/_scss/main.scss",
 		"/D/Offline/patrickgrey/patrickgrey.1.1/app/_posts/2013-12-19-task-tasks.md",
 		"/D/Offline/patrickgrey/patrickgrey.1.1/app/source/img/icons/Free-Social-Icons-master/Free-Social-Icons-master/README.md",
 		"/D/Offline/patrickgrey/patrickgrey.1.1/app/_posts/2013-12-19-workflow-workflow.md",
 		"/D/Offline/patrickgrey/patrickgrey.1.1/_config.yml",
-		"/C/Users/Patrick/AppData/Roaming/Sublime Text 2/Packages/User/Preferences.sublime-settings",
 		"/D/Offline/patrickgrey/patrickgrey.1.1/app/_posts/2013-12-19-workflow-ie8-testing.md",
 		"/D/Offline/patrickgrey/patrickgrey.1.1/dist/index.html",
 		"/D/Offline/patrickgrey/patrickgrey.1.1/.jekyll/task/svg/2013/12/19/svg-logo.html",
@@ -497,9 +499,7 @@
 		"/C/Users/Patrick/AppData/Roaming/Sublime Text 2/Packages/User/Default (Windows).sublime-keymap",
 		"/C/Users/Patrick/Desktop/ionicons-1.2.3/ionicons-1.2.3/readme.md",
 		"/D/Google Drive/eurocontrol/ians/2013/nmo-atfcm-intro-e/website/app/topics/t3/images/europeWithAfrica3.svg",
-		"/D/Google Drive/eurocontrol/ians/2013/nmo-atfcm-intro-e/website/app/topics/t3/t3p2NMOCAreas_edge.js",
-		"/D/Google Drive/eurocontrol/ians/2013/nmo-atfcm-intro-e/website/app/topics/t8/t8p1TopicObjectives_edge.js",
-		"/D/Google Drive/eurocontrol/ians/2013/nmo-atfcm-intro-e/website/app/topics/t7/t7p1TopicObjectives_edge.js"
+		"/D/Google Drive/eurocontrol/ians/2013/nmo-atfcm-intro-e/website/app/topics/t3/t3p2NMOCAreas_edge.js"
 	],
 	"find":
 	{
@@ -519,6 +519,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"width",
 			"<span></span>",
 			" {",
 			"span",
@@ -645,8 +646,7 @@
 			"ctotTolerance",
 			"1635",
 			"ctotText",
-			"showTextTab",
-			"btReplay"
+			"showTextTab"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -664,7 +664,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 5,
 			"sheets":
 			[
 				{
@@ -672,15 +672,15 @@
 					"file": "app/index.html",
 					"settings":
 					{
-						"buffer_size": 14529,
+						"buffer_size": 14671,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								7001,
-								7001
+								6708,
+								6708
 							]
 						],
 						"settings":
@@ -693,7 +693,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1925.0,
+						"translation.y": 2843.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -703,15 +703,15 @@
 					"file": "app/_scss/_variables.scss",
 					"settings":
 					{
-						"buffer_size": 792,
+						"buffer_size": 853,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								107,
-								107
+								157,
+								162
 							]
 						],
 						"settings":
@@ -739,8 +739,8 @@
 						"selection":
 						[
 							[
-								1703,
-								1703
+								1616,
+								1561
 							]
 						],
 						"settings":
@@ -779,7 +779,9 @@
 							"incomplete_sync": null,
 							"remote_loading": false,
 							"synced": false,
-							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -792,15 +794,15 @@
 					"file": "app/_scss/main.scss",
 					"settings":
 					{
-						"buffer_size": 2955,
+						"buffer_size": 3013,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								140,
-								140
+								480,
+								480
 							]
 						],
 						"settings":
@@ -820,6 +822,37 @@
 				},
 				{
 					"buffer": 5,
+					"file": "app/_scss/_structure-media-queries.scss",
+					"settings":
+					{
+						"buffer_size": 1988,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								689,
+								689
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 357.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
 					"file": "app/_scss/_role-main.scss",
 					"settings":
 					{
@@ -830,8 +863,8 @@
 						"selection":
 						[
 							[
-								870,
-								870
+								988,
+								444
 							]
 						],
 						"settings":
@@ -842,35 +875,6 @@
 							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "app/_scss/_ie8-lab.scss",
-					"settings":
-					{
-						"buffer_size": 112,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -880,66 +884,37 @@
 				},
 				{
 					"buffer": 7,
-					"file": "app/_scss/_ie8-logo.scss",
+					"file": "app/_scss/_navigation.scss",
 					"settings":
 					{
-						"buffer_size": 225,
+						"buffer_size": 3484,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								1257,
+								1211
 							]
 						],
 						"settings":
 						{
-							"incomplete_sync": null,
+							"incomplete_sync": true,
 							"remote_loading": false,
 							"synced": false,
-							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 714.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 8,
-					"file": "app/_scss/_contact-links.scss",
-					"settings":
-					{
-						"buffer_size": 1229,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								295,
-								295
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 9,
 					"file": "app/_scss/_lab.scss",
 					"settings":
 					{
@@ -950,13 +925,13 @@
 						"selection":
 						[
 							[
-								289,
-								289
+								461,
+								204
 							]
 						],
 						"settings":
 						{
-							"incomplete_sync": null,
+							"incomplete_sync": true,
 							"remote_loading": false,
 							"synced": false,
 							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
