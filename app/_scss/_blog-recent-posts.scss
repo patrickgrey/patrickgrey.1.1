@@ -1,0 +1,29 @@
+.blog-post-links {
+  list-style: none;
+  padding-left: 1em;
+}
+
+.blog-post-links li h3:before{
+  content: " ";
+    display: inline-block;
+    width: 10px;
+    height: 16px;
+    margin-right: 1em;
+    // margin-left:50%;
+    // background: $body-background-colour url('../img/logo/drop-blue.png') no-repeat 50% 100%;
+    background: $body-background-colour url('../img/icons/icons_sprite.svg') no-repeat 0 -70px;
+    // background-position: -99px 0;
+    // margin-top: 2em;
+}
+
+.blog-post-links h3{
+  margin-bottom: 0;
+}
+
+.blog-post-links p{
+  margin-top: 0.5em;
+}
+
+/* ul */.blog-post-links a:link, /* ul */.blog-post-links a:visited{
+    color: $role-main-link-colour;
+}

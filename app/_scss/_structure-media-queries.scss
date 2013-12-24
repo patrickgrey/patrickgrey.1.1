@@ -9,6 +9,15 @@
         width: 49%;
     }
 
+    .contact-links {
+        overflow: auto;
+    }
+
+    .contact-links li{
+        float:left;
+        width:49%;
+    }
+
     .work-examples, .contact-nav {
         margin-left: 2%;
     }
