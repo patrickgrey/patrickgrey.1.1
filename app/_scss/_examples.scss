@@ -39,18 +39,20 @@
 }
 
 .example-website .examples-thumbnail:after, .example-website h3{
-    border-color: $logo-colours-green;
-    color: $logo-colours-green;
+    /* border-color: $logo-colours-green;
+    color: $logo-colours-green; */
+    border-color: $logo-colours-drop-3;
+    color: $logo-colours-drop-3;
 }
 
 .example-elearning .examples-thumbnail:after, .example-elearning h3{
-    border-color: $logo-colours-drop-2;
-    color: $logo-colours-drop-2;
+    border-color: $logo-colours-drop-1;
+    color: $logo-colours-drop-1;
 }
 
 .example-webapp .examples-thumbnail:after, .example-webapp h3{
-    border-color: $logo-colours-drop-3;
-    color: $logo-colours-drop-3;
+    border-color: $logo-colours-drop-2;
+    color: $logo-colours-drop-2;
 }
 
 .example-nmo:after{

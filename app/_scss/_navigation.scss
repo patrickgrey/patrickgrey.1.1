@@ -39,12 +39,13 @@
 }
 
 /* ul .navigation li*/.hello {
-    background-color: $logo-colours-hello-bg;
+    // background-color: $logo-colours-hello-bg;
+    background-color: $logo-colours-green;
 }
 
-.navigation li.hello a {
+/* .navigation li.hello a {
     color: $logo-colours-hello-colour;
-}
+} */
 
 /* ul .navigation li*/.elearning {
     background-color: $logo-colours-drop-1;
@@ -65,6 +66,12 @@
 
 /* ul */.navigation-top {
     display: none;
+}
+
+.navigation-top-container {
+    margin-top: 3em;
+    margin-bottom: 3em;
+    overflow: auto;
 }
 
 .jump-to-navigation-bottom{
