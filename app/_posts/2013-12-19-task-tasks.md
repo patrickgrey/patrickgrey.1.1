@@ -5,8 +5,6 @@ tags: tasks
 categories: task
 ---
 
-# About Tasks
-
 I want to better structure my workflow.
 
 I use my personal projects to learn things. In web development, there is a never ending stream of things to learn. Unfortunately, I have a terrible tendancy to get distracted by shiny things. So, when I should be doing one task, I find a tool or technique that I can use in another part of the project. I sometimes move onto that as the solution is something sexy.

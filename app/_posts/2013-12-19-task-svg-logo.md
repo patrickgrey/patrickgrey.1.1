@@ -1,11 +1,10 @@
 ---
 layout: post
-title:  "SVG Logo with png fallback"
+title:  "Create a SVG Logo with png fallback"
 tags: responsive svg
 categories: task
+excerpt: "<p>This is the excerpt!</p>"
 ---
-
-# Create a SVG Logo with png fallback
 
 ## Task: Add a responsive svg logo to my website that will show a png fallback in browsers that don't support svg. It should also act as an accessible link to the home page. Finally, I would also like to leave open the option to animate the svg with CSS once JavaScript is introduced to the site.
 

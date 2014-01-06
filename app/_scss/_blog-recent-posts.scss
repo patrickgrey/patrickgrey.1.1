@@ -1,7 +1,13 @@
 .blog-post-links {
+  //position: relative;
   list-style: none;
   padding-left: 1em;
 }
+
+/* .blog-post-link {
+  padding-bottom: 1em;
+  position: relative;
+} */
 
 .blog-post-links li h3:before{
   content: " ";
@@ -26,4 +32,12 @@
 
 /* ul */.blog-post-links a:link, /* ul */.blog-post-links a:visited{
     color: $role-main-link-colour;
+}
+
+.blog-post-link-date {
+  // float:right;
+  display: block;
+  margin: 0.75em 0 1em 0;
+  color: #999;
+  font-size: 110%;
 }

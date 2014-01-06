@@ -4,7 +4,7 @@ title:  "Bugs and improvements to Edge Animate"
 categories: Edge-Animate
 ---
 
-# Bugs and improvements to Edge Animate
+This document blah, blah excerpt.
 
 ## Improvements
 

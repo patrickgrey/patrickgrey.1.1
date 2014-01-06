@@ -1,11 +1,9 @@
 ---
 layout: post
-title:  "IE8 Testing"
+title:  "IE8 Workflow"
 tags: testing ie8
 categories: workflow
 ---
-
-# Workflow for testing websites in IE8
 
 I was using IETester which was fine for a while but would crash with the slightest problem on the page. At least this let me know something was wrong but not much help in debugging.
 
