@@ -68,6 +68,24 @@
     display: none;
 }
 
+/* ul */.navigation-top .navigation-active {
+    border-bottom: solid 15px #CCC;
+}
+
+/* ul */.navigation-bottom .navigation-active {
+    border-left: solid 15px #CCC;
+    // margin-left: -15px;
+}
+
+/* ul */.navigation-bottom .navigation-active a {
+    // border-left: solid 15px #CCC;
+    margin-left: -15px;
+}
+
+/* .navigation-active {
+    text-decoration: underline;
+} */
+
 .navigation-top-container {
     margin-top: 3em;
     margin-bottom: 3em;
