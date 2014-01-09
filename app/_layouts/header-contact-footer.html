@@ -18,25 +18,25 @@
         <link href='http://fonts.googleapis.com/css?family=Fjalla+One' rel='stylesheet' type='text/css'>
 
 
-        <!-- build:css({app,.tmp}) css/main.css -->
+        <!-- build:css({app,.tmp}) /css/main.css -->
         <!-- Custom CSS -->
-        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="/css/main.css">
         <!-- endbuild -->
 
-        <!-- build:css({app,.tmp}) css/ie8.css -->
+        <!-- build:css({app,.tmp}) /css/ie8.css -->
         <!--[if lt IE 9]>
-            <link rel="stylesheet" href="css/ie8.css">
+            <link rel="stylesheet" href="/css/ie8.css">
         <![endif]-->
         <!-- endbuild -->
 
 
         <!-- Launch Icon links [Start] -->
-        <link rel="shortcut icon" href="img/favicon/favicon.ico" />
-        <link rel="apple-touch-icon-precomposed" sizes="144x144" href="img/favicon/apple-touch-icon-144x144-precomposed.png" />
-        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="img/favicon/apple-touch-icon-114x114-precomposed.png" />
-        <link rel="apple-touch-icon-precomposed" sizes="72x72" href="img/favicon/apple-touch-icon-72x72-precomposed.png" />
-        <link rel="apple-touch-icon-precomposed" href="img/favicon/apple-touch-icon-57x57-precomposed.png" />
-        <link rel="apple-touch-icon" href="img/favicon/apple-touch-icon.png" />
+        <link rel="shortcut icon" href="/img/favicon/favicon.ico" />
+        <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/img/favicon/apple-touch-icon-144x144-precomposed.png" />
+        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/img/favicon/apple-touch-icon-114x114-precomposed.png" />
+        <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/img/favicon/apple-touch-icon-72x72-precomposed.png" />
+        <link rel="apple-touch-icon-precomposed" href="/img/favicon/apple-touch-icon-57x57-precomposed.png" />
+        <link rel="apple-touch-icon" href="/img/favicon/apple-touch-icon.png" />
         <!-- Launch Icon links [End] -->
 
         <!-- Fix for Windows Phone 8 -->
@@ -82,8 +82,8 @@
                         <!-- http://codepen.io/cwebba1/pen/qItAC# -->
                         <!-- http://soqr.fr/testsvg/svg-link-with-object.php -->
                         <!-- http://stackoverflow.com/questions/2753732/how-to-access-svg-elements-with-javascript -->
-                        <object type="image/svg+xml" data="img/logo/patrick-grey-logo.svg" class="logo-object">
-                            <img src="img/logo/patrick-grey-logo.png" alt="Patrick Grey logo">
+                        <object type="image/svg+xml" data="/img/logo/patrick-grey-logo.svg" class="logo-object">
+                            <img src="/img/logo/patrick-grey-logo.png" alt="Patrick Grey logo">
                             &nbsp;
                         </object>
                         <!-- http://soqr.fr/testsvg/svg-link-with-object.php span required to make links work. -->
@@ -103,10 +103,10 @@
 
                         <li class="hello {{ page.hello-active }}"><a href="/">Home</a></li>
                         <!-- escape character used instead of dash to avoid e and learning ending up on different lines. -->
-                        <li class="elearning {{ page.elearning-active }}"><a href="elearning.html">E&#8209;learning</a></li>
-                        <li class="webapps {{ page.webapps-active }}"><a href="webapps.html">Web Apps</a></li>
-                        <li class="websites {{ page.websites-active }}"><a class="websites-link" href="websites.html">Websites</a></li>
-                        <li class="blog {{ page.blog-active }}"><a href="blog.html">Blog</a></li>
+                        <li class="elearning {{ page.elearning-active }}"><a href="/elearning.html">E&#8209;learning</a></li>
+                        <li class="webapps {{ page.webapps-active }}"><a href="/webapps.html">Web Apps</a></li>
+                        <li class="websites {{ page.websites-active }}"><a class="websites-link" href="/websites.html">Websites</a></li>
+                        <li class="blog {{ page.blog-active }}"><a href="/blog/index.html">Blog</a></li>
 
                     </ul>
 
@@ -122,6 +122,31 @@
 
 
             {{ content }}
+
+
+
+
+            {% if page.is-blog != "isBlog" %}
+            <aside class="recent-blogs main-section" role="complementary">
+                    <div class="main-section-inner">
+
+                            <h2>Recent Posts</h2>
+                            <ul class="blog-post-links">
+
+                                {% for post in site.posts limit:site.recent-post-count %}
+                                <li class="blog-post-link">
+                                    <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+                                    <small class="blog-post-link-date">{{ post.date | date: "%-d %B %Y" }}</small>
+                                    {{ post.excerpt }}
+                                </li>
+                                {% endfor %}
+
+                            </ul>
+
+                    </div>
+
+            </aside>
+            {% endif %}
 
 
 
@@ -161,10 +186,10 @@
                     <ul role="navigation" class="navigation navigation-bottom">
                         <li class="hello {{ page.hello-active }}"><a href="/">Home</a></li>
                         <!-- escape character used instead of dash to avoid e and learning ending up on different lines. -->
-                        <li class="elearning {{ page.elearning-active }}"><a href="elearning.html">E&#8209;learning</a></li>
-                        <li class="webapps {{ page.webapps-active }}"><a href="webapps.html">Web Apps</a></li>
-                        <li class="websites {{ page.websites-active }}"><a class="websites-link" href="websites.html">Websites</a></li>
-                        <li class="blog {{ page.blog-active }}"><a href="blog.html">Blog</a></li>
+                        <li class="elearning {{ page.elearning-active }}"><a href="/elearning.html">E&#8209;learning</a></li>
+                        <li class="webapps {{ page.webapps-active }}"><a href="/webapps.html">Web Apps</a></li>
+                        <li class="websites {{ page.websites-active }}"><a class="websites-link" href="/websites.html">Websites</a></li>
+                        <li class="blog {{ page.blog-active }}"><a href="/blog/index.html">Blog</a></li>
                     </ul>
 
                 </nav>

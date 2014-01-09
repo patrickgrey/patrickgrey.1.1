@@ -22,11 +22,14 @@ show_drafts: true
 
 permalink: date
 
-#paginate: 3
-#paginate_path: 'page:num'
+paginate: 3
+paginate_path: 'blog/page:num'
 
 # Markdown library
 markdown: redcarpet
 #   extensions: ['fenced_code_blocks', 'smart']
 
 pygments: false
+
+# Custom Variables
+recent-post-count: 5
