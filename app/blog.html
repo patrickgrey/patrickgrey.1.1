@@ -2,10 +2,16 @@
 layout: blog
 ---
 
-{% for post in site.posts limit:10 %}
+{% for post in site.posts limit:15 %}
 <li class="blog-post-link">
     <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
     <small class="blog-post-link-date">{{ post.date | date: "%-d %B %Y" }}</small>
-    {{ post.excerpt }}
+    {% if forloop.index < 5 %}
+        {{ post.excerpt }}
+    {% endif %}
 </li>
 {% endfor %}
+
+
+
+<span class="blog-more-instructions">Please use the Categories and Archive listings below to search X older posts.</span>
