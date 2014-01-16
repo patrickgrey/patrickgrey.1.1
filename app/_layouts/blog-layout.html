@@ -1,5 +1,7 @@
 ---
 layout: header-contact-footer
+blog-active: "navigation-active"
+is-blog: "isBlog"
 ---
 
             <div role="main" class="main">
@@ -7,26 +9,13 @@ layout: header-contact-footer
                 <div class="about-patrick main-section-no-top blog-post-list">
                     <div class="main-section-inner">
 
-                    <h2>Blog</h2>
-                    <ul class="blog-post-links">
+
 
                         <!-- Note, should blog links show categories? -->
 
                         {{ content }}
 
-                        <!--
-                            I initially wanted to use Jekyll Pagination but couldn't get that to work.
-                            It was really buggy, Paginator variable was empty and, even though the page number pages were created,
-                            they had the wrong number of posts in them and the same posts in each page.
 
-                            Until I can get that working, the desktop solution is to list all blogs but only show excerpts for the first 10 or so, then show links for the rest.
-
-                            For mobile, this creates too long a list and hides the Categories and Archive lists. In this case I will hide all posts after 20. I wanted to have a CSS only show hide toggle button but that is a hack and unreliable it seems.
-
-                            Note this should be temporary until pagination is fixed.
-                         -->
-
-                    </ul>
 
                     </div>
                 </div>
@@ -35,7 +24,7 @@ layout: header-contact-footer
 
                     <div class="main-section-inner">
 
-                        <h2>Categories</h2>
+                        <h3>Categories</h3>
                         <!--
                             http://docs.shopify.com/themes/liquid-basics/output#last
                             http://docs.shopify.com/themes/liquid-basics/logic
@@ -48,11 +37,11 @@ layout: header-contact-footer
 
                             {% if forloop.last %}
 
-                                <a href="categories/{{ cat[0] }}/"  title="Category: {{ cat[0] }}">{{ cat[0] }}</a>
+                                <a href="{{ site.url }}/blog/categories/{{ cat[0] }}/"  title="Category: {{ cat[0] }}">{{ cat[0] }}</a>
 
                             {% else %}
 
-                                <a href="categories/{{ cat[0] }}/"  title="Category: {{ cat[0] }}">{{ cat[0] }}</a>,&nbsp;
+                                <a href="{{ site.url }}/blog/categories/{{ cat[0] }}/"  title="Category: {{ cat[0] }}">{{ cat[0] }}</a>,&nbsp;
 
                             {% endif %}
                             <!-- Need to chec if last and not add comma - or check if first and add comma after -->
@@ -63,13 +52,10 @@ layout: header-contact-footer
 
                     <div class="main-section-inner">
 
-                        <h2>Archive</h2>
-                        <ul class="examples">
-                            <li id="website" class="example-website">
-                                <a href="nmo-atfcm-case-study.html" title="">Arch</a>
-                            </li>
+                        <h3>Archive</h3>
 
-                        </ul>
+                        <p><a href="{{ site.url }}/blog/archive/index.html" title="Full list of posts by date.">Blog archive</a></p>
+
 
                     </div>
 

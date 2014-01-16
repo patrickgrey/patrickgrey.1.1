@@ -20,9 +20,12 @@ include: ['.htaccess']
 future: true
 show_drafts: true
 
-permalink: date
+#permalink: date
+permalink: /blog/:categories/:year/:month/:day/:title.html
 
-paginate: 3
+#url: http://patrickgrey.co.uk/clients/patrickgrey/2013/pg1_1
+
+paginate: 10
 paginate_path: 'blog/page:num'
 
 # Markdown library
@@ -33,3 +36,8 @@ pygments: false
 
 # Custom Variables
 recent-post-count: 5
+
+# Plugin Variables
+category_dir: "blog/categories"
+monthly_archive:
+  path: "blog/archive"

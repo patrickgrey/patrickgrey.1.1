@@ -1,12 +1,12 @@
 ---
-layout: post
+layout: blog-post-layout
 title:  "Create SVG icons using a spritesheet and with png fallback"
 tags: icons svg
 categories: task
 excerpt: "<p>This is the excerpt!</p>"
 ---
 
-## Task: I want to use icons for the lab section and the social media links on my site. A sprite sheet should be used to reduce network calls.
+### Task: I want to use icons for the lab section and the social media links on my site. A sprite sheet should be used to reduce network calls.
 
 I was considering how to get scaled png fallbacks for svg to cope with retina screens. By scaled, I meant using the technique of creating highly optimised large images and then scaling them in half, which often helps  provide detail for retina screens it seems.
 

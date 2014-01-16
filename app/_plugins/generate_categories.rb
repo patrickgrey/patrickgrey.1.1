@@ -105,7 +105,7 @@ module Jekyll
     #  +category_dir+ is the String path between <source> and the category folder.
     #  +category+     is the category currently being processed.
     def initialize(site, base, category_dir, category)
-      template_path = File.join(base, '_layouts', 'category_index.html')
+      template_path = File.join(base, '_layouts', 'blog-category-layout.html')
       super(template_path, 'index.html', site, base, category_dir, category)
     end
 
@@ -159,7 +159,7 @@ module Jekyll
 
     # Loops through the list of category pages and processes each one.
     def write_category_indexes
-      if self.layouts.key? 'category_index'
+      if self.layouts.key? 'blog-category-layout'
         self.categories.keys.each do |category|
           self.write_category_index(category)
         end

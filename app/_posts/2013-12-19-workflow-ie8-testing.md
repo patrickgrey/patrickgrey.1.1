@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: blog-post-layout
 title:  "Workflow for testing websites in IE8"
 tags: testing ie8
 categories: workflow
