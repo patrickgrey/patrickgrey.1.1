@@ -7,7 +7,7 @@ html, body {
     color: #555; */
 }
 
-p, .contact-links, .post ul {
+p, .contact-links, .post ul, .post ol {
     // font-family: "helvetica", "arial", sans-serif;
     // font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
     font-weight: 300;
@@ -33,7 +33,7 @@ h1, h2, h3, .navigation {
 
 
 @media all and (min-width: $break-points-font-medium) {
-    p, .contact-links, .post ul {
+    p, .contact-links, .post ul, .post ol {
         font-size: 110%*1.5;
         // line-height: 1.5em;
     }

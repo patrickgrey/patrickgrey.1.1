@@ -38,7 +38,7 @@
   // float:right;
   display: block;
   margin: 0.75em 0 1em 0;
-  color: #999;
+  color: $post-subtle-colour;
   font-size: 110%;
 }
 
@@ -51,7 +51,14 @@
   margin-top: 2em;
 }
 
-.post img {
+.post img, .post figcaption {
+  display: block;
   width:100%;
 }
 
+.post figcaption {
+  // text-align: center;
+  font-size: 1em;
+  margin-top: 1em;
+  color: $post-subtle-colour;
+}

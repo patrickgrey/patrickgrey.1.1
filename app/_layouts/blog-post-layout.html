@@ -5,7 +5,7 @@ layout: blog-layout
             <h2>{{ page.title }}</h2>
 
             <p><small class="blog-post-link-date">{{ page.date | date: "%-d %B %Y" }}</small></p>
-            <p><small>Reading time ~{{ content.size | readtime }} min, Categories:
+            <p><small>Reading time ~{{ content.size | readtime }} min | Categories:
             {% for category in page.categories %}
                 <a href="{{ site.url }}/blog/categories/{{ category  }}">{{ category  }}</a>&nbsp;
             {% endfor %}
