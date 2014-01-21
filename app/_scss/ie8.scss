@@ -102,6 +102,23 @@ h3 {
     background-size:100%;
 }
 
+.example-fple:after{
+    background-image: url(../img/examples/thumbnails/ie-example-webapp-thumb-sprite-sheet.jpg);
+}
+
+.example-sayagain:after {
+    background-image: url(../img/examples/thumbnails/ie-example-webapp-thumb-sprite-sheet.jpg);
+}
+
+.example-fpl:after{
+    background-image: url(../img/examples/thumbnails/ie-example-webapp-thumb-sprite-sheet.jpg);
+}
+
+.example-ap:after {
+    background-image: url(../img/examples/thumbnails/ie-example-webapp-thumb-sprite-sheet.jpg);
+}
+
+
 .main {
     // border: 1px solid #000000;
     overflow: auto;

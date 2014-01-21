@@ -71,6 +71,26 @@
     background-position: -100px -100px;
 }
 
+.example-fple:after{
+    background-image: url(../img/examples/thumbnails/example-webapp-thumb-sprite-sheet.jpg);
+    background-position: -100px 0;
+}
+
+.example-sayagain:after {
+    background-image: url(../img/examples/thumbnails/example-webapp-thumb-sprite-sheet.jpg);
+    background-position: 0 -100px;
+}
+
+.example-fpl:after{
+    background-image: url(../img/examples/thumbnails/example-webapp-thumb-sprite-sheet.jpg);
+    background-position: 0 0;
+}
+
+.example-ap:after {
+    background-image: url(../img/examples/thumbnails/example-webapp-thumb-sprite-sheet.jpg);
+    background-position: -100px -100px;
+}
+
 .examples p{
         margin-top: 0;
     }
