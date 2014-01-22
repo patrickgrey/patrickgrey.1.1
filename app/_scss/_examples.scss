@@ -71,25 +71,72 @@
     background-position: -100px -100px;
 }
 
-.example-fple:after{
+
+
+.example-webapp .example-fple:after{
     background-image: url(../img/examples/thumbnails/example-webapp-thumb-sprite-sheet.jpg);
     background-position: -100px 0;
 }
 
-.example-sayagain:after {
+.example-webapp .example-sayagain:after {
     background-image: url(../img/examples/thumbnails/example-webapp-thumb-sprite-sheet.jpg);
     background-position: 0 -100px;
 }
 
-.example-fpl:after{
+.example-webapp .example-fpl:after{
     background-image: url(../img/examples/thumbnails/example-webapp-thumb-sprite-sheet.jpg);
     background-position: 0 0;
 }
 
-.example-ap:after {
+.example-webapp .example-ap:after {
     background-image: url(../img/examples/thumbnails/example-webapp-thumb-sprite-sheet.jpg);
     background-position: -100px -100px;
 }
+
+
+
+
+.example-elearning .example-nmo:after{
+    background-image: url(../img/examples/thumbnails/example-elearning-thumb-sprite-sheet.jpg);
+    background-position: 0 0;
+}
+
+.example-elearning .example-consult:after {
+    background-image: url(../img/examples/thumbnails/example-elearning-thumb-sprite-sheet.jpg);
+    background-position: -100px 0;
+}
+
+.example-elearning .example-acdm:after{
+    background-image: url(../img/examples/thumbnails/example-elearning-thumb-sprite-sheet.jpg);
+    background-position: -100px -100px;
+}
+
+.example-elearning .example-ht:after {
+    background-image: url(../img/examples/thumbnails/example-elearning-thumb-sprite-sheet.jpg);
+    background-position: 0 -100px;
+}
+
+
+
+
+.example-website .example-btc:after{
+    background-image: url(../img/examples/thumbnails/example-website-thumb-sprite-sheet.jpg);
+    background-position: 0 0;
+}
+
+.example-website .example-pg:after {
+    background-image: url(../img/examples/thumbnails/example-website-thumb-sprite-sheet.jpg);
+    background-position: -100px 0;
+}
+
+.example-website .example-jg:after{
+    background-image: url(../img/examples/thumbnails/example-website-thumb-sprite-sheet.jpg);
+    background-position: 0 -100px;
+}
+
+
+
+
 
 .examples p{
         margin-top: 0;

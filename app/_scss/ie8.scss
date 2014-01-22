@@ -102,20 +102,52 @@ h3 {
     background-size:100%;
 }
 
-.example-fple:after{
+.example-webapp .example-fple:after{
     background-image: url(../img/examples/thumbnails/ie-example-webapp-thumb-sprite-sheet.jpg);
 }
 
-.example-sayagain:after {
+.example-webapp .example-sayagain:after {
     background-image: url(../img/examples/thumbnails/ie-example-webapp-thumb-sprite-sheet.jpg);
 }
 
-.example-fpl:after{
+.example-webapp .example-fpl:after{
     background-image: url(../img/examples/thumbnails/ie-example-webapp-thumb-sprite-sheet.jpg);
 }
 
-.example-ap:after {
+.example-webapp .example-ap:after {
     background-image: url(../img/examples/thumbnails/ie-example-webapp-thumb-sprite-sheet.jpg);
+}
+
+
+
+
+.example-elearning .example-nmo:after{
+    background-image: url(../img/examples/thumbnails/ie-example-elearning-thumb-sprite-sheet.jpg);
+}
+
+.example-elearning .example-consult:after {
+    background-image: url(../img/examples/thumbnails/ie-example-elearning-thumb-sprite-sheet.jpg);
+}
+
+.example-elearning .example-acdm:after{
+    background-image: url(../img/examples/thumbnails/ie-example-elearning-thumb-sprite-sheet.jpg);
+}
+
+.example-elearning .example-ht:after {
+    background-image: url(../img/examples/thumbnails/ie-example-elearning-thumb-sprite-sheet.jpg);
+}
+
+
+.example-website .example-btc:after{
+    background-image: url(../img/examples/thumbnails/ie-example-website-thumb-sprite-sheet.jpg);
+}
+
+.example-website .example-pg:after {
+    background-image: url(../img/examples/thumbnails/ie-example-website-thumb-sprite-sheet.jpg);
+}
+
+.example-website .example-jg:after{
+    background-image: url(../img/examples/thumbnails/ie-example-website-thumb-sprite-sheet.jpg);
 }
 
 
