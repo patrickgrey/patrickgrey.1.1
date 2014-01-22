@@ -239,72 +239,56 @@
 			"file": "app/elearning.html",
 			"settings":
 			{
-				"buffer_size": 3316,
+				"buffer_size": 3304,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "app/_scss/_examples.scss",
+			"file": "app/_posts/2014-01-11-case-elearning-acdm.md",
 			"settings":
 			{
-				"buffer_size": 3733,
-				"line_ending": "Windows"
+				"buffer_size": 2517,
+				"line_ending": "Unix"
 			}
 		},
 		{
 			"file": "app/index.html",
 			"settings":
 			{
-				"buffer_size": 3310,
+				"buffer_size": 3413,
 				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "app/_scss/_variables.scss",
-			"settings":
-			{
-				"buffer_size": 881,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/C/Users/Patrick/AppData/Roaming/Sublime Text 2/Packages/User/Preferences.sublime-settings",
-			"settings":
-			{
-				"buffer_size": 861,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/_scss/ie8.scss",
-			"settings":
-			{
-				"buffer_size": 3451,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "app/_posts/2014-01-11-case-website-barnes-tennis-club.md",
-			"settings":
-			{
-				"buffer_size": 1856,
-				"line_ending": "Unix"
 			}
 		},
 		{
 			"file": "app/websites.html",
 			"settings":
 			{
-				"buffer_size": 2785,
+				"buffer_size": 2789,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "app/_posts/2014-01-11-case-website-jock-gordon.md",
+			"file": "app/_scss/_blog-recent-posts.scss",
 			"settings":
 			{
-				"buffer_size": 1313,
-				"line_ending": "Unix"
+				"buffer_size": 8865,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/_scss/_footer.scss",
+			"settings":
+			{
+				"buffer_size": 953,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/_scss/_structure-media-queries.scss",
+			"settings":
+			{
+				"buffer_size": 2415,
+				"line_ending": "Windows"
 			}
 		}
 	],
@@ -380,6 +364,12 @@
 	},
 	"file_history":
 	[
+		"/D/Offline/patrickgrey/patrickgrey.1.1/app/_scss/_examples.scss",
+		"/D/Offline/patrickgrey/patrickgrey.1.1/app/_scss/_variables.scss",
+		"/C/Users/Patrick/AppData/Roaming/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/D/Offline/patrickgrey/patrickgrey.1.1/app/_scss/ie8.scss",
+		"/D/Offline/patrickgrey/patrickgrey.1.1/app/_posts/2014-01-11-case-website-barnes-tennis-club.md",
+		"/D/Offline/patrickgrey/patrickgrey.1.1/app/websites.html",
 		"/D/Offline/patrickgrey/patrickgrey.1.1/app/webapps.html",
 		"/D/Offline/patrickgrey/patrickgrey.1.1/app/_posts/2014-01-10-case-fpl.md",
 		"/D/Offline/patrickgrey/patrickgrey.1.1/app/_posts/2014-01-11-case-phr.md",
@@ -388,7 +378,6 @@
 		"/D/Offline/patrickgrey/patrickgrey.1.1/app/_scss/_font-family.scss",
 		"/D/Offline/patrickgrey/patrickgrey.1.1/app/_layouts/blog-post-layout.html",
 		"/C/Users/Patrick/AppData/Roaming/Sublime Text 2/Packages/User/Markdown.sublime-settings",
-		"/C/Users/Patrick/AppData/Roaming/Sublime Text 2/Packages/User/Preferences.sublime-settings",
 		"/D/Offline/patrickgrey/patrickgrey.1.1/app/_includes/post_image.html",
 		"/D/Google Drive/eurocontrol/ians/2013/FPLErrors/ians2013fpleadmin/js/item.js",
 		"/D/Google Drive/eurocontrol/ians/2013/FPLErrors/ians2013fpleadmin/js/main.js",
@@ -406,7 +395,6 @@
 		"/D/Offline/patrickgrey/patrickgrey.1.1/app/_posts/2013-06-05-patrick-grey-logo-design.md",
 		"/D/Offline/patrickgrey/patrickgrey.1.1/app/elearning.html",
 		"/D/Offline/patrickgrey/patrickgrey.1.1/app/index.html",
-		"/D/Offline/patrickgrey/patrickgrey.1.1/app/websites.html",
 		"/D/Offline/patrickgrey/patrickgrey.1.1/app/_layouts/blog-archive-layout.html",
 		"/D/Offline/patrickgrey/patrickgrey.1.1/app/blog/archive/index.html",
 		"/D/Offline/patrickgrey/patrickgrey.1.1/app/_layouts/blog-category-layout.html",
@@ -443,17 +431,14 @@
 		"/D/Offline/patrickgrey/patrickgrey.1.1/app/_scss/_logo.scss",
 		"/D/Offline/patrickgrey/patrickgrey.1.1/_config.build.yml",
 		"/D/Offline/patrickgrey/patrickgrey.1.1/.jekyll/page2/index.html",
-		"/D/Offline/patrickgrey/patrickgrey.1.1/app/_scss/_variables.scss",
 		"/D/Offline/patrickgrey/patrickgrey.1.1/.jekyll/blog/page2/index.html",
 		"/D/Offline/patrickgrey/patrickgrey.1.1/.jekyll/blog/page3/index.html",
-		"/D/Offline/patrickgrey/patrickgrey.1.1/app/_scss/ie8.scss",
 		"/D/Offline/patrickgrey/patrickgrey.1.1/app/_layouts/archive_index.html",
 		"/D/Offline/patrickgrey/patrickgrey.1.1/app/_plugins/generate_archives.rb",
 		"/D/Offline/patrickgrey/patrickgrey.1.1/app/_plugins/generate_sitemap.rb",
 		"/D/Offline/patrickgrey/patrickgrey.1.1/.jekyll/sitemap.xml",
 		"/D/Offline/patrickgrey/patrickgrey.1.1/app/_layouts/webapps.html",
 		"/D/Offline/patrickgrey/patrickgrey.1.1/app/_layouts/websites.html",
-		"/D/Offline/patrickgrey/patrickgrey.1.1/app/_scss/_examples.scss",
 		"/D/Offline/patrickgrey/patrickgrey.1.1/app/_layouts/index.html",
 		"/D/Offline/patrickgrey/patrickgrey.1.1/app/_scss/_role-main.scss",
 		"/D/Offline/patrickgrey/patrickgrey.1.1/app/_layouts/defaultxxx.html",
@@ -506,8 +491,7 @@
 		"/D/Google Drive/eurocontrol/ians/2013/nmo-atfcm-intro-e/module/app/topics/t8/t8p5ReleasingSlots_edge.js",
 		"/C/Users/Patrick/AppData/Roaming/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
 		"/D/Google Drive/eurocontrol/ians/2013/nmo-atfcm-intro-e/module/app/topics/t5/t5p6PostOps.dev.js",
-		"/C/Users/Patrick/Desktop/hangman_fg.py",
-		"/D/Google Drive/eurocontrol/ians/2013/nmo-atfcm-intro-e/module/app/topics/t8/t8p4CTOTTolerance_edge.js"
+		"/C/Users/Patrick/Desktop/hangman_fg.py"
 	],
 	"find":
 	{
@@ -674,7 +658,7 @@
 	"groups":
 	[
 		{
-			"selected": 8,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -682,15 +666,15 @@
 					"file": "app/elearning.html",
 					"settings":
 					{
-						"buffer_size": 3316,
+						"buffer_size": 3304,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2853,
-								2853
+								2395,
+								2395
 							]
 						],
 						"settings":
@@ -710,18 +694,18 @@
 				},
 				{
 					"buffer": 1,
-					"file": "app/_scss/_examples.scss",
+					"file": "app/_posts/2014-01-11-case-elearning-acdm.md",
 					"settings":
 					{
-						"buffer_size": 3733,
+						"buffer_size": 2517,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3483,
-								2984
+								374,
+								374
 							]
 						],
 						"settings":
@@ -729,12 +713,10 @@
 							"incomplete_sync": null,
 							"remote_loading": false,
 							"synced": false,
-							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/Markdown/Markdown.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 1634.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -744,15 +726,15 @@
 					"file": "app/index.html",
 					"settings":
 					{
-						"buffer_size": 3310,
+						"buffer_size": 3413,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								649,
-								649
+								3307,
+								3307
 							]
 						],
 						"settings":
@@ -772,146 +754,18 @@
 				},
 				{
 					"buffer": 3,
-					"file": "app/_scss/_variables.scss",
-					"settings":
-					{
-						"buffer_size": 881,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								29,
-								29
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "/C/Users/Patrick/AppData/Roaming/Sublime Text 2/Packages/User/Preferences.sublime-settings",
-					"settings":
-					{
-						"buffer_size": 861,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/JavaScript/JSON.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "app/_scss/ie8.scss",
-					"settings":
-					{
-						"buffer_size": 3451,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2909,
-								2909
-							],
-							[
-								3046,
-								3046
-							],
-							[
-								3182,
-								3182
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 1857.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "app/_posts/2014-01-11-case-website-barnes-tennis-club.md",
-					"settings":
-					{
-						"buffer_size": 1856,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1395,
-								1146
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/Markdown/Markdown.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 1.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 7,
 					"file": "app/websites.html",
 					"settings":
 					{
-						"buffer_size": 2785,
+						"buffer_size": 2789,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2603,
-								2603
+								2181,
+								1679
 							]
 						],
 						"settings":
@@ -924,25 +778,25 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 204.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 8,
-					"file": "app/_posts/2014-01-11-case-website-jock-gordon.md",
+					"buffer": 4,
+					"file": "app/_scss/_blog-recent-posts.scss",
 					"settings":
 					{
-						"buffer_size": 1313,
+						"buffer_size": 8865,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1302,
-								1302
+								1042,
+								1042
 							]
 						],
 						"settings":
@@ -950,10 +804,74 @@
 							"incomplete_sync": null,
 							"remote_loading": false,
 							"synced": false,
-							"syntax": "Packages/Markdown/Markdown.tmLanguage"
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 288.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "app/_scss/_footer.scss",
+					"settings":
+					{
+						"buffer_size": 953,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								499,
+								488
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 255.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "app/_scss/_structure-media-queries.scss",
+					"settings":
+					{
+						"buffer_size": 2415,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2401,
+								2401
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 510.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
