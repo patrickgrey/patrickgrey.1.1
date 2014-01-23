@@ -239,15 +239,15 @@
 			"file": "app/elearning.html",
 			"settings":
 			{
-				"buffer_size": 3304,
+				"buffer_size": 3298,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "app/_posts/2014-01-11-case-elearning-acdm.md",
+			"file": "app/_drafts/post-ideas.md",
 			"settings":
 			{
-				"buffer_size": 2517,
+				"buffer_size": 184,
 				"line_ending": "Unix"
 			}
 		},
@@ -268,14 +268,6 @@
 			}
 		},
 		{
-			"file": "app/_scss/_blog-recent-posts.scss",
-			"settings":
-			{
-				"buffer_size": 8865,
-				"line_ending": "Windows"
-			}
-		},
-		{
 			"file": "app/_scss/_footer.scss",
 			"settings":
 			{
@@ -284,10 +276,26 @@
 			}
 		},
 		{
-			"file": "app/_scss/_structure-media-queries.scss",
+			"file": "app/_posts/2014-01-11-case-elearning-consult.md",
 			"settings":
 			{
-				"buffer_size": 2415,
+				"buffer_size": 1172,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/_scss/_blog-recent-posts.scss",
+			"settings":
+			{
+				"buffer_size": 8936,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/_layouts/header-contact-footer.html",
+			"settings":
+			{
+				"buffer_size": 11755,
 				"line_ending": "Windows"
 			}
 		}
@@ -364,6 +372,14 @@
 	},
 	"file_history":
 	[
+		"/D/Offline/patrickgrey/patrickgrey.1.1/app/_layouts/blog-layout.html",
+		"/D/Offline/patrickgrey/patrickgrey.1.1/app/_layouts/header-contact-footer.html",
+		"/D/Offline/patrickgrey/patrickgrey.1.1/Gruntfile.js",
+		"/D/Offline/patrickgrey/patrickgrey.1.1/app/_posts/2013-12-13-edge-animate-tips.md",
+		"/D/Offline/patrickgrey/patrickgrey.1.1/app/_posts/2014-12-13-edge-animate-improvements.md",
+		"/D/Offline/patrickgrey/patrickgrey.1.1/app/_scss/_structure-media-queries.scss",
+		"/D/Offline/patrickgrey/patrickgrey.1.1/app/_posts/2014-01-11-case-elearning-ht.md",
+		"/D/Offline/patrickgrey/patrickgrey.1.1/app/_posts/2014-01-11-case-ap.md",
 		"/D/Offline/patrickgrey/patrickgrey.1.1/app/_scss/_examples.scss",
 		"/D/Offline/patrickgrey/patrickgrey.1.1/app/_scss/_variables.scss",
 		"/C/Users/Patrick/AppData/Roaming/Sublime Text 2/Packages/User/Preferences.sublime-settings",
@@ -374,7 +390,6 @@
 		"/D/Offline/patrickgrey/patrickgrey.1.1/app/_posts/2014-01-10-case-fpl.md",
 		"/D/Offline/patrickgrey/patrickgrey.1.1/app/_posts/2014-01-11-case-phr.md",
 		"/D/Offline/patrickgrey/patrickgrey.1.1/app/_scss/_blog-recent-posts.scss",
-		"/D/Offline/patrickgrey/patrickgrey.1.1/app/_layouts/header-contact-footer.html",
 		"/D/Offline/patrickgrey/patrickgrey.1.1/app/_scss/_font-family.scss",
 		"/D/Offline/patrickgrey/patrickgrey.1.1/app/_layouts/blog-post-layout.html",
 		"/C/Users/Patrick/AppData/Roaming/Sublime Text 2/Packages/User/Markdown.sublime-settings",
@@ -390,7 +405,6 @@
 		"/D/Offline/patrickgrey/patrickgrey.1.1/app/_plugins/read-time.rb",
 		"/D/Offline/patrickgrey/patrickgrey.1.1/_config.yml",
 		"/D/Offline/patrickgrey/patrickgrey.1.1/dist/index.html",
-		"/D/Offline/patrickgrey/patrickgrey.1.1/app/_layouts/blog-layout.html",
 		"/D/Offline/patrickgrey/patrickgrey.1.1/dist/blog/index.html",
 		"/D/Offline/patrickgrey/patrickgrey.1.1/app/_posts/2013-06-05-patrick-grey-logo-design.md",
 		"/D/Offline/patrickgrey/patrickgrey.1.1/app/elearning.html",
@@ -398,18 +412,15 @@
 		"/D/Offline/patrickgrey/patrickgrey.1.1/app/_layouts/blog-archive-layout.html",
 		"/D/Offline/patrickgrey/patrickgrey.1.1/app/blog/archive/index.html",
 		"/D/Offline/patrickgrey/patrickgrey.1.1/app/_layouts/blog-category-layout.html",
-		"/D/Offline/patrickgrey/patrickgrey.1.1/app/_posts/2014-12-13-edge-animate-improvements.md",
 		"/D/Offline/patrickgrey/patrickgrey.1.1/app/_posts/2013-12-19-task-svg-icons.md",
 		"/D/Offline/patrickgrey/patrickgrey.1.1/app/_posts/2013-12-19-task-svg-logo.md",
 		"/D/Offline/patrickgrey/patrickgrey.1.1/app/_layouts/blog-home-layout.html",
 		"/D/Offline/patrickgrey/patrickgrey.1.1/app/_plugins/tiered_archives.rb",
 		"/D/Offline/patrickgrey/patrickgrey.1.1/app/_layouts/monthly_archive.html",
 		"/D/Offline/patrickgrey/patrickgrey.1.1/app/_plugins/monthly_archive_plugin.rb",
-		"/D/Offline/patrickgrey/patrickgrey.1.1/app/_scss/_structure-media-queries.scss",
 		"/D/Offline/patrickgrey/patrickgrey.1.1/app/_posts/2013-12-19-workflow-workflow.md",
 		"/D/Offline/patrickgrey/patrickgrey.1.1/app/_posts/2013-12-19-workflow-ie8-testing.md",
 		"/D/Offline/patrickgrey/patrickgrey.1.1/app/_posts/2013-12-19-task-tasks.md",
-		"/D/Offline/patrickgrey/patrickgrey.1.1/app/_posts/2013-12-13-edge-animate-tips.md",
 		"/D/Offline/patrickgrey/patrickgrey.1.1/app/_posts/2013-12-13-edge-animate-improvements.md",
 		"/D/Offline/patrickgrey/patrickgrey.1.1/app/blog/index.html",
 		"/D/Offline/patrickgrey/patrickgrey.1.1/app/_scss/_footer.scss",
@@ -425,7 +436,6 @@
 		"/D/Offline/patrickgrey/patrickgrey.1.1/app/blog.html",
 		"/D/Offline/patrickgrey/patrickgrey.1.1/app/_scss/_navigation.scss",
 		"/D/Offline/patrickgrey/patrickgrey.1.1/app/_layouts/elearning.html",
-		"/D/Offline/patrickgrey/patrickgrey.1.1/Gruntfile.js",
 		"/D/Offline/patrickgrey/patrickgrey.1.1/app/params.json",
 		"/D/Offline/patrickgrey/patrickgrey.1.1/app/_layouts/blog.html",
 		"/D/Offline/patrickgrey/patrickgrey.1.1/app/_scss/_logo.scss",
@@ -489,9 +499,7 @@
 		"/D/Google Drive/eurocontrol/ians/2013/nmo-atfcm-intro-e/module/app/topics/t8/t8p6FlightReadiness_edge.js",
 		"/D/Google Drive/patrickGrey/patrickgrey.2.0/sftp-config.json",
 		"/D/Google Drive/eurocontrol/ians/2013/nmo-atfcm-intro-e/module/app/topics/t8/t8p5ReleasingSlots_edge.js",
-		"/C/Users/Patrick/AppData/Roaming/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
-		"/D/Google Drive/eurocontrol/ians/2013/nmo-atfcm-intro-e/module/app/topics/t5/t5p6PostOps.dev.js",
-		"/C/Users/Patrick/Desktop/hangman_fg.py"
+		"/C/Users/Patrick/AppData/Roaming/Sublime Text 2/Packages/Default/Preferences.sublime-settings"
 	],
 	"find":
 	{
@@ -513,6 +521,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"small",
+			"archive",
 			"/example-website",
 			"example-website",
 			"elearning",
@@ -638,9 +648,7 @@
 			"compass",
 			"$logo-link-media-query",
 			"logo-link-width",
-			"font-family",
-			"iconNMOC",
-			","
+			"font-family"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -658,7 +666,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 5,
 			"sheets":
 			[
 				{
@@ -666,15 +674,15 @@
 					"file": "app/elearning.html",
 					"settings":
 					{
-						"buffer_size": 3304,
+						"buffer_size": 3298,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2395,
-								2395
+								1858,
+								1858
 							]
 						],
 						"settings":
@@ -694,18 +702,18 @@
 				},
 				{
 					"buffer": 1,
-					"file": "app/_posts/2014-01-11-case-elearning-acdm.md",
+					"file": "app/_drafts/post-ideas.md",
 					"settings":
 					{
-						"buffer_size": 2517,
+						"buffer_size": 184,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								374,
-								374
+								184,
+								184
 							]
 						],
 						"settings":
@@ -785,37 +793,6 @@
 				},
 				{
 					"buffer": 4,
-					"file": "app/_scss/_blog-recent-posts.scss",
-					"settings":
-					{
-						"buffer_size": 8865,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1042,
-								1042
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 288.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 5,
 					"file": "app/_scss/_footer.scss",
 					"settings":
 					{
@@ -846,19 +823,48 @@
 					"type": "text"
 				},
 				{
-					"buffer": 6,
-					"file": "app/_scss/_structure-media-queries.scss",
+					"buffer": 5,
+					"file": "app/_posts/2014-01-11-case-elearning-consult.md",
 					"settings":
 					{
-						"buffer_size": 2415,
+						"buffer_size": 1172,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2401,
-								2401
+								399,
+								399
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Markdown/Markdown.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "app/_scss/_blog-recent-posts.scss",
+					"settings":
+					{
+						"buffer_size": 8936,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								845,
+								845
 							]
 						],
 						"settings":
@@ -867,11 +873,42 @@
 							"remote_loading": false,
 							"synced": false,
 							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 288.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "app/_layouts/header-contact-footer.html",
+					"settings":
+					{
+						"buffer_size": 11755,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3564,
+								3564
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 510.0,
+						"translation.y": 816.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -939,6 +976,6 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 273.0,
+	"side_bar_width": 398.0,
 	"status_bar_visible": true
 }

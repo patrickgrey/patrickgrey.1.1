@@ -37,9 +37,13 @@
 .blog-post-link-date {
   // float:right;
   display: block;
-  margin: 0.75em 0 1em 0;
+  margin: 0.75em 0 0 0;
   color: $post-subtle-colour;
   font-size: 110%;
+}
+
+.blog-post-link-date-para, .blog-post-read-time-para {
+    margin: 0;
 }
 
 .blog-post-link-new-window {

@@ -11,7 +11,7 @@ This is an HTML5 game that helps users learn about vectoring aircraft in a fun w
   <figcaption>Screenshot of the Headings Tutor game.</figcaption>
 </figure>
 
- You can try this game by registering with the <a href="https://trainingzone.eurocontrol.int/" title="Open the Eurocontrol LMS website in a new window." target="_blank">Eurocontrol LMS</a> and looking in the catalogue for "Headings Tutor".
+ You can try this game on the <a href="https://trainingzone.eurocontrol.int/clix/data/scorm/decompressed/atco_games_234707/SCOs/index_direct.htm" title="Open the Eurocontrol LMS website in a new window." target="_blank">Eurocontrol LMS</a>. catalogue for "Headings Tutor".
 
 The game is built on the HTML5 canvas element using <a href="http://www.createjs.com/" title="Open the createjs.com website in a new window." target="_blank">http://www.createjs.com/</a>.
 
