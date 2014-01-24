@@ -27,10 +27,12 @@ I started using tasks for that purpose:
 * On completion I commit to git to mark the end of the task.
 
 Extras:
+
 * If I find a technique or tool that is specifically useful, I will document that in its own additional post.
 * If some other part of the site is blocking this task or I REALLY need to move onto another thing, this documentation allows me to come back to the task with reasonable accuracy.
 
 Benefits:
+
 * I can note down where I get Open Source assets so I can correctly attribute them.
 
 As long as I keep the tasks in chunks that are small enough to complete but large enough to document, I think it will be worthwhile.

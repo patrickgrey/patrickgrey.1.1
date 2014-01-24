@@ -227,7 +227,19 @@
           m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
           })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-          ga('create', 'UA-41706969-1', 'patrickgrey.co.uk');
+          // ga('create', 'UA-41706969-1', 'patrickgrey.co.uk/');
+          // ga('create', 'UA-41706969-2', 'patrickgrey.github.io/');
+
+          // console.log(location.hostname);
+
+          if(location.hostname.match('patrickgrey.github.io')){
+
+              ga('create', 'UA-41706969-2', 'patrickgrey.github.io/');
+          }
+          else {
+              ga('create', 'UA-41706969-1', 'patrickgrey.co.uk/');
+          }
+
           ga('send', 'pageview');
         </script>
 
