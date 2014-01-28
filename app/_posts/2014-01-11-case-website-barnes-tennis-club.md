@@ -1,7 +1,7 @@
 ---
 layout: blog-post-layout
 title:  "Case Study: BarnesTennisClub.co.uk"
-categories: Case-Study
+categories: Case-Study websites
 ---
 
 This was a Wordpress site project for a community tennis club in London.

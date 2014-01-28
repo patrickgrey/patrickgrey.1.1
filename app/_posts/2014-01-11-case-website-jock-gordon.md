@@ -1,7 +1,7 @@
 ---
 layout: blog-post-layout
 title:  "Case Study: JockGordon.co.uk"
-categories: Case-Study
+categories: Case-Study websites
 ---
 
 This was a small static site that Jock asked me to build to promote his architectural drawing business on the Island of Skye.

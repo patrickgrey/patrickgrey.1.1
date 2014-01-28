@@ -1,7 +1,7 @@
 ---
 layout: blog-post-layout
 title:  "Case Study: Introduction to Air Traffic Flow and Capacity Management (ATFCM)"
-categories: Case-Study
+categories: Case-Study e-learning
 ---
 
 The objective of ATFCM is to optimise traffic flows according to air traffic control capacity while enabling airlines to operate safe and efficient flights. I was asked to review  an existing ATFCM course and translate the content into a tablet friendly format.

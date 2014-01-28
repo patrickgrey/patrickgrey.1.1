@@ -1,7 +1,7 @@
 ---
 layout: blog-post-layout
 title:  "Case Study: Airport Collaborative Decision Making (A-CDM)"
-categories: Case-Study
+categories: Case-Study e-learning
 ---
 
 This is the largest course I have completed single-handedly. It contains over 10 hours of learning. I was tasked with educational design, technical design and development (including editing several hours of video footage) and deployment.

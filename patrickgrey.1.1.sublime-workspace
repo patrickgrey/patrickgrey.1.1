@@ -255,7 +255,66 @@
 			"file": "app/_layouts/header-contact-footer.html",
 			"settings":
 			{
-				"buffer_size": 11827,
+				"buffer_size": 12121,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/_posts/2013-12-19-task-svg-logo.md",
+			"settings":
+			{
+				"buffer_size": 2188,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/_posts/2013-12-19-task-tasks.md",
+			"settings":
+			{
+				"buffer_size": 2106,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/_posts/2013-12-19-task-svg-icons.md",
+			"settings":
+			{
+				"buffer_size": 2868,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/_layouts/blog-layout.html",
+			"settings":
+			{
+				"buffer_size": 2041,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "Uisge Beatha",
+			"settings":
+			{
+				"buffer_size": 12,
+				"line_ending": "Windows",
+				"name": "Uisge Beatha"
+			}
+		},
+		{
+			"contents": "Package Control Messages\n========================\n\nSFTP:\n----\n\n  Sublime SFTP 1.13.0 Changelog:\n  \n  \n  New Features\n  ------------\n  \n   - Added an explicit setting \"allow_config_upload\" that must be set to true in\n     order to upload any Sublime SFTP configuration file (primary or alternate).\n     Previously this was handled by the default \"ignore_regex\" and\n     \"ignore_regexes\" settings, however some users were deleting the ignore\n     settings and then accidentally uploading their configurations to their web\n     servers.\n  \n   - Non-routable private IP responses from FTP servers when in passive mode are\n     now rewritten to use the original public hostname. The setting\n     \"ftp_obey_passive_host\" was added to allow for (the very rare) situations\n     where you want this to happen.\n  \n   - Added relative file path support for the \"ssh_key_file\" setting\n  \n  \n  Bug Fixes\n  ---------\n  \n   - Fixed a bug causing repeated \"The package was just upgraded\" error messages\n  \n   - Resolved an issue where uploading a file when the setting\n     \"confirm_overwrite_newer\" was set to true and the file did not yet exist on\n     the server would cause the upload to fail\n  \n   - Fixed VCS Changed Files command to work with ST3\n  \n   - Fixed FTPS support for IIS's by implementing support for its non-standard\n     connection reuse\n  \n   - Fixed a bug where files were still being synced when \"sync_same_age\" setting\n     was set to false\n  \n   - Fixed a bug to handle situations where a monitored file is deleted from disk\n     before it is closed in Sublime Text\n  \n   - Added detection of multiple FTP error codes/messages in the 5xx range\n  \n   - Changed the \"ignore_regexes\" setting to be set to the default if not present\n     in your sftp-config.json file.\n  \n   - Added slashes to the ignore patterns for SVN, Git and Hg hidden folders\n  \n   - Added detection of servers that don't allow active FTP connections\n  \n   - Added detection of IIS servers that do not allow FTPS connections\n  \n   - Fixed a bug when no color scheme is set in Sublime Text\n  \n   - Added detection and help message for the broken 2pdf package that messes up\n     Pythons encoding support\n  \n   - Fixed a bug where the debug log would sometimes write stray single quotes\n  \n   - Added a check for alerting the user when their FTP server requires SSL\n     session reuse (which is not currently supported)\n  \n   - Fixed a bug with changing directories on z/OS FTP servers\n  \n",
+			"settings":
+			{
+				"buffer_size": 2465,
+				"line_ending": "Windows",
+				"name": "Package Control Messages",
+				"scratch": true
+			}
+		},
+		{
+			"contents": "    \nEconomy\nRound tripOne wayMulti-city\nGLA Glasgow\n    \nSYY Stornoway, Outer Stat Hebrides\n\nThu 22 May\nMon 26 May\nStopsPriceAirlineTimesMore  \nGlasgow – Stornoway, Outer Stat HebridesThursday 22 May\nSort by price\n£127\nround trip\n\n07:00 – 08:05\nFlyBE\n1h 05m\nGLA-SYY\nNon-stop\n£127\nround trip\n\n11:00 – 11:55\nFlyBE\n0h 55m\nGLA-SYY\nNon-stop\n£127\nround trip\n\n14:15 – 15:10\nFlyBE\n0h 55m\nGLA-SYY\nNon-stop",
+			"settings":
+			{
+				"buffer_size": 397,
 				"line_ending": "Windows"
 			}
 		}
@@ -481,6 +540,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"sort",
 			"small",
 			"archive",
 			"/example-website",
@@ -607,8 +667,7 @@
 			"05",
 			"compass",
 			"$logo-link-media-query",
-			"logo-link-width",
-			"font-family"
+			"logo-link-width"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -626,6 +685,7 @@
 	"groups":
 	[
 		{
+			"selected": 9,
 			"sheets":
 			[
 				{
@@ -695,15 +755,15 @@
 					"file": "app/_layouts/header-contact-footer.html",
 					"settings":
 					{
-						"buffer_size": 11827,
+						"buffer_size": 12121,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								11037,
-								11037
+								11106,
+								11106
 							]
 						],
 						"settings":
@@ -716,7 +776,213 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 3366.0,
+						"translation.y": 3740.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "app/_posts/2013-12-19-task-svg-logo.md",
+					"settings":
+					{
+						"buffer_size": 2188,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								419,
+								419
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Markdown/Markdown.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "app/_posts/2013-12-19-task-tasks.md",
+					"settings":
+					{
+						"buffer_size": 2106,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1865,
+								1865
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Markdown/Markdown.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "app/_posts/2013-12-19-task-svg-icons.md",
+					"settings":
+					{
+						"buffer_size": 2868,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								283,
+								283
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Markdown/Markdown.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "app/_layouts/blog-layout.html",
+					"settings":
+					{
+						"buffer_size": 2041,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1019,
+								1019
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 255.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"settings":
+					{
+						"buffer_size": 12,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								12
+							]
+						],
+						"settings":
+						{
+							"auto_name": "Uisge Beatha",
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"settings":
+					{
+						"buffer_size": 2465,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2465,
+								2465
+							]
+						],
+						"settings":
+						{
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"word_wrap": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"settings":
+					{
+						"buffer_size": 397,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								397
+							]
+						],
+						"settings":
+						{
+							"auto_name": "",
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"

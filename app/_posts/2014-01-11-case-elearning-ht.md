@@ -1,7 +1,7 @@
 ---
 layout: blog-post-layout
 title:  "Case Study: Headings Tutor"
-categories: Case-Study
+categories: Case-Study e-learning
 ---
 
 This is an HTML5 game that helps users learn about vectoring aircraft in a fun way.

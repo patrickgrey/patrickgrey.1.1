@@ -1,7 +1,7 @@
 ---
 layout: blog-post-layout
 title:  "Case Study: E-learning Strategy Consultation"
-categories: Case-Study
+categories: Case-Study e-learning
 ---
 
 I like to keep clients informed of the latest trends in e-learning and general web development. In 2013 Eurocontrol were still developing content in Flash and their systems were all based around desktop delivery. I suggested they needed to urgently start thinking about catering for non-desktop devices.

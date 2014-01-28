@@ -1,7 +1,7 @@
 ---
 layout: blog-post-layout
 title:  "Case Study: PatrickGrey.co.uk"
-categories: Case-Study
+categories: Case-Study websites
 ---
 
 I built version 1.0 of this website (you are looking at v2.0) trying to follow the tidal wave of new best practices I had read about over the last couple of years. Once finished, I hated it!

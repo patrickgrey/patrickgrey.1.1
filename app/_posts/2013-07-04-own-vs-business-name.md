@@ -1,7 +1,7 @@
 ---
 layout: blog-post-layout
 title:  "Using own name vs business name when self-employed"
-categories: Work
+categories: Business-Time
 ---
 I’ve been self-employed for about 12 years now, going by the superhero pseudonym of “websemantic”. An AWESOME business name, I’m sure you’ll agree.
 
