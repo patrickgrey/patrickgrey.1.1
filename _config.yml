@@ -32,7 +32,7 @@ paginate_path: 'blog/page:num'
 markdown: redcarpet
 #   extensions: ['fenced_code_blocks', 'smart']
 
-pygments: false
+pygments: true
 
 # Custom Variables
 recent-post-count: 5
