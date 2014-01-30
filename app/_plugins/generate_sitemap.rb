@@ -82,7 +82,7 @@ module Jekyll
       result = ""
       for nonBlogPage in pageArray
           result += "\n"+'<url>'
-          result += "\n"+"  <loc>/#{nonBlogPage}.html</loc>"
+          result += "\n"+"  <loc>http://www.patrickgrey.co.uk/#{nonBlogPage}.html</loc>"
           result += "\n"+'  <lastmod>'+Date.today.to_s+'</lastmod>'
           result += "\n"+'</url>'
       end
@@ -127,7 +127,7 @@ module Jekyll
         url     = post.url
         url     = '/' + url unless url =~ /^\//
         url     = url[0..-11] if url=~/\/index.html$/
-        result += entry(url, post.date, get_attrs(post), site)
+        result += entry('http://www.patrickgrey.co.uk'+url, post.date, get_attrs(post), site)
       end
 
       result
