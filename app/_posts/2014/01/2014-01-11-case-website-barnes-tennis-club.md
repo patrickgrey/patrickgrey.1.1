@@ -8,7 +8,7 @@ This was a Wordpress site project for a community tennis club in London.
 
 <figure>
   <img src="/blog/img/2014/jan/2014-01-11-case-website-barnes-tennis.jpg" alt="Screenshot of the BarnesTennisClub.co.uk website." style="max-width:476px;">
-  <figcaption>Screenshot of the JockGordon.co.uk website viewed on a mobile device.</figcaption>
+  <figcaption>Screenshot of the barnestennisclub.co.uk website viewed on a mobile device.</figcaption>
 </figure>
 
 You can visit <a href="http://www.barnestennisclub.co.uk" title="Open the BarnesTennisClub.co.uk website in a new window." target="_blank">BarnesTennisClub.co.uk here</a>.
