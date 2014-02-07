@@ -20,6 +20,17 @@ module.exports = function (grunt) {
       app: 'app',
       dist: 'dist'
     },
+
+      casper : {
+        // How set files to test?
+        uiTest : {
+          src: ['test_casper/*.js'],
+          options : {
+            test: true
+          }
+        }
+      },
+      
     watch: {
       compass: {
         files: ['<%= yeoman.app %>/_scss/**/*.{scss,sass}'],
@@ -36,6 +47,12 @@ module.exports = function (grunt) {
           '!<%= yeoman.app %>/_bower_components/**/*'
         ],
         tasks: ['jekyll:server']
+      },
+      casper: {
+        files: [
+          '<%= yeoman.app %>/**/*.{html,yml,md,mkd,markdown}'
+        ],
+        tasks: ['casper:uiTest']
       },
       livereload: {
         options: {
@@ -344,6 +361,8 @@ module.exports = function (grunt) {
         'copy:dist'
       ]
     }
+
+
   });
 
   // Define Tasks
@@ -368,9 +387,12 @@ module.exports = function (grunt) {
 
   // No real tests yet. Add your own.
   grunt.registerTask('test', [
-  //   'clean:server',
-  //   'concurrent:test',
-  //   'connect:test'
+     'clean:server',
+      'concurrent:server',
+      'autoprefixer:server',
+      'connect:livereload',
+      'watch',
+    'casper:uiTest'
   ]);
 
   grunt.registerTask('check', [
