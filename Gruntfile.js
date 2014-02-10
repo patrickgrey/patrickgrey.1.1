@@ -24,7 +24,8 @@ module.exports = function (grunt) {
       casper : {
         // How set files to test?
         uiTest : {
-          src: ['test_casper/*.js'],
+          // src: ['test_casper/*.js'],
+          src: ['test_casper/test.js'],
           options : {
             test: true
           }
@@ -50,7 +51,8 @@ module.exports = function (grunt) {
       },
       casper: {
         files: [
-          '<%= yeoman.app %>/**/*.{html,yml,md,mkd,markdown}'
+          '<%= yeoman.app %>/**/*.{html,yml,md,mkd,markdown}',
+          'test_casper/**/*.js'
         ],
         tasks: ['casper:uiTest']
       },
@@ -65,6 +67,7 @@ module.exports = function (grunt) {
           '<%= yeoman.app %>/<%= posts %>/**/*.md',
           '<%= yeoman.app %>/**/*.html',
           '<%= yeoman.app %>/img/**/*.{gif,jpg,jpeg,png,svg,webp}'
+          
         ]
       }
     },

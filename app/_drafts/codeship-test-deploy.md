@@ -58,6 +58,8 @@ Using CasperJS:
     http://www.youtube.com/watch?v=Kefil5tCL9o
     https://gist.github.com/n1k0/4509789
     http://vgaltes.com/index.php/2013/03/14/testing-with-casperjs-part-1/
+    http://developer.helpscout.net/blog/functional-testing-casperjs/
+    http://planzero.org/blog/2013/03/07/spidering_the_web_with_casperjs
 
 CI codeship:
     http://blog.codeship.io/2014/02/04/continuous-deployment-static-pages-amazon-s3.html

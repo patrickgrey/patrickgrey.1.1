@@ -1,0 +1,1 @@
+// test the "customer" section of your application. Keep this separate from login test and all of the other sections of your application you will be besting.
