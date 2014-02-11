@@ -21,6 +21,10 @@ I'm going to break this down into uploading to github and passing tests and then
 
 First of all I signed up for Codeship then I messagesd them directly to ask if my proposed workflow was viable. Alex Tacho got back to me quickly to confirm and encourage. He then sent, unprompted, several follow up emails with guidance. I can't thank him enough for that kind of service (and just plain solid niceness)!
 
+A clear definition of Unit and Functional testing: http://developer.helpscout.net/blog/functional-testing-casperjs/
+
+
+
 
 
 I decided to try and integrate casper into my Yeoman workflow. First, I installed https://github.com/iamchrismiller/grunt-casper using npm install grunt-casper --save. This added grunt-casper to dependencies in package.json. I noticed that all other grunt items were in DEVdependencies. I read up on this and this is for dependencies which are only required for development, which testing is! 

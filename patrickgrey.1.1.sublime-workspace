@@ -236,18 +236,18 @@
 	"buffers":
 	[
 		{
-			"file": "Gruntfile.js",
+			"file": "app/_drafts/codeship-test-deploy.md",
 			"settings":
 			{
-				"buffer_size": 10078,
+				"buffer_size": 3328,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "app/_drafts/codeship-test-deploy.md",
+			"file": "/C/Users/Patrick/AppData/Roaming/Sublime Text 2/Packages/User/Default (Windows).sublime-keymap",
 			"settings":
 			{
-				"buffer_size": 3068,
+				"buffer_size": 193,
 				"line_ending": "Unix"
 			}
 		},
@@ -255,25 +255,34 @@
 			"file": "test_casper/helloWorldTest.js",
 			"settings":
 			{
-				"buffer_size": 3466,
-				"line_ending": "Windows"
+				"buffer_size": 0,
+				"line_ending": "Windows",
+				"name": "var casper = require('casper').create();"
+			}
+		},
+		{
+			"file": "Gruntfile.js",
+			"settings":
+			{
+				"buffer_size": 10165,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "package.json",
+			"settings":
+			{
+				"buffer_size": 1192,
+				"line_ending": "Unix"
 			}
 		}
 	],
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 374.0,
+		"height": 187.0,
 		"selected_items":
 		[
-			[
-				"inst",
-				"Package Control: Install Package"
-			],
-			[
-				"isnt",
-				"Package Control: Install Package"
-			],
 			[
 				"synt html",
 				"Set Syntax: HTML"
@@ -289,6 +298,10 @@
 			[
 				"Package Control: ",
 				"Package Control: Enable Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
 			],
 			[
 				"pack",
@@ -323,15 +336,11 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 496.0
+		"width": 386.0
 	},
 	"console":
 	{
-		"height": 125.0,
-		"history":
-		[
-			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
-		]
+		"height": 125.0
 	},
 	"distraction_free":
 	{
@@ -344,9 +353,6 @@
 	},
 	"file_history":
 	[
-		"/D/Offline/patrickgrey/patrickgrey.1.1/app/_drafts/codeship-test-deploy.md",
-		"/D/Offline/patrickgrey/patrickgrey.1.1/package.json",
-		"/D/Offline/patrickgrey/patrickgrey.1.1/test_casper/helloWorldTest.js",
 		"/D/Offline/patrickgrey/patrickgrey.1.1/app/_drafts/pantomime-horse-backend-help-frontend.md",
 		"/D/Offline/patrickgrey/patrickgrey.1.1/app/_posts/2014-02-06-e-learning-workflow-yeoman.md",
 		"/D/Offline/patrickgrey/patrickgrey.1.1/app/index.html",
@@ -354,6 +360,7 @@
 		"/D/Offline/patrickgrey/patrickgrey.1.1/app/webapps.html",
 		"/D/Offline/patrickgrey/patrickgrey.1.1/app/websites.html",
 		"/D/Offline/patrickgrey/patrickgrey.1.1/app/elearning.html",
+		"/D/Offline/patrickgrey/patrickgrey.1.1/app/_drafts/codeship-test-deploy.md",
 		"/D/Offline/patrickgrey/patrickgrey.1.1/Gruntfile.js",
 		"/D/Offline/patrickgrey/patrickgrey.1.1/_config.yml",
 		"/D/Offline/patrickgrey/patrickgrey.1.1/app/_scss/_blog-recent-posts.scss",
@@ -459,6 +466,7 @@
 		"/D/Offline/patrickgrey/patrickgrey.1.1/app/_scss/_ie8-blog-recent-posts.scss",
 		"/D/Offline/patrickgrey/patrickgrey.1.1/app/_scss/_lab.scss",
 		"/D/Offline/patrickgrey/patrickgrey.1.1/app/_scss/_container.scss",
+		"/D/Offline/patrickgrey/patrickgrey.1.1/package.json",
 		"/D/Offline/patrickgrey/patrickgrey.1.1/.jekyll/task/svg/2013/12/19/svg-logo.html",
 		"/D/Offline/patrickgrey/patrickgrey.1.1/app/img/logo/patrick-grey-logo.svg",
 		"/D/Offline/patrickgrey/patrickgrey.1.1/app/img/logo/drop-blue.svg",
@@ -471,7 +479,8 @@
 		"/D/Offline/patrickgrey/patrickgrey.1.1/app/img/logo/patrick-grey-logo-inkscape.svg",
 		"/D/Offline/patrickgrey/patrickgrey.1.1/app/js/main.js",
 		"/D/Offline/patrickgrey/patrickgrey.1.1/app/img/logo/patrick-grey-logo-optimised.svg",
-		"/D/Offline/patrickgrey/patrickgrey.1.1/app/_scss/readme.md"
+		"/D/Offline/patrickgrey/patrickgrey.1.1/app/_scss/readme.md",
+		"/D/Offline/testing/2013/jekyll/patrickgrey.2.0/app/index.html"
 	],
 	"find":
 	{
@@ -493,11 +502,6 @@
 		"case_sensitive": false,
 		"find_history":
 		[
-			"watch",
-			"connect",
-			"concurrent",
-			"connect",
-			"connect:test",
 			"jekyll",
 			"Jekyll",
 			"jekyll",
@@ -620,7 +624,12 @@
 			"#999",
 			"bottom",
 			"top",
-			"-section"
+			"-section",
+			"contact-",
+			"xxx",
+			"1.1",
+			"15",
+			"ccc"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -639,72 +648,117 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "Gruntfile.js",
-					"semi_transient": false,
+					"file": "app/_drafts/codeship-test-deploy.md",
 					"settings":
 					{
-						"buffer_size": 10078,
+						"buffer_size": 3328,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								614,
-								614
+								0,
+								0
 							]
 						],
 						"settings":
 						{
-							"BracketHighlighterBusy": false,
-							"bh_regions":
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Markdown/Markdown.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/C/Users/Patrick/AppData/Roaming/Sublime Text 2/Packages/User/Default (Windows).sublime-keymap",
+					"settings":
+					{
+						"buffer_size": 193,
+						"regions":
+						{
+						},
+						"selection":
+						[
 							[
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close"
-							],
+								190,
+								2
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JSON.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "test_casper/helloWorldTest.js",
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"auto_name": "var casper = require('casper').create();",
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "Gruntfile.js",
+					"settings":
+					{
+						"buffer_size": 10165,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
 							"incomplete_sync": null,
 							"remote_loading": false,
 							"synced": false,
@@ -713,156 +767,40 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 5763.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
 					"type": "text"
 				},
 				{
-					"buffer": 1,
-					"file": "app/_drafts/codeship-test-deploy.md",
-					"semi_transient": false,
+					"buffer": 4,
+					"file": "package.json",
 					"settings":
 					{
-						"buffer_size": 3068,
+						"buffer_size": 1192,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1916,
-								1916
+								106,
+								106
 							]
 						],
 						"settings":
 						{
-							"BracketHighlighterBusy": false,
-							"bh_regions":
-							[
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close"
-							],
-							"syntax": "Packages/Markdown/Markdown.tmLanguage",
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 270.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "test_casper/helloWorldTest.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3466,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1296,
-								1296
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"bh_regions":
-							[
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close"
-							],
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 315.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
 					"type": "text"
 				}
 			]
@@ -899,15 +837,10 @@
 		]
 	},
 	"menu_visible": false,
-	"output.find_results":
-	{
-		"height": 0.0
-	},
 	"output.sftp":
 	{
 		"height": 100.0
 	},
-	"project": "patrickgrey.1.1.sublime-project",
 	"replace":
 	{
 		"height": 64.0
@@ -929,24 +862,10 @@
 		],
 		"width": 0.0
 	},
-	"select_symbol":
-	{
-		"height": 0.0,
-		"selected_items":
-		[
-		],
-		"width": 0.0
-	},
-	"settings":
-	{
-	},
 	"show_minimap": true,
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
 	"side_bar_width": 398.0,
-	"status_bar_visible": true,
-	"template_settings":
-	{
-	}
+	"status_bar_visible": true
 }

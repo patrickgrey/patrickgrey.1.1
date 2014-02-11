@@ -27,6 +27,7 @@ module.exports = function (grunt) {
           // src: ['test_casper/*.js'],
           src: ['test_casper/test.js'],
           options : {
+            casperjsOptions: ['--xunit=log.xml'],
             test: true
           }
         }
