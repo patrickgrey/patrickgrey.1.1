@@ -28,7 +28,7 @@ The following are notes I made when trying to learn more about JavaScript fundam
     <iframe width="420" height="315" src="//www.youtube-nocookie.com/embed/hQVTIJBZook" frameborder="0" allowfullscreen></iframe>
 </div>-->
 
-[http://www.youtube.com/watch?v=hQVTIJBZook](Doug Crockford's "JavaScript: The Good Parts").
+[Doug Crockford's 'JavaScript: The Good Parts'](http://www.youtube.com/watch?v=hQVTIJBZook).
 
 You can get his book here: [http://www.amazon.co.uk/JavaScript-Good-Parts-Douglas-Crockford/dp/0596517742](http://www.amazon.co.uk/JavaScript-Good-Parts-Douglas-Crockford/dp/0596517742).
 
