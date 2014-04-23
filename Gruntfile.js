@@ -22,12 +22,9 @@ module.exports = function (grunt) {
     },
 
       casper : {
-        // How set files to test?
         uiTest : {
-          // src: ['test_casper/*.js'],
           src: ['test_casper/test.js'],
           options : {
-            casperjsOptions: ['--xunit=log.xml'],
             test: true
           }
         }
@@ -415,12 +412,12 @@ module.exports = function (grunt) {
     'concurrent:dist',
     'useminPrepare',
     'concat',
-    'autoprefixer:dist',
+    // 'autoprefixer:dist',
     'cssmin',
     'uglify',
     'imagemin',
-    'svgmin',
-    'rev',
+    // 'svgmin',
+    //'rev',
     'usemin',
     'htmlmin'
     ]);

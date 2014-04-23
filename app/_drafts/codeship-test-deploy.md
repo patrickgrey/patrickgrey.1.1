@@ -50,6 +50,10 @@ Gruntfile - initconfig sets all options, they can vary with a colon e.g. jekyll:
 
   Got it working! Task is in Watch so need to make a file save before anything is tested!
 
+  Unit tests:
+    http://blog.codeship.io/2013/10/31/unit-testing-best-practices-in-angularjs.html
+    http://blogs.telerik.com/justteam/posts/13-01-24/top-5-tdd-mistakes
+
 
 
 Grunt Casper:
@@ -58,12 +62,15 @@ Grunt Casper:
 
 
 Using CasperJS:
+    http://hop.ie/blog/casperjs/
+    http://dannycroft.co.uk/front-end-unit-testing-with-javascript/
     http://blog.newrelic.com/2013/06/04/simpler-ui-testing-with-casperjs-2/
     http://www.youtube.com/watch?v=Kefil5tCL9o
     https://gist.github.com/n1k0/4509789
     http://vgaltes.com/index.php/2013/03/14/testing-with-casperjs-part-1/
     http://developer.helpscout.net/blog/functional-testing-casperjs/
     http://planzero.org/blog/2013/03/07/spidering_the_web_with_casperjs
+    http://eng.asana.com/2014/02/scaling-asana-com/
 
 CI codeship:
     http://blog.codeship.io/2014/02/04/continuous-deployment-static-pages-amazon-s3.html
