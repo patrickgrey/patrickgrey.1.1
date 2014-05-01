@@ -1,6 +1,6 @@
 ---
 layout: blog-post-layout
-title:  "Careers day at Knoxland School: ATC"
+title:  "Careers day at Knoxland School (includes mid-air collisions!)"
 categories: STEM
 ---
 

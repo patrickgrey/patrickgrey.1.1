@@ -8,6 +8,11 @@
 
 
 @media all and (min-width: $break-points-font-large) {
+    
+    .navigation-top-container {
+        margin-top: 3em;
+        margin-bottom: 3em;
+    }
 
     /* ul */.navigation-top {
         display: block;

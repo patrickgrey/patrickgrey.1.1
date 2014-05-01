@@ -87,8 +87,8 @@
 } */
 
 .navigation-top-container {
-    margin-top: 3em;
-    margin-bottom: 3em;
+    margin-top: 0em;
+    margin-bottom: 0em;
     overflow: auto;
 }
 
@@ -135,19 +135,20 @@
 
 
 .jump-to-navigation-bottom:after {
-    content: " ";
+    content: "menu";
     display: block;
     position: absolute;
-    top:1em;
-    width: 2em;
-    height: 0.25em;
+    top:1.25em;
+    width: 2.5em;
+    height: 0.5em;
     // border-top: 0.25em solid;
     border-top-color: inherit;
-    border-top-width: 0.25em;
+    border-top-width: 0.35em;
     border-top-style: inherit;
     border-bottom-width:0;
     border-left-width:0;
     border-right-width:0;
+    font-size: 0.8em;
 }
 
 .footer-bottom {
