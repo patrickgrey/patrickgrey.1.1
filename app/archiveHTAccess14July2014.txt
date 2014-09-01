@@ -1,0 +1,5 @@
+DirectoryIndex index.html
+
+<files *.php="">
+Deny from all
+</files>

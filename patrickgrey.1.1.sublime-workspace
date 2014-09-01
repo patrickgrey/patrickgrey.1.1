@@ -236,18 +236,18 @@
 	"buffers":
 	[
 		{
-			"file": "app/_posts/2014/04/2014-04-24-codeclub-knoxland-first-week.md",
+			"file": "app/sftp-config.json",
 			"settings":
 			{
-				"buffer_size": 1416,
-				"line_ending": "Unix"
+				"buffer_size": 1235,
+				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "/D/Offline/patrickgrey/patrickgrey.1.1/app/_drafts/reading-list.md",
+			"file": "app/_drafts/delete-filepath-too-long-node-modules.md",
 			"settings":
 			{
-				"buffer_size": 284,
+				"buffer_size": 626,
 				"line_ending": "Unix"
 			}
 		}
@@ -255,16 +255,36 @@
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 187.0,
+		"height": 190.0,
 		"selected_items":
 		[
 			[
-				"synt html",
-				"Set Syntax: HTML"
+				"synt javas",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
 			],
 			[
 				"instal",
 				"Package Control: Install Package"
+			],
+			[
+				"synt md",
+				"Set Syntax: Markdown"
+			],
+			[
+				"INST",
+				"Package Control: Install Package"
+			],
+			[
+				"synt html",
+				"Set Syntax: HTML"
 			],
 			[
 				"synt",
@@ -275,16 +295,8 @@
 				"Package Control: Enable Package"
 			],
 			[
-				"inst",
-				"Package Control: Install Package"
-			],
-			[
 				"pack",
 				"Package Control: Remove Package"
-			],
-			[
-				"insta",
-				"Package Control: Install Package"
 			],
 			[
 				"synt pyth",
@@ -311,7 +323,7 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 386.0
+		"width": 496.0
 	},
 	"console":
 	{
@@ -332,9 +344,43 @@
 	},
 	"file_history":
 	[
-		"/D/Offline/patrickgrey/patrickgrey.1.1/app/_posts/2014/04/2014-04-23-stem-careers-day-atc.md",
-		"/D/Offline/patrickgrey/patrickgrey.1.1/Gruntfile.js",
+		"/D/Offline/patrickgrey/patrickgrey.1.1/app/.htaccess",
+		"/D/Offline/patrickgrey/patrickgrey.1.1/app/archiveHTAccess14July2014.txt",
+		"/C/users/patrick/appdata/local/temp/sublime-sftp-browse-1405348282/mapped/public_html/.htaccess",
+		"/C/users/patrick/appdata/local/temp/sublime-sftp-browse-1405348059/mapped/.htaccess",
+		"/C/users/patrick/appdata/local/temp/sublime-sftp-browse-1405347777/mapped/public_html/.htaccess",
+		"/D/GoogleDrive/eurocontrolIANS2013/FPLErrors/exampleInput/convertToDatabase/originalRemoveHeadFoot.txt",
+		"/D/Offline/patrickgrey/patrickgrey.1.1/dist/.htaccess",
+		"/D/Offline/patrickgrey/patrickgrey.1.1/app/sftp-config.json",
+		"/D/Offline/patrickgrey/patrickgrey.1.1/dist/hello.php",
+		"/D/GoogleDrive/eurocontrolIANS2013/FPLErrors/exampleInput/convertToDatabase/originalRemoveHeadFoot.rtf",
+		"/D/GoogleDrive/eurocontrolIANS2013/FPLErrors/exampleInput/convertToDatabase/originalRemoveHeadFootNonFiltered.htm",
+		"/D/GoogleDrive/eurocontrolIANS2013/FPLErrors/exampleInput/convertToDatabase/originalRemoveHeadFoot.htm",
+		"/D/GoogleDrive/eurocontrolIANS2013/FPLErrors/exampleInput/convertToDatabase/originalRemoveHeadFootTrimmed.xml",
+		"/D/GoogleDrive/eurocontrolIANS2013/FPLErrors/exampleInput/convertToDatabase/originalRemoveHeadFoot.xps",
+		"/D/GoogleDrive/eurocontrolIANS2013/FPLErrors/exampleInput/convertToDatabase/originalRemoveHeadFoot.odt",
+		"/C/Users/Patrick/Desktop/part6/word/document.xml",
 		"/C/Users/Patrick/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/C/Users/Patrick/Desktop/launchPDF.html",
+		"/C/Users/Patrick/Desktop/part6/WordDocument",
+		"/D/GDrive/desktop.ini",
+		"/C/Users/Patrick/AppData/Roaming/Sublime Text 3/Packages/Alignment/Base File.sublime-settings",
+		"/D/Offline/patrickgrey/patrickgrey.1.1/app/js/main.js",
+		"/D/Offline/patrickgrey/patrickgrey.1.1/Gruntfile.js",
+		"/D/Offline/patrickgrey/patrickgrey.1.1/app/_drafts/scotlandJS-day1.md",
+		"/C/Users/Patrick/AppData/Roaming/Sublime Text 3/Packages/User/SublimeLinter.sublime-settings",
+		"/C/Users/Patrick/AppData/Roaming/Sublime Text 3/Packages/User/Markdown.sublime-settings",
+		"/C/Users/Patrick/AppData/Roaming/Sublime Text 3/Packages/User/SFTP.sublime-settings",
+		"/D/Offline/patrickgrey/patrickgrey.1.1/app/_scss/_navigation.scss",
+		"/D/Offline/patrickgrey/patrickgrey.1.1/app/index.html",
+		"/D/Offline/patrickgrey/patrickgrey.1.1/app/_scss/_footer.scss",
+		"/D/Offline/patrickgrey/patrickgrey.1.1/app/_layouts/header-contact-footer.html",
+		"/D/Offline/patrickgrey/patrickGrey.1.1/app/_posts/2014/04/2014-04-24-codeclub-knoxland-first-week.md",
+		"/D/Offline/patrickgrey/patrickgrey.1.1/app/_drafts/reading-list.md",
+		"/D/Offline/patrickgrey/patrickgrey.1.1/app/_scss/_structure-media-queries.scss",
+		"/D/Offline/patrickgrey/patrickgrey.1.1/app/_scss/_container.scss",
+		"/D/Offline/patrickgrey/patrickgrey.1.1/app/_scss/_role-main.scss",
+		"/D/Offline/patrickgrey/patrickgrey.1.1/app/_posts/2014/04/2014-04-23-stem-careers-day-atc.md",
 		"/D/Offline/patrickgrey/patrickgrey.1.1/dist/sftp-config.json",
 		"/D/Offline/patrickgrey/patrickgrey.1.1/app/_drafts/stem-careers-day-atc.md",
 		"/D/Offline/patrickgrey/patrickgrey.1.1/app/_drafts/codeship-test-deploy.md",
@@ -346,14 +392,12 @@
 		"/D/Offline/patrickgrey/patrickgrey.1.1/package.json",
 		"/D/Offline/patrickgrey/patrickgrey.1.1/app/_drafts/workflow-yeoman-mac-install.md",
 		"/C/Users/Patrick/Desktop/delayed.js",
-		"/D/Offline/patrickgrey/patrickgrey.1.1/app/sftp-config.json",
 		"/D/Offline/patrickgrey/patrickgrey.1.1/test_casper/helloWorldTest.js",
 		"/D/Offline/testing/2014/casperJS/casperjs-spider/helpers.js",
 		"/D/Offline/testing/2014/casperJS/casperjs-spider/logs/data.json",
 		"/D/Offline/testing/2014/generator-mocha/test/spec/test.js",
 		"/D/Offline/patrickgrey/patrickgrey.1.1/app/_drafts/pantomime-horse-backend-help-frontend.md",
 		"/D/Offline/patrickgrey/patrickgrey.1.1/app/_posts/2014-02-06-e-learning-workflow-yeoman.md",
-		"/D/Offline/patrickgrey/patrickgrey.1.1/app/index.html",
 		"/D/Offline/patrickgrey/patrickgrey.1.1/app/_posts/2014/01/2014-01-11-case-website-barnes-tennis-club.md",
 		"/D/Offline/patrickgrey/patrickgrey.1.1/app/webapps.html",
 		"/D/Offline/patrickgrey/patrickgrey.1.1/app/websites.html",
@@ -365,7 +409,6 @@
 		"/D/Offline/patrickgrey/patrickgrey.1.1/app/_posts/2014-02-03-edge-animate-triangles.md",
 		"/D/Offline/archive/work/eurocontrol/ians/2011/aircraftPerformanceDBv3/apdbv3Bridge02/apdbv3BridgeForm.htm",
 		"/D/Offline/archive/work/eurocontrol/ians/2011/aircraftPerformanceDBv3/apdbv3Bridge02/apdbv3Bridge.htm",
-		"/D/Offline/patrickgrey/patrickgrey.1.1/app/_layouts/header-contact-footer.html",
 		"/D/Offline/patrickgrey/patrickgrey.1.1/app/_plugins/generate_sitemap.rb",
 		"/D/Offline/patrickgrey/patrickgrey.1.1/app/_posts/2014-01-30-edge-keep-drag-top.md",
 		"/D/Offline/patrickgrey/patrickgrey.1.1/app/_posts/2013-12-13-edge-animate-tips.md",
@@ -397,9 +440,6 @@
 		"/D/Offline/patrickgrey/patrickgrey.1.1/app/_layouts/blog-layout.html",
 		"/D/Offline/patrickgrey/patrickgrey.1.1/app/_drafts/steps-upload-pgv2.md",
 		"/D/Offline/patrickgrey/patrickgrey.1.1/app/_drafts/post-ideas.md",
-		"/D/Offline/patrickgrey/patrickgrey.1.1/app/_scss/_navigation.scss",
-		"/D/Offline/patrickgrey/patrickgrey.1.1/app/_scss/_footer.scss",
-		"/D/Offline/patrickgrey/patrickgrey.1.1/app/_scss/_structure-media-queries.scss",
 		"/D/Offline/patrickgrey/patrickgrey.1.1/app/_posts/2014-12-13-edge-animate-improvements.md",
 		"/D/Offline/patrickgrey/patrickgrey.1.1/app/_scss/_examples.scss",
 		"/D/Offline/patrickgrey/patrickgrey.1.1/app/_scss/ie8.scss",
@@ -431,35 +471,7 @@
 		"/D/Offline/patrickgrey/patrickgrey.1.1/app/_layouts/post.html",
 		"/D/Offline/patrickgrey/patrickgrey.1.1/app/_layouts/elearning-layout.html",
 		"/D/Offline/patrickgrey/patrickgrey.1.1/app/_layouts/webapps-layout.html",
-		"/D/Offline/patrickgrey/patrickgrey.1.1/app/_layouts/websites-layout.html",
-		"/D/Offline/patrickgrey/patrickgrey.1.1/app/_layouts/index-layout.html",
-		"/D/Offline/patrickgrey/patrickgrey.1.1/app/blog.html",
-		"/D/Offline/patrickgrey/patrickgrey.1.1/app/_layouts/elearning.html",
-		"/D/Offline/patrickgrey/patrickgrey.1.1/app/params.json",
-		"/D/Offline/patrickgrey/patrickgrey.1.1/app/_layouts/blog.html",
-		"/D/Offline/patrickgrey/patrickgrey.1.1/_config.build.yml",
-		"/D/Offline/patrickgrey/patrickgrey.1.1/.jekyll/page2/index.html",
-		"/D/Offline/patrickgrey/patrickgrey.1.1/.jekyll/blog/page2/index.html",
-		"/D/Offline/patrickgrey/patrickgrey.1.1/.jekyll/blog/page3/index.html",
-		"/D/Offline/patrickgrey/patrickgrey.1.1/app/_layouts/archive_index.html",
-		"/D/Offline/patrickgrey/patrickgrey.1.1/app/_plugins/generate_archives.rb",
-		"/D/Offline/patrickgrey/patrickgrey.1.1/.jekyll/sitemap.xml",
-		"/D/Offline/patrickgrey/patrickgrey.1.1/app/_layouts/webapps.html",
-		"/D/Offline/patrickgrey/patrickgrey.1.1/app/_layouts/websites.html",
-		"/D/Offline/patrickgrey/patrickgrey.1.1/app/_layouts/index.html",
-		"/D/Offline/patrickgrey/patrickgrey.1.1/app/_scss/_role-main.scss",
-		"/D/Offline/patrickgrey/patrickgrey.1.1/app/_layouts/defaultxxx.html",
-		"/D/Offline/patrickgrey/patrickgrey.1.1/app/_scss/_contact-links.scss",
-		"/D/Offline/patrickgrey/patrickgrey.1.1/app/_scss/_ie8-lab.scss",
-		"/D/Offline/patrickgrey/patrickgrey.1.1/app/_scss/_ie8-logo.scss",
-		"/D/Offline/patrickgrey/patrickgrey.1.1/app/_scss/_ie8-contact-links.scss",
-		"/D/Offline/patrickgrey/patrickgrey.1.1/app/_scss/_ie8-blog-recent-posts.scss",
-		"/D/Offline/patrickgrey/patrickgrey.1.1/app/_scss/_lab.scss",
-		"/D/Offline/patrickgrey/patrickgrey.1.1/app/_scss/_container.scss",
-		"/D/Offline/patrickgrey/patrickgrey.1.1/.jekyll/task/svg/2013/12/19/svg-logo.html",
-		"/D/Offline/patrickgrey/patrickgrey.1.1/app/img/logo/patrick-grey-logo.svg",
-		"/D/Offline/patrickgrey/patrickgrey.1.1/app/img/logo/drop-blue.svg",
-		"/D/Offline/patrickgrey/patrickgrey.1.1/dist/img/logo/patrick-grey-logo.svg"
+		"/D/Offline/patrickgrey/patrickgrey.1.1/app/_layouts/websites-layout.html"
 	],
 	"find":
 	{
@@ -467,7 +479,7 @@
 	},
 	"find_in_files":
 	{
-		"height": 0.0,
+		"height": 94.0,
 		"where_history":
 		[
 			"D:\\Offline\\patrickgrey\\patrickgrey.1.1\\app\\",
@@ -481,6 +493,20 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"Error Message\\(s\\):*:",
+			"Error Message(s):$1",
+			"Error Message(s):$1:",
+			"<",
+			">",
+			"15px",
+			"jump-to-page-top",
+			"casper",
+			"menu",
+			"navigation-top-container",
+			"nav.navigation-top-container",
+			"navigation-top-container",
+			"jump-to-navigation-bottom",
+			".main-section-inner",
 			"ugli",
 			"uglify",
 			"useminPrepare",
@@ -594,26 +620,12 @@
 			"\">",
 			"$logo-colours-drop-1",
 			"1",
-			"main",
-			"images",
-			"icons",
-			"navigation-bottom",
-			"inkscape",
-			"uglify",
-			"cssmin",
-			"test",
-			"top",
-			"inherit",
-			"#999",
-			"bottom",
-			"top",
-			"-section",
-			"contact-"
+			"main"
 		],
 		"highlight": true,
 		"in_selection": false,
 		"preserve_case": false,
-		"regex": false,
+		"regex": true,
 		"replace_history":
 		[
 			"<loc>http://www.patrickgrey.co.uk"
@@ -632,19 +644,19 @@
 			[
 				{
 					"buffer": 0,
-					"file": "app/_posts/2014/04/2014-04-24-codeclub-knoxland-first-week.md",
+					"file": "app/sftp-config.json",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1416,
+						"buffer_size": 1235,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								650,
-								650
+								13,
+								13
 							]
 						],
 						"settings":
@@ -652,51 +664,67 @@
 							"BracketHighlighterBusy": false,
 							"bh_regions":
 							[
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
 								"bh_angle",
 								"bh_angle_center",
 								"bh_angle_open",
 								"bh_angle_close",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
+								"bh_angle_content",
 								"bh_single_quote",
 								"bh_single_quote_center",
 								"bh_single_quote_open",
 								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
 								"bh_default",
 								"bh_default_center",
 								"bh_default_open",
 								"bh_default_close",
+								"bh_default_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
 								"bh_round",
 								"bh_round_center",
 								"bh_round_open",
-								"bh_round_close"
+								"bh_round_close",
+								"bh_round_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content"
 							],
 							"incomplete_sync": null,
 							"remote_loading": false,
 							"synced": false,
-							"syntax": "Packages/Markdown/Markdown.tmLanguage",
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"syntax_mgr_loaded": true,
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
@@ -709,19 +737,19 @@
 				},
 				{
 					"buffer": 1,
-					"file": "/D/Offline/patrickgrey/patrickgrey.1.1/app/_drafts/reading-list.md",
-					"semi_transient": false,
+					"file": "app/_drafts/delete-filepath-too-long-node-modules.md",
+					"semi_transient": true,
 					"settings":
 					{
-						"buffer_size": 284,
+						"buffer_size": 626,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								284,
-								284
+								0,
+								0
 							]
 						],
 						"settings":
@@ -729,53 +757,67 @@
 							"BracketHighlighterBusy": false,
 							"bh_regions":
 							[
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
 								"bh_angle",
 								"bh_angle_center",
 								"bh_angle_open",
 								"bh_angle_close",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
+								"bh_angle_content",
 								"bh_single_quote",
 								"bh_single_quote_center",
 								"bh_single_quote_open",
 								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
 								"bh_default",
 								"bh_default_center",
 								"bh_default_open",
 								"bh_default_close",
+								"bh_default_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
 								"bh_round",
 								"bh_round_center",
 								"bh_round_open",
-								"bh_round_close"
+								"bh_round_close",
+								"bh_round_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content"
 							],
 							"incomplete_sync": null,
 							"remote_loading": false,
 							"synced": false,
 							"syntax": "Packages/Markdown/Markdown.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
+							"syntax_mgr_loaded": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -863,7 +905,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 398.0,
+	"side_bar_width": 259.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

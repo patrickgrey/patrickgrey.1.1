@@ -47,13 +47,13 @@ module.exports = function (grunt) {
         ],
         tasks: ['jekyll:server']
       },
-      casper: {
-        files: [
-          '<%= yeoman.app %>/**/*.{html,yml,md,mkd,markdown}',
-          'test_casper/**/*.js'
-        ],
-        tasks: ['casper:uiTest']
-      },
+      // casper: {
+      //   files: [
+      //     '<%= yeoman.app %>/**/*.{html,yml,md,mkd,markdown}',
+      //     'test_casper/**/*.js'
+      //   ],
+      //   tasks: ['casper:uiTest']
+      // },
       livereload: {
         options: {
           livereload: '<%= connect.options.livereload %>'

@@ -68,9 +68,9 @@
     display: none;
 }
 
-/* ul */.navigation-top .navigation-active {
+/* ul .navigation-top .navigation-active {
     border-bottom: solid 15px #CCC;
-}
+}*/
 
 /* ul */.navigation-bottom .navigation-active {
     border-left: solid 15px #CCC;
@@ -106,6 +106,7 @@
     border-style: solid;
     border-left-width:0;
     border-right-width:0;
+    color: #49f;
 }
 
 //http://stackoverflow.com/questions/16280257/how-to-change-to-color-of-pseudo-elements-in-css-through-jquery
@@ -170,6 +171,68 @@
 .jump-to-page-top {
     display: block;
     position: absolute;
+    top:0.75em;
+    right:0.6em;
+    width: 2em;
+    height: 1.25em;
+    background: $body-background-colour;
+    // background: #f00;
+    border-color: #8d8884;
+    border-width: 0;
+    border-style: solid;
+    border-left-width:0;
+    border-right-width:0;
+    color: #49f;
+}
+
+
+.jump-to-page-bottom:focus{
+    /* outline: 3px solid #ccc;
+    background: #eee; */
+    border-color: #f60;
+}
+
+.jump-to-page-top:before {
+    content: " ";
+    display: block;
+    position: absolute;
+    /* width: 2em;
+    height: 0.25em;
+    border-top-color: inherit;
+    border-top-width: 0.25em;
+    border-top-style: inherit;
+    border-bottom-color: inherit;
+    border-bottom-width: 0.25em;
+    border-bottom-style: inherit;
+    border-left-width:0;
+    border-right-width:0; */
+    width: 0;
+    height: 0;
+    border-left: 1em solid transparent;
+    border-right: 1em solid transparent;
+    border-bottom: 0.8em solid #8d8884;
+}
+
+.jump-to-page-top:after {
+    content: " ";
+    display: block;
+    position: absolute;
+    top:1em;
+    width: 2em;
+    height: 1em;
+    // border-top: 0.25em solid;
+    border-top-color: inherit;
+    border-top-width: 0.8em;
+    border-top-style: inherit;
+    border-bottom-width:0;
+    border-left-width:0;
+    border-right-width:0;
+    font-size: 1em;
+}
+
+/* .jump-to-page-top {
+    display: block;
+    position: absolute;
     top: 0.7em;
     right: 0.5em;
     width: 3em;
@@ -200,4 +263,4 @@
 .jump-to-page-top:hover, .jump-to-page-top:focus, .jump-to-page-top:active {
     background: #000;
     color: #ff0;
-}
+} */
